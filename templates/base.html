@@ -7,6 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block extra_css %}
+
+    <!-- Favicons-->
+    <link rel="icon" href="static/images/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="static/images/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="static/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="static/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="static/images/site.webmanifest" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
@@ -24,11 +45,12 @@
     ></script>
     {% endblock %}
 
-    <title>Vegan Recipe Sharing - {% block title %}{% endblock %}</title>
+    <title>C'est la V - {% block title %}{% endblock %}</title>
   </head>
   <body>
     {% include 'includes/header.html' %}
 
-    <h1>Hello!</h1>
+    <main>{% block content %} {% endblock %}</main>
+    {% include 'includes/footer.html' %}
   </body>
 </html>
