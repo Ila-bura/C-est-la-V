@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:wght@600&display=swap');
+
+:root {
+    /** Fonts */
+    --title: 'Playfair Display', serif;
+    --main-font: 'Montserrat', serif;
+
+    /* Colours */
+    --green: #8ca65f;
+    --pink: #d3b3db;
+    --mud: #a4a49c;
+    --background: #3f006a0f;
+    --blue: #0d6efd;
+    --black: #000;
+    --off-white: #ebebeb;
+    --white: #fff;
+
+    /* Utils */
+    --smal-box-shadow: 1px -1px 7px 0 #00000061;
+    --border: 1px solid #00000030;
+}
+
+/* Body */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title);
+}
+
+/* Header */
+.navbar {
+    background-color: var(--off-white);
+    box-shadow: var(--smal-box-shadow);
+}
+
+a.nav-link {
+    color: var(--black);
+}
+
+/* Search */
+.btn-custom {
+    background-color: var(--off-white);
+    border-color: var(--mud);
+    color: var(--black);
+}
+
+.btn-custom:hover {
+    background-color: var(--white);
+    border-color: var(--mud);
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: var(--white);
+}
+
+
+/* Footer */
+
+footer {
+    flex-shrink: 0;
+}
