@@ -39,7 +39,7 @@ h4,
 h5,
 h6 {
     font-family: var(--title);
-    color: var(--pink);
+    color: var(--green);
 }
 
 /* Header */
@@ -50,6 +50,17 @@ h6 {
 
 a.nav-link {
     color: var(--black);
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: var(--green);
+    font-weight: bolder;
+
+}
+
+a {
+    color: var(--green);
 }
 
 /* Search */
@@ -102,10 +113,10 @@ footer {
 }
 
 .form-btn {
-    background-color: var(--pink);
+    background-color: var(--green);
 }
 
 .form-btn:hover {
     background-color: var(--off-white);
-    border-color: var(--pink);
+    border-color: var(--green);
 }
