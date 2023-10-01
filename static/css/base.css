@@ -39,6 +39,7 @@ h4,
 h5,
 h6 {
     font-family: var(--title);
+    color: var(--pink);
 }
 
 /* Header */
@@ -83,11 +84,11 @@ footer {
 
 .social-icon {
     height: 2rem;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .active {
-    border-bottom: 2px solid var(--blue);
+    border-bottom: 2px solid var(--green);
     font-weight: 500;
 }
 
@@ -98,4 +99,13 @@ footer {
     margin: 3% auto;
     box-shadow: var(--smal-box-shadow);
     border-radius: 5px;
+}
+
+.form-btn {
+    background-color: var(--pink);
+}
+
+.form-btn:hover {
+    background-color: var(--off-white);
+    border-color: var(--pink);
 }

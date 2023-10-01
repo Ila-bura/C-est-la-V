@@ -1,15 +1,15 @@
 {% extends "account/base.html" %} {% load i18n %} {% block title %}{% trans
 "Signup" %}{% endblock %} {% block content %}
-<div class="container text-center">
+<div class="container text-center p-3">
   <h1>{% trans "Sign Up" %}</h1>
 
   <p>
     {% blocktrans %}Already have an account? Then please
-    <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+    <a href="{{ login_url }}">log in</a>.{% endblocktrans %}
   </p>
 
   <form
-    class="form p-2"
+    class="form p-4"
     id="signup_form"
     method="post"
     action="{% url 'account_signup' %}"
@@ -21,8 +21,8 @@
       value="{{ redirect_field_value }}"
     />
     {% endif %}
-    <button type="submit" class="btn btn-primary w-25">Sign Up</button>
+    <button type="submit" class="btn form-btn w-22">Sign Up</button>
   </form>
 </div>
 
-{% endblock content %}
+{% endblock %}
