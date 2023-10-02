@@ -1,5 +1,5 @@
-{% extends "account/base.html" %} {% load i18n %} {% block title %} {%trans
-"Sign In"%}{% endblock %} {% block content %}
+{% extends "base.html" %} {% load i18n %} {% block title %} {%trans "Sign In"%}
+{% endblock %} {% block content %}
 <div class="container text-center p-3">
   <h1>{% trans "Log In" %}</h1>
 
@@ -19,11 +19,6 @@
     <button class="btn form-btn w-22 mb-2" type="submit">
       {% trans "Log In" %}
     </button>
-    <a
-      class="button secondaryAction d-block"
-      href="{% url 'account_reset_password' %}"
-      >{% trans "Forgot Password?" %}</a
-    >
   </form>
 </div>
 {% endblock %}
