@@ -37,7 +37,6 @@ class Recipe(models.Model):
         blank=False,
         null=False,
     )
-    image_alt = models.CharField(max_length=100, null=False, blank=False)
     dish_type = models.CharField(
         max_length=50, choices=DISH_TYPES, default="main")
     prep_time = models.CharField(
