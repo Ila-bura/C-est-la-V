@@ -1,4 +1,4 @@
-from django.views.generic import CreateView
+from django.views.generic import (CreateView, ListView,)
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 
@@ -9,6 +9,7 @@ from .forms import RecipeForm
 class AddRecipe(LoginRequiredMixin, CreateView):
     """Check if user is logged in"""
     """Add recipe view"""
+
     template_name = "recipes/add_recipe.html"
     model = Recipe
     form_class = RecipeForm

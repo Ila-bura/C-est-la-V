@@ -13,6 +13,7 @@ class RecipeForm(forms.ModelForm):
             "ingredients",
             "method",
             "image",
+            "image_alt",
             "dish_type",
             "prep_time"
         ]
@@ -24,11 +25,12 @@ class RecipeForm(forms.ModelForm):
         }
 
         labels = {
-            "title": "Recipe Title",
+            "title": "Title",
             "description": "Description",
-            "ingredients": "Recipe Ingredients",
-            "method": "Recipe Method",
-            "image": "Recipe Image",
+            "ingredients": "Ingredients",
+            "method": "Method",
+            "image": "Image",
+            "image_alt": "Describe Image",
             "dish_type": "Dish Type",
             "prep_time": "Prep Time",
         }
