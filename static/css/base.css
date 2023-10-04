@@ -120,3 +120,18 @@ footer {
     background-color: var(--off-white);
     border-color: var(--green);
 }
+
+/* Recipes */
+.card {
+    height: 90%;
+    margin-top: 1rem;
+}
+
+.recipes {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.recipes:hover {
+    cursor: pointer;
+}
