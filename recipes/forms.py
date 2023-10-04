@@ -5,6 +5,7 @@ from .models import Recipe
 
 class RecipeForm(forms.ModelForm):
     """Form to create a recipe"""
+
     class Meta:
         model = Recipe
         fields = [
@@ -15,7 +16,7 @@ class RecipeForm(forms.ModelForm):
             "image",
             "image_alt",
             "dish_type",
-            "prep_time"
+            "prep_time",
         ]
         ingredients = forms.CharField(widget=RichTextWidget())
         method = forms.CharField(widget=RichTextWidget())
