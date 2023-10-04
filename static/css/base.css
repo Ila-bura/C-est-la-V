@@ -134,4 +134,9 @@ footer {
 
 .recipes:hover {
     cursor: pointer;
+    color: var(--green);
+}
+
+.card-title {
+    color: var(--pink);
 }
