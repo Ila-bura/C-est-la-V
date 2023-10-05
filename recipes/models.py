@@ -19,8 +19,8 @@ PREP_TIME = (
     ("45 minutes", "45 min"),
     ("50 minutes", "50 min"),
     ("55 minutes", "55 min"),
-    ("1 hour", "1h"),
-    ("1+ hour", "more than 1h"),
+    ("1 hour", "1 hour"),
+    ("1+ hour", "More than 1h"),
 )
 
 
