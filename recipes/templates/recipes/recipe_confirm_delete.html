@@ -5,8 +5,11 @@
   <div class="d-flex justify-content-center pt-3">
     <form method="post" class="text-center">
       {% csrf_token %}
-      <p>Are you sure you want to delete "{{ object.title }}"?</p>
-      <input type="submit" value="confirm" class="btn form-btn w-25" />
+      <p>
+        Are you 100% certain you want to throw "{{ object.title }}" into the
+        rubbish?
+      </p>
+      <input type="submit" value="Confirm" class="btn form-btn w-25" />
     </form>
   </div>
 </div>
