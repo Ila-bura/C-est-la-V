@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block title %}Detail {{recipe.title}}
-{%endblock%}{%block content %}
+{%endblock%}{%block content %} {% load static %}
 
 <div class="container">
   <div class="recipe-info mt-3 p-1">
@@ -9,9 +9,27 @@
         Created by: {{recipe.user}} on {{recipe.posted_date}}
       </p>
       <hr />
-      <p>{{recipe.description}}</p>
-      <p class="p-1">Dish Type: {{ recipe.dish_type }}</p>
-      <p class="p-1">Prep Time: {{ recipe.prep_time|title }}</p>
+      <p class="p-1">
+        <img
+          src="{% static '/icons/catering-icon.svg' %}"
+          alt="dish icon"
+          class="food-icon"
+        /><span class="heading">Dish Type:</span> {{ recipe.dish_type }}
+      </p>
+      <p class="p-1">
+        <img
+          src="{% static '/icons/quick-icon.svg' %}"
+          alt="time icon"
+          class="food-icon"
+        /><span class="heading">Prep Time:</span> {{ recipe.prep_time|title }}
+      </p>
+      <p>
+        <img
+          src="{% static '/icons/food-icon.svg' %}"
+          alt="food icon"
+          class="food-icon"
+        />{{recipe.description}}
+      </p>
 
       {% if request.user == recipe.user %}
       <div class="text-center">

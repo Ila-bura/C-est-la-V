@@ -169,8 +169,13 @@ footer {
     height: auto;
 }
 
-.types {
-    text-decoration: underline;
+.heading {
+    font-family: var(--title);
+}
+
+.food-icon {
+    height: 2rem;
+    margin: 1rem;
 }
 
 @media screen and (min-width: 62.5em) {

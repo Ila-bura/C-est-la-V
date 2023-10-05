@@ -5,21 +5,22 @@ from djrichtextfield.models import RichTextField
 from django_resized import ResizedImageField
 
 # Choice Fields
-DISH_TYPES = (("main", "Main"), ("snack", "Snack"), ("dessert", "Dessert"))
+DISH_TYPES = (("Main", "Main"), ("Snack", "Snack"),
+              ("Dessert", "Dessert"))
 
 PREP_TIME = (
-    ("10 minutes", "10 Minutes"),
-    ("15 minutes", "15 Minutes"),
-    ("20 minutes", "20 Minutes"),
-    ("25 minutes", "25 Minutes"),
-    ("30 minutes", "30 Minutes"),
-    ("35 minutes", "35 Minutes"),
-    ("40 minutes", "40 Minutes"),
-    ("45 minutes", "45 Minutes"),
-    ("50 minutes", "50 Minutes"),
-    ("55 minutes", "55 Minutes"),
-    ("1 hour", "1 Hour"),
-    ("1+ hour", "1+ Hour"),
+    ("10 minutes", "10 min"),
+    ("15 minutes", "15 min"),
+    ("20 minutes", "20 min"),
+    ("25 minutes", "25 min"),
+    ("30 minutes", "30 min"),
+    ("35 minutes", "35 min"),
+    ("40 minutes", "40 min"),
+    ("45 minutes", "45 min"),
+    ("50 minutes", "50 min"),
+    ("55 minutes", "55 min"),
+    ("1 hour", "1h"),
+    ("1+ hour", "more than 1h"),
 )
 
 
@@ -45,8 +46,10 @@ class Recipe(models.Model):
         null=False,
     )
     image_alt = models.CharField(max_length=100, null=False, blank=False)
-    dish_type = models.CharField(max_length=50, choices=DISH_TYPES, default="main")
-    prep_time = models.CharField(max_length=50, choices=PREP_TIME, default="10 minutes")
+    dish_type = models.CharField(
+        max_length=50, choices=DISH_TYPES, default="main")
+    prep_time = models.CharField(
+        max_length=50, choices=PREP_TIME, default="10 minutes")
     posted_date = models.DateTimeField(auto_now=True)
 
     """
