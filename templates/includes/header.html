@@ -75,10 +75,16 @@
           </li>
           {% endif %}
         </ul>
-        <!-- Form for search bar -->
-        <form class="d-flex" role="search">
+        <!-- Search bar -->
+        <form
+          class="d-flex"
+          role="search"
+          method="GET"
+          action="{% url 'recipes' %}"
+        >
           <input
             class="form-control me-2"
+            name="q"
             type="search"
             placeholder="Search recipe"
             aria-label="Search"
