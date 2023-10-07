@@ -1,10 +1,8 @@
 {% extends 'base.html' %} {% block title %}Home{% endblock %}{% block content %}
 
-<div class="container flex.column pt-3">
+<div class="container flex-column pt-3">
   <section class="text-center">
-    <h1 class="main-title" mx-auto>
-      Get ready for Veganuary 2024, share and find new vegan recipes to try
-    </h1>
+    <h1 class="main-title mx-auto">Get ready for Veganuary 2024!</h1>
     <p class="pt-4">
       If you are considering eating more veggies or trying out a completely
       plant-based diet next year but you need a bit of encouragement, you're in
@@ -14,15 +12,17 @@
     </p>
   </section>
   <section>
-    <div class="recipe-cont">
+    <div class="recipe-wrapper">
       {% for recipe in recipes %}
-      <a href="{% url 'recipe_detail' recipe.id %}" class="img-container">
+      <a href="{% url 'recipe_detail' recipe.id %}" class="image-container">
         <img
           src="{{recipe.image.url}}"
           alt="{{recipe.image_alt}}"
           style="width: 100%"
         />
-        <div class="centered"><h2>{{recipe.title}}</h2></div>
+        <div class="label">
+          <h2>{{recipe.title}}</h2>
+        </div>
       </a>
       {% endfor %}
     </div>
