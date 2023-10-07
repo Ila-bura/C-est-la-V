@@ -125,6 +125,7 @@ footer {
 .card {
     height: 90%;
     margin-top: 1rem;
+    background-color: rgba(140, 166, 95, 0.8);
 }
 
 .recipes {
@@ -132,13 +133,18 @@ footer {
     color: var(--black);
 }
 
-.recipes:hover {
+.card:hover {
     cursor: pointer;
-    color: var(--green);
+    color: var(--black);
 }
 
 .card-title {
+    color: var(--white);
+}
+
+.card-title:hover {
     color: var(--pink);
+
 }
 
 .recipe-info {
