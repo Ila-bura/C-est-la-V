@@ -217,17 +217,46 @@ a.image-container {
     transform: translate(-50%, -50%);
 }
 
-.label h2 {
+.label h3 {
     color: var(--white);
 }
 
-.label h2:hover {
+.label h3:hover {
     color: var(--pink);
 }
 
 .label:hover {
     background-color: var(--off-white);
 
+}
+
+/* Countdown */
+
+.countdown {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.countdown h3 {
+    color: var(--pink);
+    margin-bottom: 10px;
+}
+
+.launch-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.launch-time p {
+    font-size: 25px;
+    margin-bottom: -10px;
 }
 
 @media screen and (min-width: 40em) {
