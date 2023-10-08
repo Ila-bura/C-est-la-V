@@ -52,7 +52,7 @@
     <main>{% block content %} {% endblock %}</main>
     {% include 'includes/footer.html' %}
 
-    <!-- JavaScript for the countdown-->
+    <!-- Countdown-->
     <script>
       var countDownDate = new Date("Jan 01, 2024 00:00:00").getTime();
       var x = setInterval(function () {
@@ -80,15 +80,15 @@
           document.getElementById("veg").innerHTML = "Veganuary 2024 is here!";
         }
       }, 1000);
+    </script>
 
-      // Initialize the carousel
-      var myCarousel = new bootstrap.Carousel(
-        document.getElementById("carouselExample"),
-        {
-          interval: 2000, // Set the interval between slides in milliseconds (e.g., 2000 for 2 seconds)
-          wrap: true, // Set to false if you don't want the carousel to wrap around when reaching the end
-        }
-      );
+    <!-- Closing Alert Messages-->
+    <script>
+      setTimeout(function () {
+        let messages = document.getElementById("msg");
+        let alert = new bootstrap.Alert(messages);
+        alert.close();
+      }, 2500);
     </script>
   </body>
 </html>

@@ -80,6 +80,12 @@ main {
     background-color: var(--white);
 }
 
+/* Alert Messages */
+
+.alert-msg {
+    margin-top: 30px;
+}
+
 
 /* Footer */
 
