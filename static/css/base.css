@@ -148,6 +148,10 @@ footer {
     color: var(--white);
 }
 
+.card-body p {
+    color: var(--black);
+}
+
 .card-title:hover {
     color: var(--pink);
 
