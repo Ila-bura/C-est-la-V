@@ -31,7 +31,7 @@ class Recipes(ListView):
                 Q(dish_type__icontains=query)
             )
         else:
-            recipes = self.model.objects.all
+            recipes = self.model.objects.all()
         return recipes
 
 
