@@ -11,21 +11,21 @@
       <hr />
       <p class="p-1">
         <img
-          src="{% static '/icons/catering-icon.svg' %}"
+          src="{% static 'icons/catering-icon.svg' %}"
           alt="dish icon"
           class="food-icon"
         /><span class="heading">Dish Type:</span> {{ recipe.dish_type }}
       </p>
       <p class="p-1">
         <img
-          src="{% static '/icons/quick-icon.svg' %}"
+          src="{% static 'icons/quick-icon.svg' %}"
           alt="time icon"
           class="food-icon"
         /><span class="heading">Prep Time:</span> {{ recipe.prep_time|title }}
       </p>
       <p>
         <img
-          src="{% static '/icons/food-icon.svg' %}"
+          src="{% static 'icons/food-icon.svg' %}"
           alt="food icon"
           class="food-icon"
         />{{recipe.description}}
