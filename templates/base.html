@@ -51,6 +51,7 @@
     {% include 'includes/header.html' %}
 
     <!-- Alert Messages -->
+
     <div class="container">
       <div class="row">
         <div class="col-md-4 offset-md-4">
@@ -109,8 +110,12 @@
     <script>
       setTimeout(function () {
         let messages = document.getElementById("msg");
-        let alert = new bootstrap.Alert(messages);
-        alert.close();
+
+        // Check if the element with ID "msg" exists
+        if (messages) {
+          let alert = new bootstrap.Alert(messages);
+          alert.close();
+        }
       }, 2500);
     </script>
   </body>
