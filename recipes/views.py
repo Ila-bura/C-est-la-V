@@ -1,3 +1,5 @@
+
+from django.contrib import messages
 from django.views.generic import (
     CreateView, ListView, DetailView, DeleteView, UpdateView)
 
@@ -6,14 +8,10 @@ from django.contrib.auth.mixins import (
 )
 
 from django.db.models import Q
-
-
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Recipe
 from .forms import RecipeForm
-
-from django.contrib import messages
 
 
 class Recipes(ListView):
@@ -25,6 +23,8 @@ class Recipes(ListView):
 
     def get_queryset(self, **kwargs):
         query = self.request.GET.get('q')
+        recipes = self.model.objects.all()  # Assign a default value
+
         if query:
             recipes = self.model.objects.filter(
                 Q(title__icontains=query) |
@@ -32,8 +32,9 @@ class Recipes(ListView):
                 Q(method__icontains=query) |
                 Q(dish_type__icontains=query)
             )
-        else:
-            recipes = self.model.objects.all()
+        if not recipes:
+            messages.info(self.request, "Sorry, no recipes found.")
+
         return recipes
 
 
@@ -58,7 +59,7 @@ class AddRecipe(LoginRequiredMixin, CreateView):
 
     def form_valid(self, form):
         form.instance.user = self.request.user
-        messages.success(self.request, 'Recipe added successfully!')
+        messages.success(self.request, 'Recipe added successfully.')
         return super(AddRecipe, self).form_valid(form)
 
 
