@@ -195,6 +195,10 @@ footer {
     margin: 1rem;
 }
 
+.edi-del-btn {
+    margin-bottom: 20px;
+}
+
 /* Home Page */
 
 .recipe-wrapper {
@@ -281,6 +285,10 @@ a.image-container {
     .image-container {
         flex-direction: row;
         width: 29%;
+    }
+
+    .recipe-img {
+        margin-right: 20px;
     }
 }
 

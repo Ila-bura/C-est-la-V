@@ -32,7 +32,7 @@
       </p>
 
       {% if request.user == recipe.user %}
-      <div class="text-center">
+      <div class="text-center edi-del-btn">
         <a href="{% url 'edit_recipe' recipe.id %}" class="btn form-btn mt-25"
           >Edit</a
         >
