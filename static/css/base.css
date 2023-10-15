@@ -7,13 +7,15 @@
 
     /* Colours */
     --green: #8ca65f;
-    --pink: #d3b3db;
+    --pink: #FF9C97;
     --mud: #a4a49c;
     --background: #3f006a0f;
     --blue: #0d6efd;
     --black: #000;
     --off-white: #ebebeb;
     --white: #fff;
+    --sage: #547C5A;
+
 
     /* Utils */
     --smal-box-shadow: 1px -1px 7px 0 #00000061;
@@ -39,7 +41,7 @@ h4,
 h5,
 h6 {
     font-family: var(--title);
-    color: var(--green);
+    color: var(--sage);
 }
 
 /* Header */
@@ -145,7 +147,7 @@ footer {
 }
 
 .card-title {
-    color: var(--white);
+    color: var(--black);
 }
 
 .card-body p {
@@ -153,7 +155,7 @@ footer {
 }
 
 .card-title:hover {
-    color: var(--pink);
+    color: var(--sage);
 
 }
 
@@ -253,7 +255,7 @@ a.image-container {
 }
 
 .countdown h3 {
-    color: var(--pink);
+    color: var(--sage);
     margin-bottom: 10px;
 }
 
