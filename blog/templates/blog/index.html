@@ -1,4 +1,5 @@
 {% extends 'base.html' %} {% block title %}Home{% endblock %}{% block content %}
+{% load static %}
 <div class="container flex-column pt-3">
   <section class="text-center">
     <h1 class="main-title mx-auto">C'est la V - Veganise your life!</h1>
@@ -7,8 +8,8 @@
       diet and need a bit of encouragement? Look no further!
     </p>
     C'est la V let vegan food lovers create, store and share their favourite
-    recipes. Search our database for something yummy or sign up
-    and create your own recipes!
+    recipes. Search our database for something yummy or sign up and create your
+    own recipes!
     <p class="pt-4"></p>
   </section>
   <section>
@@ -25,29 +26,6 @@
         </div>
       </a>
       {% endfor %}
-    </div>
-  </section>
-  <section>
-    <div class="countdown">
-      <h3 id="veg">Veganuary 2024 is coming soon!</h3>
-      <div class="launch-time">
-        <div>
-          <p id="days">00</p>
-          <span>Days</span>
-        </div>
-        <div>
-          <p id="hours">00</p>
-          <span>Hours</span>
-        </div>
-        <div>
-          <p id="minutes">00</p>
-          <span>Minutes</span>
-        </div>
-        <div>
-          <p id="seconds">00</p>
-          <span>Seconds</span>
-        </div>
-      </div>
     </div>
   </section>
 </div>

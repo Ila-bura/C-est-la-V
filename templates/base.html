@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{% static 'myfirst.js' %}"></script>
     {% block extra_css %}
 
     <!-- Favicon links-->
@@ -75,17 +76,5 @@
 
     <main>{% block content %} {% endblock %}</main>
     {% include 'includes/footer.html' %}
-
-    <!-- Closing Alert Messages-->
-    <script>
-      setTimeout(function () {
-        let messages = document.getElementById("msg");
-        // Check if the element with ID "msg" exists
-        if (messages) {
-          let alert = new bootstrap.Alert(messages);
-          alert.close();
-        }
-      }, 2500);
-    </script>
   </body>
 </html>
