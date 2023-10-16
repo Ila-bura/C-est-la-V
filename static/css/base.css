@@ -56,13 +56,13 @@ a.nav-link {
 }
 
 .nav-link:hover {
-    color: var(--green);
+    color: var(--sage);
     font-weight: bolder;
 
 }
 
 a {
-    color: var(--green);
+    color: var(--sage);
 }
 
 /* Search */
@@ -107,7 +107,7 @@ footer {
 }
 
 .active {
-    border-bottom: 2px solid var(--green);
+    border-bottom: 2px solid var(--sage);
     font-weight: 500;
 }
 
@@ -121,12 +121,12 @@ footer {
 }
 
 .form-btn {
-    background-color: var(--green);
+    background-color: var(--sage);
 }
 
 .form-btn:hover {
     background-color: var(--off-white);
-    border-color: var(--green);
+    border-color: var(--sage);
 }
 
 /* Recipes */
@@ -238,7 +238,7 @@ a.image-container {
 }
 
 .label h3:hover {
-    color: var(--pink);
+    color: var(--sage);
 }
 
 .label:hover {
