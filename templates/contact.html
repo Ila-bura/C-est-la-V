@@ -10,22 +10,15 @@
 
 <!-- Contact form -->
 
-<div class="container d-flex justify-content-center">
-  <div id="contact">
-    <div class="container card-body">
-      <div class="row">
-        <div class="card col-6 col-md-12 contact-form">
-          <div class="card-body">
-            <form method="post">
-              {{ contact_form | crispy }} {% csrf_token %}
-              <br />
-              <button type="submit" class="btn main-btn btn-custom">
-                Send
-              </button>
-            </form>
-          </div>
-        </div>
-        <div id="map" class="col-12 col-md-6"></div>
+<div class="container">
+  <div id="contact" class="card-body">
+    <div class="card contact-form">
+      <div class="card-body">
+        <form method="post">
+          {{ contact_form | crispy }} {% csrf_token %}
+          <br />
+          <button type="submit" class="btn main-btn btn-custom">Send</button>
+        </form>
       </div>
     </div>
   </div>

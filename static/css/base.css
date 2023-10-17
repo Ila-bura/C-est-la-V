@@ -275,6 +275,9 @@ a.image-container {
     margin-bottom: -10px;
 }
 
+/* Contact Form */
+
+
 @media screen and (min-width: 40em) {
     .form {
         width: 50%;
@@ -328,5 +331,3 @@ a.image-container {
         width: 66.66%;
     }
 }
-
-/* Contact Form */
