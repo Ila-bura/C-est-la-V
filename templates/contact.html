@@ -1,0 +1,28 @@
+{% extends 'base.html' %}{% load static %}{% block title %} Contact {%endblock%}
+{% block content %}
+
+<section>
+  <div class="container-fluid px-4 px-lg-5">
+    <h2 class="mb-4 mt-3 text-center top-text">Contact Us</h2>
+    <hr />
+  </div>
+</section>
+
+<!-- Contact form -->
+<div id="contact">
+  <div class="container card-body">
+    <div class="row">
+      <div class="card col-12 col-md-6 contact-form">
+        <div class="card-body">
+          <form method="post">
+            {{ contact_form | crispy }} {% csrf_token %}
+            <br />
+            <button type="submit" class="btn main-btn btn-signup">Send</button>
+          </form>
+        </div>
+      </div>
+      <div id="map" class="col-12 col-md-6"></div>
+    </div>
+  </div>
+</div>
+{% endblock %}

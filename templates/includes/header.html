@@ -74,6 +74,13 @@
             >
           </li>
           {% endif %}
+          <li class="nav-item">
+            <a
+              class="nav-link {% if url_name == 'accounts_contact' %}active{% endif %}"
+              href="{% url 'contact-urls' %}"
+              >Contact</a
+            >
+          </li>
         </ul>
         <!-- Search bar -->
         <form
