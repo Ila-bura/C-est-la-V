@@ -31,11 +31,10 @@ class Contact(View):
 
         else:
             contact_form = ContactForm()
-            
         return render(
-                request,
-                'contact.html',
-                {
-                    'contact_form': ContactForm()
-                }
-            )
+            request,
+            'contact.html',
+            {
+                'contact_form': ContactForm()
+            }
+        )
