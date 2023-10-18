@@ -16,6 +16,11 @@
       <div class="card-body text-center">
         <form method="post">
           {{ contact_form | crispy }} {% csrf_token %}
+          <script>
+            document
+              .getElementById("id_email")
+              .setAttribute("autocomplete", "email");
+          </script>
           <br />
           <button type="submit" class="btn main-btn form-btn">Send</button>
         </form>
