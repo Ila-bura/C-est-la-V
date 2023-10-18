@@ -121,11 +121,11 @@ footer {
 }
 
 .form-btn {
-    background-color: var(--green);
+    background-color: var(--off-white);
 }
 
 .form-btn:hover {
-    background-color: var(--off-white);
+    background-color: var(--green);
     border-color: var(--green);
 }
 

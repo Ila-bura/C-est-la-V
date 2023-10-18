@@ -11,6 +11,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Recipe
 from .forms import RecipeForm
 
+from django.contrib import messages
+
 
 class Recipes(ListView):
     """Display all the recipes"""
@@ -21,17 +23,25 @@ class Recipes(ListView):
 
     def get_queryset(self, **kwargs):
         query = self.request.GET.get('q')
-        recipes = self.model.objects.all()  # Assign a default value
+        recipes = self.model.objects.all()
 
-        if query:
-            recipes = self.model.objects.filter(
-                Q(title__icontains=query) |
-                Q(description__icontains=query) |
-                Q(method__icontains=query) |
-                Q(dish_type__icontains=query)
-            )
+        if not query:
+            # Display a warning message only when users submit an empty search
+            if 'q' in self.request.GET:
+                messages.info(self.request, "Please type something.")
+
+            return recipes
+
+        recipes = self.model.objects.filter(
+            Q(title__icontains=query) |
+            Q(description__icontains=query) |
+            Q(method__icontains=query) |
+            Q(dish_type__icontains=query)
+        )
+
         if not recipes:
-            messages.info(self.request, "Sorry, no recipes found.")
+            messages.info(
+                self.request, "Sorry, no recipes found for your search!")
 
         return recipes
 
@@ -62,7 +72,7 @@ class AddRecipe(LoginRequiredMixin, CreateView):
 
 
 class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
-    """Owners can delete their recipe"""
+    """Signed in users can delete their recipes"""
     model = Recipe
     success_url = '/recipes/'
 
@@ -75,7 +85,7 @@ class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 
 class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
-    """Owners can edit their recipe"""
+    """Signed in users can edit their recipes"""
     template_name = "recipes/edit_recipe.html"
     model = Recipe
     form_class = RecipeForm
