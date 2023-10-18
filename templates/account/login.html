@@ -5,7 +5,11 @@
 
   <p>Once logged in, you will be able to start creating your own recipes!</p>
 
-  <form class="form p-2" method="POST" action="{% url 'account_login' %}">
+  <form
+    class="form p-2 sign-card"
+    method="POST"
+    action="{% url 'account_login' %}"
+  >
     {% csrf_token %} {{ form|crispy }} {% if redirect_field_value %}
     <input
       type="hidden"

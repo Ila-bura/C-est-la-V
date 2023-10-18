@@ -3,21 +3,21 @@
 
 <section>
   <div class="container-fluid px-4 px-lg-5">
-    <h2 class="mb-4 mt-3 text-center top-text">Contact Us</h2>
+    <h1 class="mb-4 mt-3 text-center top-text">Contact Us</h1>
     <hr />
   </div>
 </section>
 
 <!-- Contact form -->
 
-<div class="container">
+<div class="container cont-custom">
   <div id="contact" class="card-body">
     <div class="card contact-form">
-      <div class="card-body">
+      <div class="card-body text-center">
         <form method="post">
           {{ contact_form | crispy }} {% csrf_token %}
           <br />
-          <button type="submit" class="btn main-btn btn-custom">Send</button>
+          <button type="submit" class="btn main-btn form-btn">Send</button>
         </form>
       </div>
     </div>

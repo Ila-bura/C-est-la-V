@@ -121,12 +121,12 @@ footer {
 }
 
 .form-btn {
-    background-color: var(--sage);
+    background-color: var(--green);
 }
 
 .form-btn:hover {
     background-color: var(--off-white);
-    border-color: var(--sage);
+    border-color: var(--green);
 }
 
 /* Recipes */
@@ -275,8 +275,19 @@ a.image-container {
     margin-bottom: -10px;
 }
 
+
+/* Sign In and Up forms */
+.sign-card {
+    background-color: rgba(140, 166, 95, 0.8);
+}
+
 /* Contact Form */
 
+@media (min-width: 992px) {
+    .cont-custom {
+        max-width: 35%;
+    }
+}
 
 @media screen and (min-width: 40em) {
     .form {
