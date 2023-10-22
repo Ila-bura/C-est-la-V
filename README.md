@@ -1,39 +1,104 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# C'est la V
 
-Welcome,
+C'est la V is a website where vegan food lovers can share their favourite recipes and browse existing ones from the database.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visitors have access to all the recipes stored on the website, can search the database for keywords and can also send a message using the contact form. To be able to add a new recipe, visitors must register as new users. Once registered and signed in, users can add, edit and delete their own recipes.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+C'est la V was built using the Django Framework in Python, HTML and CSS. It provides user authentication and full CRUD functionality.
 
-## Codeanywhere Reminders
+![Am I Responsive image](/documentation/images/am_I_responsive.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/ "C'est la V Homepage").
 
-`python3 -m http.server`
+## Table of contents
+- [C'est la V](#cest-la-v)
+  - [Table of contents](#table-of-contents)
+  - [UX](#ux)
+    - [Site Purpose](#site-purpose)
+    - [Site Goal](#site-goal)
+    - [Audience:](#audience)
+    - [Communication:](#communication)
+    - [Current User Goals:](#current-user-goals)
+    - [New User Goals:](#new-user-goals)
+    - [Future Goals:](#future-goals)
+  - [User Stories](#user-stories)
+    - [Site user](#site-user)
+    - [Admin:](#admin)
+  - [Agile Methodology](#agile-methodology)
+  - [Design](#design)
+    - [Wireframes](#wireframes)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## UX
+### Site Purpose
+The intent of the site is to promote a vegan diet and inspire anyone who would like to transition towards a plant-based diet to incorporate more vegan food into their diet, by showcasing easy and affordable recipes that are simple to replicate. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Site Goal
+To build an online platform where vegan food lovers can share their favourite recipes and find inspiration and support from fellow vegans. By displaying the recipes in the database, vegans and aspiring vegans alike will be able to easily browse through the various recipe cards and find something they might want to try.
 
-`http_server`
+### Audience:
+Anyone who is passionate about fuelling their body with filling and nutricious food. Regardless of the diet label,be it 100% vegan, a part-time vegetarian or a die-hard omnivore, C'est la V has something to appeal everyone.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Communication:
+With a neat and intuitive layout, the user can seamlessly navigate the website and easily access all the features available.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Current User Goals:
+Users can search and discover new recipes. Creators can contribute and add as many recipes as they wish.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### New User Goals:
+To have their interest picked and decide to register as new users and start creating and sharing their own recipes.
 
-To log into the Heroku toolbelt CLI:
+### Future Goals:
+- The user should be able to add comments and likes to existing recipes. 
+- The logged in user should have their own account page where they can save their favourite recipes.
+- The admin should be able to review any new recipe for approval, before it is published.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Stories
+Not all stories have been implemented. Some have been left for future implementations.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Site user
 
----
+- As a site user I can browse the recipe database so that I can have a look at all the available recipes.
+- As a site user I can use the search bar so that I can find recipes containing a specific title or ingredients.
+- As a site user I can open a recipe card so that I can read the method and learn how to make the recipe.
+- As a site user I can register so that I can add my own recipes.
+- As a site user I can add my own recipes so that I can store them and share them on the website.
+- As a site user I can edit my own recipes so that I can correct any mistakes or add content if I forgot something.
+- As a site user I can delete my own recipes on the site so that they are no longer displayed on the webiste, if I don't want to share them anymore.
+- As a site user I can send a message to the site administrator so that I can share feedback or ask questions.
+- As a site user I can check the countdown to Veganuary 2024 so that I know how much time is left before the event.
 
-Happy coding!
+### Admin:
+- As a site owner I can view messages submitted via the contact form so that I can communicate with users.
+- As a site owner I can add, edit and delete recipes from the admin panel so that new content is displayed, if users do not add any new recipes.
+
+## Agile Methodology
+
+The development of this project was managed and implemented using GitHub Projects Kanban Board. Available here:
+<a href="https://github.com/users/Ila-bura/projects/20" target="_blank" rel="noopener" aria-label="Link to GitHub Projects">C'est la V - User Stories</a>
+
+<br>
+
+## Design
+### Wireframes
+
+Before developing the website, a low-fi wireframe was designed using Balsamiq Wireframes.
+
+<details><summary>Home Page</summary>
+<img src="documentation/wireframes/home.png" >
+</details>
+
+<details><summary>Recipe Card</summary>
+<img src="documentation/wireframes/Recipe-detail.png" >
+</details>
+
+<details><summary>Recipes Page</summary>
+<img src="documentation/wireframes/Recipes-list.png" >
+</details>
+
+<details><summary>Sign In</summary>
+<img src="documentation/wireframes/Sign-In.png" >
+</details>
+
+<details><summary>Sign Up</summary>
+<img src="documentation/wireframes/Sign-Up.png" >
+</details>
