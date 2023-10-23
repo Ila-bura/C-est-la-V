@@ -6,7 +6,7 @@ Visitors have access to all the recipes stored on the website, can search the da
 
 C'est la V was built using the Django Framework in Python, HTML and CSS. It provides user authentication and full CRUD functionality.
 
-![Am I Responsive image](/documentation/images/am_I_responsive.png)
+![Am I Responsive image](static/readme-images/readme-amiresponsive.png)
 
 The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/ "C'est la V Homepage").
 
@@ -27,6 +27,15 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
   - [Agile Methodology](#agile-methodology)
   - [Design](#design)
     - [Wireframes](#wireframes)
+    - [Entity Relationship Diagram](#entity-relationship-diagram)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Home Page](#home-page)
+      - [Navigation Bar](#navigation-bar)
+   
 
 ## UX
 ### Site Purpose
@@ -81,24 +90,60 @@ The development of this project was managed and implemented using GitHub Project
 ## Design
 ### Wireframes
 
-Before developing the website, a low-fi wireframe was designed using Balsamiq Wireframes.
+Before developing the website, a series of low-fi wireframes were designed using Balsamiq Wireframes.
 
 <details><summary>Home Page</summary>
-<img src="documentation/wireframes/home.png" >
+<img src="static/readme-images/readme-homepage.png" >
 </details>
 
 <details><summary>Recipe Card</summary>
-<img src="documentation/wireframes/Recipe-detail.png" >
+<img src="static/readme-images/readme-recipe-card.png" >
 </details>
 
 <details><summary>Recipes Page</summary>
-<img src="documentation/wireframes/Recipes-list.png" >
+<img src="static/readme-images/readme-recipe-list.png" >
 </details>
 
 <details><summary>Sign In</summary>
-<img src="documentation/wireframes/Sign-In.png" >
+<img src="static/readme-images/readme-signin.png" >
 </details>
 
 <details><summary>Sign Up</summary>
-<img src="documentation/wireframes/Sign-Up.png" >
+<img src="static/readme-images/readme-signup.png" >
 </details>
+
+### Entity Relationship Diagram 
+![Entity Relationship Diagram ](static/readme-images/readme-ERD.png)
+
+### Colour Scheme
+The colour palette was generated with Canva, to match the colours of the logo.
+
+![Colour Scheme ](static/readme-images/readme-palette.png)
+
+### Typography
+Two fonts were obtained from the Google Fonts library:
+
+1. Playfair display: Site heading/logo, Blog & print titles
+2. Montserrat: site navigation & site buttons
+
+### Imagery
+- The logo was generated from one of the free templates available in Canva.
+
+<details><summary>Logo</summary>
+
+<img src="static/readme-images/readme-logo.png" >
+</details>
+
+- The favicons were generated on Favicon.io.
+- The social media icons were sourced from UXWing.
+- The recipe images were all sourced from Pexel. Their authors have been mentioned in the Credits section.
+
+## Features
+
+### Existing Features
+
+#### Home Page
+
+![Home page](static/images-readme/readme-homepage.png)
+
+#### Navigation Bar
