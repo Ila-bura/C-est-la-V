@@ -35,6 +35,22 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Existing Features](#existing-features)
       - [Home Page](#home-page)
       - [Navigation Bar](#navigation-bar)
+        - [Desktop](#desktop)
+        - [Mobile](#mobile)
+      - [Search Bar](#search-bar)
+      - [Countdown](#countdown)
+      - [Recipes Page](#recipes-page)
+      - [Register Page](#register-page)
+      - [Login Page](#login-page)
+      - [Logout Page](#logout-page)
+      - [Contact Form](#contact-form)
+      - [Footer](#footer)
+    - [C.R.U.D](#crud)
+      - [Create](#create)
+      - [Read:](#read)
+      - [Update \& Delete](#update--delete)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
    
 
 ## UX
@@ -93,23 +109,23 @@ The development of this project was managed and implemented using GitHub Project
 Before developing the website, a series of low-fi wireframes were designed using Balsamiq Wireframes.
 
 <details><summary>Home Page</summary>
-<img src="static/readme-images/readme-homepage.png" >
+<img src="static/readme-images/readme-wireframes-homepage.png" >
 </details>
 
 <details><summary>Recipe Card</summary>
-<img src="static/readme-images/readme-recipe-card.png" >
+<img src="static/readme-images/readme-wireframes-recipe-card.png" >
 </details>
 
 <details><summary>Recipes Page</summary>
-<img src="static/readme-images/readme-recipe-list.png" >
+<img src="static/readme-images/readme-wireframes-recipe-list.png" >
 </details>
 
 <details><summary>Sign In</summary>
-<img src="static/readme-images/readme-signin.png" >
+<img src="static/readme-images/readme-wireframes-signin.png" >
 </details>
 
 <details><summary>Sign Up</summary>
-<img src="static/readme-images/readme-signup.png" >
+<img src="static/readme-images/readme-wireframes-signup.png" >
 </details>
 
 ### Entity Relationship Diagram 
@@ -144,6 +160,72 @@ Two fonts were obtained from the Google Fonts library:
 
 #### Home Page
 
-![Home page](static/images-readme/readme-homepage.png)
+![Home page](static/readme-images/readme-homepage.png)
 
 #### Navigation Bar
+
+##### Desktop
+
+![Navbar desktop](static/readme-images/readme-nav-desktop.png)
+
+##### Mobile
+
+![Navbar mobile](static/readme-images/readme-nav-mobile.png)
+
+#### Search Bar
+
+![Search bar](static/readme-images/readme-search-bar.png)
+
+#### Countdown
+
+![Countdown](static/readme-images/readme-countdown.png)
+
+#### Recipes Page
+
+![Recipes](static/readme-images/readme-recipes.png)
+
+#### Register Page
+
+![Register Page](static/readme-images/readme-register.png)
+
+#### Login Page
+
+![Login Page](static/readme-images/readme-login.png)
+
+#### Logout Page
+
+![Logout Page](static/readme-images/readme-logout.png)
+- The "Logout" link is only visible in the nav bar to users who are signed in. 
+
+#### Contact Form
+
+![Contact Form](static/readme-images/readme-contact.png)
+
+#### Footer
+
+![Footer](static/images-readme/readme-footer.png)
+
+### C.R.U.D
+
+#### Create 
+
+- The "New" link is only visible in the nav bar to users who are signed in. 
+- Clicking this link will bring the user to a form where they can create a new recipe.
+![New Recipe Page](static/readme-images/readme-new-recipe.png)
+
+#### Read:
+![Recipe Card](static/readme-images/readme-recipe-card.png)
+
+#### Update & Delete
+
+- The update & delete feature is only accessible to the users who created their recipes.
+![CRUD - update & delete](static/readme-images/readme-edit-delete.png)
+
+### Features Left to Implement
+
+- Comment and Like functionality
+- Creator profiles
+- Password reset
+- Social media sign-in
+
+## Testing
