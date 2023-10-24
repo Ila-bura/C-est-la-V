@@ -62,14 +62,14 @@
           {% else %}
           <li class="nav-item">
             <a
-              class="nav-link {% if url_name == 'accounts_signup' %}active{% endif %}"
+              class="nav-link {% if url_name == 'accounts_signup' %} active {% endif %}"
               href="/accounts/signup/"
               >Register</a
             >
           </li>
           <li class="nav-item">
             <a
-              class="nav-link {% if url_name == 'accounts_login' %}active{% endif %}"
+              class="nav-link {% if url_name == 'accounts_login' %} active {% endif %}"
               href="/accounts/login/"
               >Login</a
             >
@@ -77,12 +77,13 @@
           {% endif %}
           <li class="nav-item">
             <a
-              class="nav-link {% if url_name == 'accounts_contact' %}active{% endif %}"
-              href="{% url 'contact-urls' %}"
+              class="nav-link {% if url_name == 'accounts_contact' %} active{% endif %}"
+              href="/contact/contact/"
               >Contact</a
             >
           </li>
         </ul>
+
         <!-- Search bar -->
         <form
           class="d-flex"

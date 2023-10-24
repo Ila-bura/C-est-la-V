@@ -139,8 +139,8 @@ The colour palette was generated with Canva, to match the colours of the logo.
 ### Typography
 Two fonts were obtained from the Google Fonts library:
 
-1. Playfair display: Site heading/logo, Blog & print titles
-2. Montserrat: site navigation & site buttons
+1. Playfair display: Site headings
+2. Montserrat: Site body
 
 ### Imagery
 - The logo was generated from one of the free templates available in Canva.
@@ -160,7 +160,7 @@ Two fonts were obtained from the Google Fonts library:
 
 #### Home Page
 
-![Home page](static/readme-images/readme-homepage.png)
+![Home page](static/readme-images/readme-homepage-notloggedin.png)
 
 #### Navigation Bar
 
@@ -203,7 +203,7 @@ Two fonts were obtained from the Google Fonts library:
 
 #### Footer
 
-![Footer](static/images-readme/readme-footer.png)
+![Footer](static/readme-images/readme-footer.png)
 
 ### C.R.U.D
 
@@ -218,7 +218,7 @@ Two fonts were obtained from the Google Fonts library:
 
 #### Update & Delete
 
-- The update & delete feature is only accessible to the users who created their recipes.
+- The update & delete features are only accessible to the users who created their recipes.
 ![CRUD - update & delete](static/readme-images/readme-edit-delete.png)
 
 ### Features Left to Implement
@@ -228,4 +228,57 @@ Two fonts were obtained from the Google Fonts library:
 - Password reset
 - Social media sign-in
 
-## Testing
+## Manual Testing
+
+### Not logged in:
+
+### Homepage
+Every link on the homepage was tested to ensure that it redirects to the appropriate url.
+
+#### Navbar
+When user is not logged in, the nav bar looks like this:
+<details><summary>- Navbar</summary>
+<img src="static/readme-images/readme-nav-links.png" >
+</details>
+
+<details><summary>- Logo: the homepage reloads.</summary>
+<img src="static/readme-images/readme-homepage-notloggedin.png" >
+</details>
+
+<details><summary>- Home: the homepage reloads.</summary>
+<img src="static/readme-images/readme-homepage-notloggedin.png" >
+</details>
+
+<details><summary>- Recipes: the recipe list page opens.</summary>
+<img src="static/readme-images/readme-recipes-notloggedin.png" >
+</details>
+
+<details><summary>- Register: the sign up page opens.</summary>
+<img src="static/readme-images/readme-register-notloggedin.png" >
+</details>
+
+<details><summary>- Login: the log in page opens.</summary>
+<img src="static/readme-images/readme-signin-notloggedin.png" >
+</details>
+
+<details><summary>- Contact: the contact page opens.</summary>
+<img src="static/readme-images/readme-contact-notloggedin.png" >
+</details>
+
+#### Footer Links
+
+<details><summary>- Footer</summary>
+<img src="static/readme-images/readme-footer.png" >
+</details>
+
+<details><summary>- LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
+<img src="dstatic/readme-images/readme-linkedin" >
+</details>
+
+<details><summary>- Instagram: a new tab opens with Instagram landing page.</summary>
+<img src="static/readme-images/readme-instagram" >
+</details>
+
+<details><summary>- GitHub: a new tab opens with my personal GitHub profile.</summary>
+<img src="static/readme-images/readme-github" >
+</details>
