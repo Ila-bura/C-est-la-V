@@ -174,6 +174,7 @@ Two fonts were obtained from the Google Fonts library:
 ![Navbar mobile](static/readme-images/readme-nav-mobile.png)
 
 #### Search Bar
+To search functionality was implemented with the following available search fields: title, description, method and dish type.
 
 ![Search bar](static/readme-images/readme-search-bar.png)
 
@@ -269,10 +270,44 @@ When user is not logged in, the nav bar looks like this:
 #### Search bar
 
 <details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
-<source src="static/readme-imagesscreen-rec/readme-empty-search.mov" >
+<img src="static/readme-images/readme-empty-search.png" >
 </details>
 
+<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword is displayed on the page.</summary>
+<img src="static/readme-images/readme-title-search.png" >
+</details>
 
+<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword is displayed on the page.</summary>
+<img src="static/readme-images/readme-title-search-enter.png" >
+</details>
+
+<details><summary>-A keyword that is known to be in the body of multiple recipes (e.g "soy") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<img src="static/readme-images/readme-body-search.png" >
+</details>
+
+<details><summary>-A keyword that is known to be in the recipe description field of one of the recipes (e.g "soy") is typed in the search bar. The recipe card containing that keyword in the description is displayed on the page.</summary>
+<img src="static/readme-images/readme-body-search.png" >
+</details>
+
+<details><summary>-A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
+<img src="static/readme-images/readme-meal-type-search.png" >
+</details>
+
+<details><summary>-A keyword in all caps (e.g "SUGAR") is typed in the search bar. All the recipe cards containing the keyword "sugar" are displayed on the page.</summary>
+<img src="static/readme-images/readme-allcaps-search.png" >
+</details>
+
+<details><summary>-A keyword spelled with a combiination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<img src="static/readme-images/readme-mix-low-uppercase.search.png" >
+</details>
+
+<details><summary>-A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
+<img src="static/readme-images/readme-wrong-search.png" >
+</details>
+
+<details><summary>-A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
+<img src="static/readme-images/readme-random-keys-numbers-search.png" >
+</details>
 
 #### Footer Links
 
