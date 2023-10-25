@@ -93,8 +93,9 @@ Not all stories have been implemented. Some have been left for future implementa
 - As a site user I can check the countdown to Veganuary 2024 so that I know how much time is left before the event.
 
 ### Admin:
-- As a site owner I can view messages submitted via the contact form so that I can communicate with users.
-- As a site owner I can add, edit and delete recipes from the admin panel so that new content is displayed, if users do not add any new recipes.
+- As a site admin I can view messages submitted via the contact form so that I can communicate with users.
+- As a site admin I can add, edit and delete recipes from the admin panel so that new content is displayed, if users do not add any new recipes.
+- As a site admin I can delete recipes from the admin panel.
 
 ## Agile Methodology
 
@@ -160,7 +161,7 @@ Two fonts were obtained from the Google Fonts library:
 
 #### Home Page
 
-![Home page](static/readme-images/readme-homepage-notloggedin.png)
+![Home page](static/readme-images/readme-homepage-not-loggedin.png)
 
 #### Navigation Bar
 
@@ -242,11 +243,11 @@ When user is not logged in, the nav bar looks like this:
 </details>
 
 <details><summary>- Logo: the homepage reloads.</summary>
-<img src="static/readme-images/readme-homepage-notloggedin.png" >
+<img src="static/readme-images/readme-homepage-not-loggedin.png" >
 </details>
 
 <details><summary>- Home: the homepage reloads.</summary>
-<img src="static/readme-images/readme-homepage-notloggedin.png" >
+<img src="static/readme-images/readme-homepage-not-loggedin.png" >
 </details>
 
 <details><summary>- Recipes: the recipe list page opens.</summary>
@@ -265,6 +266,12 @@ When user is not logged in, the nav bar looks like this:
 <img src="static/readme-images/readme-contact-notloggedin.png" >
 </details>
 
+#### Search bar
+
+<details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically diusappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-contact-notloggedin.png" >
+</details>
+
 #### Footer Links
 
 <details><summary>- Footer</summary>
@@ -272,13 +279,19 @@ When user is not logged in, the nav bar looks like this:
 </details>
 
 <details><summary>- LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
-<img src="dstatic/readme-images/readme-linkedin" >
+<img src="static/readme-images/readme-linkedin.png" >
 </details>
 
 <details><summary>- Instagram: a new tab opens with Instagram landing page.</summary>
-<img src="static/readme-images/readme-instagram" >
+<img src="static/readme-images/readme-instagram.png" >
 </details>
 
 <details><summary>- GitHub: a new tab opens with my personal GitHub profile.</summary>
-<img src="static/readme-images/readme-github" >
+<img src="static/readme-images/readme-github.png" >
+</details>
+
+### Recipes page
+The Recipes page displays the same navbar and footer that are found on the homepage.
+<details><summary>- Recipes, I come to the recipes.</summary>
+<img src="static/readme-images/.png" >
 </details>
