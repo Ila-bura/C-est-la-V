@@ -268,9 +268,11 @@ When user is not logged in, the nav bar looks like this:
 
 #### Search bar
 
-<details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically diusappears after 3 seconds.</summary>
-<img src="static/readme-images/readme-contact-notloggedin.png" >
+<details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
+<source src="static/readme-imagesscreen-rec/readme-empty-search.mov" >
 </details>
+
+
 
 #### Footer Links
 
