@@ -10,7 +10,8 @@ setTimeout(function () {
 }, 2500);
 
 
-// Countdown
+// Countdown to 1st January 2024
+// The code was implemented followed the tutorial from GreatStack: https://www.youtube.com/watch?v=_LExTzOhe7s
 document.addEventListener("DOMContentLoaded", function () {
     var countDownDate = new Date("Jan 01, 2024 00:00:00").getTime();
     var x = setInterval(function () {

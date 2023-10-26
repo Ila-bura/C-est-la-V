@@ -50,7 +50,17 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
       - [Read:](#read)
       - [Update \& Delete](#update--delete)
     - [Features Left to Implement](#features-left-to-implement)
-  - [Testing](#testing)
+  - [Manual Testing](#manual-testing)
+    - [Not logged in:](#not-logged-in)
+    - [Homepage](#homepage)
+      - [Navbar](#navbar)
+      - [Search bar](#search-bar-1)
+      - [Countdown](#countdown-1)
+      - [Footer Links](#footer-links)
+    - [Recipes page](#recipes-page-1)
+    - [Register page](#register-page-1)
+    - [Login page](#login-page-1)
+    - [Contact page](#contact-page)
    
 
 ## UX
@@ -269,15 +279,17 @@ When user is not logged in, the nav bar looks like this:
 
 #### Search bar
 
+Multiple tests were carried out to test the serach functionality:
+
 <details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
 <img src="static/readme-images/readme-empty-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword is displayed on the page.</summary>
+<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword is displayed on the page.</summary>
+<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search-enter.png" >
 </details>
 
@@ -285,8 +297,8 @@ When user is not logged in, the nav bar looks like this:
 <img src="static/readme-images/readme-body-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in the recipe description field of one of the recipes (e.g "soy") is typed in the search bar. The recipe card containing that keyword in the description is displayed on the page.</summary>
-<img src="static/readme-images/readme-body-search.png" >
+<details><summary>-A keyword that is known to be in the description field of one of the recipes (e.g "tartare") is typed in the search bar. The recipe card containing that keyword in the description field is displayed on the page.</summary>
+<img src="static/readme-images/readme-description-search.png" >
 </details>
 
 <details><summary>-A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
@@ -297,16 +309,28 @@ When user is not logged in, the nav bar looks like this:
 <img src="static/readme-images/readme-allcaps-search.png" >
 </details>
 
-<details><summary>-A keyword spelled with a combiination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<details><summary>-A keyword spelled with a combination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
 <img src="static/readme-images/readme-mix-low-uppercase.search.png" >
 </details>
 
-<details><summary>-A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
+<details><summary>-A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes are displayed on the page.</summary>
 <img src="static/readme-images/readme-wrong-search.png" >
 </details>
 
 <details><summary>-A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
 <img src="static/readme-images/readme-random-keys-numbers-search.png" >
+</details>
+
+#### Countdown
+The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates every second.
+
+<details><summary>- Countdown</summary>
+<img src="static/readme-images/readme-countdown.png" >
+</details>
+
+<details><summary>- In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
+The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
+<img src="static/readme-images/readme-countdown-zero.png" >
 </details>
 
 #### Footer Links
@@ -329,6 +353,83 @@ When user is not logged in, the nav bar looks like this:
 
 ### Recipes page
 The Recipes page displays the same navbar and footer that are found on the homepage.
-<details><summary>- Recipes, I come to the recipes.</summary>
-<img src="static/readme-images/.png" >
+<details><summary>- Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
+<img src="static/readme-images/readme-recipes-notloggedin.png" >
+</details>
+
+<details><summary>- Recipe card: clicking on one of the recipes listed on the page opens the relevant recipe card. The buttons to edit and delete the recipe are not displayed.</summary>
+<img src="static/readme-images/readme-recipe-card-notloggedin.png" >
+</details>
+
+### Register page
+<details><summary>- Register page opens with a form to let the user sign up. The hyperlink "Log in" is clickable, in case the user already has an account.</summary>
+<img src="static/readme-images/readme-signup-notloggedin.png" >
+</details>
+
+<details><summary>- Click on "Log in": the Sign In page opens with a form to let the user log in.</summary>
+<img src="static/readme-images/readme-recipe-card-notloggedin.png" >
+</details>
+
+The form on the Register page has five fields which all need to be filled for the form to be sumbitted.
+
+<details><summary>- The Email field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-signup-email-alert.png" >
+</details>
+
+<details><summary>- The Username field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-signup-username-alert.png" >
+</details>
+
+<details><summary>- The Password field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-signup-password-alert.png" >
+</details>
+
+<details><summary>- The second Password field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-signup-2password-alert.png" >
+</details>
+
+<details><summary>- The second Password is not the same as the first one: an alert message prompts the user to type the same password.</summary>
+<img src="static/readme-images/readme-signup-wrong-password.png" >
+</details>
+
+<details><summary>- All the fields are duly filled in and the form is submitted. The user is redirected to the homepage and a success message reading "Successfully signed in as 'Username'" appears. The message disappears after 3 seconds. The nav bar now displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed. </summary>
+<img src="static/readme-images/readme-signup-success.png" >
+</details>
+
+### Login page
+<details><summary>- Login page opens with a form to let the user log in. The hyperlink "Sign Up" is clickable, in case the user does not have an account yet.</summary>
+<img src="static/readme-images/readme-login-notloggedin.png" >
+</details>
+
+<details><summary>- Click on "Sign up": the Sign Up page opens with a form to let the user register.</summary>
+<img src="static/readme-images/readme-signup-notloggedin.png" >
+</details>
+
+### Contact page
+<details><summary>- The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be sumbitted.</summary>
+<img src="static/readme-images/readme-contact-notloggedin.png" >
+</details>
+
+<details><summary>- The First Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-contact-no-firstname.png" >
+</details>
+
+<details><summary>- The Last Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-contact-no-lastname.png" >
+</details>
+
+<details><summary>- The Email field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-contact-noemail.png" >
+</details>
+
+<details><summary>- The Message field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-contact-nomessage.png" >
+</details>
+
+<details><summary>- All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-contact-success.png" >
+</details>
+
+<details><summary>- By logging into the Django admin section, the new message can be found in the Contacts section.</summary>
+<img src="static/readme-images/readme-contact-admin-success.png" >
 </details>
