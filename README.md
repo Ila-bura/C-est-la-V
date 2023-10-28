@@ -61,7 +61,27 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Register page](#register-page-1)
     - [Login page](#login-page-1)
     - [Contact page](#contact-page)
-   
+    - [Logged in:](#logged-in)
+    - [Homepage](#homepage)
+      - [Navbar](#navbar)
+      - [Search bar](#search-bar-1)
+      - [Countdown](#countdown-1)
+      - [Footer Links](#footer-links)
+    - [Recipes Page](#recipes-page)
+      - [New](#new)
+      - [Edit Recipe](#edit-recipe)
+      - [Delete Recipe](#delete-recipe)
+      - [Logout page](#logout-page-1)
+      - [Contact page](#contact-page)
+    - [Admin Panel](#admin-panel)
+  - [Validator Testing](#validator-testing)
+  - [Defensive Validation](#defensive-validation)
+  - [Accessibility](#accessibility)
+  - [Fixed bugs](#fixed-bugs)
+  - [Technologies Used](#technologies-used)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+     
 
 ## UX
 ### Site Purpose
@@ -555,7 +575,8 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 ### New
 <details><summary>- Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created. The Dish Type and Prep Time fields are prepopulated.</summary>
-<img src="static/readme-images/readme-login-notloggedin.png" >
+<img src="static/readme-images/readme-new-loggedin.png" >
+<img src="static/readme-images/readme-new2-loggedin.png" >
 </details>
 
 <details><summary>- The Title field is not filled: an alert message prompts the user to fill it in.</summary>
@@ -674,3 +695,34 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-contact-admin-success.png" >
 </details>
 
+## Admin panel
+
+<details><summary>- When we login to admin panel we come to the admin page.</summary>
+<img src="static/readme-images/readme-.png" >
+<img src="static/readme-images/readme-.png" >
+</details>
+
+### Add Recipes
+
+<details><summary>-As a site admin I can create recipes to share with other users.</summary>
+<img src="static/readme-images/readme-.png" >
+</details>
+
+### Contact
+
+As a site admin I can view messages submitted via the contact form so that I can communicate with site users.
+
+<details><summary>- Within the admin panel, the admin can select Contacts:</summary>
+<img src="static/readme-images/readme-.png" >
+</details>
+
+<details><summary>- Here, the admin can click into messages to read them:</summary>
+<img src="static/readme-images/readme-.png" >
+</details>
+
+### Remove users
+
+As a site admin I can remove users so that they will no longer be able to post unsuitable content.
+<details><summary>- Here, the admin can select users to delete:</summary>
+<img src="static/readme-images/readme-.png" >
+</details>
