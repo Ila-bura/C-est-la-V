@@ -553,6 +553,89 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-recipe-card-loggedin.png" >
 </details>
 
+### New
+<details><summary>- Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created. The Dish Type and Prep Time fields are prepopulated.</summary>
+<img src="static/readme-images/readme-login-notloggedin.png" >
+</details>
+
+<details><summary>- The Title field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-new-recipe-no-title.png" >
+</details>
+
+<details><summary>- The Description field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-new-recipe-no-description.png" >
+</details>
+
+<details><summary>- The Ingredients field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<img src="static/readme-images/readme-new-recipe-no-ingredients.png" >
+</details>
+
+<details><summary>- The Method field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<img src="static/readme-images/readme-new-recipe-no-method.png" >
+</details>
+
+<details><summary>- No image is uploaded: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-new-recipe-no-image.png" >
+</details>
+
+<details><summary>- The Describe Image field is not filled: an alert message prompts the user to fill it in.</summary>
+<img src="static/readme-images/readme-new-recipe-no-image-description.png" >
+</details>
+
+<details><summary>- All the fields are duly filled in and the recipe is created. The user is redirected to the Recipes page, where the newly created recipe is showing as first in the list. A success message reading "Recipe added successfully" is displayed. The message disappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-new-recipe-success.png" >
+</details>
+
+<details><summary>- Recipe card: clicking on the newly created recipe opens the relevant recipe card. The name of the recipe creator is displayed as well as the date and time. The buttons to edit and delete the recipe are displayed.</summary>
+<img src="static/readme-images/readme-new-recipe-card-opened.png" >
+</details>
+
+### Edit Recipe
+<details><summary>- Edit Recipe: clicking on the Edit button opens the edit form where the user can make amendments to any of the fields of their recipe.</summary>
+<img src="static/readme-images/readme-edit-recipe.png" >
+</details>
+
+<details><summary>- Edit Title: the title gets changed from "Spicy Kale Crisps" to "Spicy Kale Snack" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated title. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-edit-title-success.png" >
+</details>
+
+<details><summary>- Edit Description: the description gets shortened by removing the string "or sandwiches" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated description. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-edit-description-success.png" >
+</details>
+
+<details><summary>- Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the igredient list now displays an additional bullet point.</summary>
+<img src="static/readme-images/readme-edit-ingredients-success.png" >
+</details>
+
+<details><summary>- Edit Method: a bullet point is added in the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated image. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<img src="static/readme-images/readme-edit-method-success.png" >
+</details>
+
+<details><summary>- Edit the image: a new image is uploaded in a separate field and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the method field now displays an additional bullet point.</summary>
+<img src="static/readme-images/readme-edit-image-success.png" >
+</details>
+
+<details><summary>- Edit the dish type and prep time: the default choices are changed to "Main" and "55 min" respectively and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that dish type and prep time have been updated.</summary>
+<img src="static/readme-images/readme-edit-type-time-success.png" >
+</details>
+
+<details><summary>- Edit the image description: the word "wooden" is removed from the image description and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. As the image description is not a visibile field in the recipe card, to verify that it was successfully changed, we need to log into the Django admin panel. There, in the Recipes section, we can open the relevant recipe and verify that the image alt description had indeed being changed.</summary>
+<img src="static/readme-images/readme-edit-image-alt-success.png" >
+</details>
+
+<details><summary>- The The_Tester user opens a recipe that was created by another user, for example, the Cinnamon Swirls. The Edit and Delete buttons are not available for the current logged in user.</summary>
+<img src="static/readme-images/readme-different-user-no-edit.png" >
+</details>
+
+### Delete Recipe
+<details><summary>- The "Delete" button is clicked in the recipe card. The delete confirmation page loads and a message asks the user to confirm they want to delete the recipe. </summary>
+<img src="static/readme-images/readme-delete-confirmation.png" >
+</details>
+
+<details><summary>- The "Confirm" button is clicked. The user is redirected to the Recipes page where the deleted recipe is no longer displayed in the list. A success message reading "Recipe deleted successfully!" is displayed. The message disappears after 3 seconds. </summary>
+<img src="static/readme-images/readme-delete-success.png" >
+</details>
+
 ### Logout page
 <details><summary>- The Logout page opens with a confirmation question: "Are you sure you want to sign out?" The button "Sign Out" is clickable.</summary>
 <img src="static/readme-images/readme-logout-loggedin.png" >
@@ -560,47 +643,6 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 <details><summary>- Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: Register and Login. On the other hand, the link "New" and "Logout" are no longer displayed</summary>
 <img src="static/readme-images/readme-loggedout-success.png" >
-</details>
-
-### New
-<details><summary>- Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created.</summary>
-<img src="static/readme-images/readme-login-notloggedin.png" >
-</details>
-
-<details><summary>- The Title field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-no-firstname.png" >
-</details>
-
-<details><summary>- The Description field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-no-lastname.png" >
-</details>
-
-<details><summary>- The Ingredients field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-noemail.png" >
-</details>
-
-<details><summary>- The Method field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-nomessage.png" >
-</details>
-
-<details><summary>- No image is uploaded: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-nomessage.png" >
-</details>
-
-<details><summary>- The Describe Image field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-nomessage.png" >
-</details>
-
-<details><summary>- The Dish Type field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-nomessage.png" >
-</details>
-
-<details><summary>- The Prep Type field is not filled: an alert message prompts the user to fill it in.</summary>
-<img src="static/readme-images/readme-contact-nomessage.png" >
-</details>
-
-<details><summary>- All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
-<img src="static/readme-images/readme-contact-success.png" >
 </details>
 
 ### Contact page
