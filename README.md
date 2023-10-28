@@ -62,25 +62,25 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Login page](#login-page-1)
     - [Contact page](#contact-page)
     - [Logged in:](#logged-in)
-    - [Homepage](#homepage)
-      - [Navbar](#navbar)
-      - [Search bar](#search-bar-1)
-      - [Countdown](#countdown-1)
-      - [Footer Links](#footer-links)
-    - [Recipes Page](#recipes-page)
-      - [New](#new)
-      - [Edit Recipe](#edit-recipe)
-      - [Delete Recipe](#delete-recipe)
-      - [Logout page](#logout-page-1)
-      - [Contact page](#contact-page)
-    - [Admin Panel](#admin-panel)
+    - [Homepage](#homepage-1)
+      - [Navbar](#navbar-1)
+      - [Search bar](#search-bar-2)
+      - [Countdown](#countdown-2)
+      - [Footer Links](#footer-links-1)
+    - [Recipes page](#recipes-page-2)
+    - [New](#new)
+    - [Edit Recipe](#edit-recipe)
+    - [Delete Recipe](#delete-recipe)
+    - [Logout page](#logout-page-1)
+    - [Contact page](#contact-page-1)
+  - [Admin panel](#admin-panel)
+    - [Add Recipes](#add-recipes)
+    - [Delete Recipes](#delete-recipes)
+    - [Contact](#contact)
+    - [Remove users](#remove-users)
+    - [Browsers](#browsers)
   - [Validator Testing](#validator-testing)
-  - [Defensive Validation](#defensive-validation)
-  - [Accessibility](#accessibility)
-  - [Fixed bugs](#fixed-bugs)
-  - [Technologies Used](#technologies-used)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
+      - [HTML files pass through the W3C validator with no issues found](#html-files-pass-through-the-w3c-validator-with-no-issues-found)
      
 
 ## UX
@@ -697,15 +697,21 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 ## Admin panel
 
-<details><summary>- When we login to admin panel we come to the admin page.</summary>
-<img src="static/readme-images/readme-.png" >
-<img src="static/readme-images/readme-.png" >
+<details><summary>- When we login to Django admin panel we come to the admin page.</summary>
+<img src="static/readme-images/readme-admin-login.png" >
+<img src="static/readme-images/readme-admin-homepage.png" >
 </details>
 
 ### Add Recipes
 
 <details><summary>-As a site admin I can create recipes to share with other users.</summary>
-<img src="static/readme-images/readme-.png" >
+<img src="static/readme-images/readme-admin-add-recipe.png" >
+</details>
+
+### Delete Recipes
+
+<details><summary>-As a site admin I can delete any recipe that is created by any user.</summary>
+<img src="static/readme-images/readme-admin-delete-recipe.png" >
 </details>
 
 ### Contact
@@ -713,16 +719,34 @@ The Recipes page displays the same navbar and footer that are found on the homep
 As a site admin I can view messages submitted via the contact form so that I can communicate with site users.
 
 <details><summary>- Within the admin panel, the admin can select Contacts:</summary>
-<img src="static/readme-images/readme-.png" >
+<img src="static/readme-images/readme-admin-contacts.png" >
 </details>
 
 <details><summary>- Here, the admin can click into messages to read them:</summary>
-<img src="static/readme-images/readme-.png" >
+<img src="static/readme-images/readme-admin-contact-read.png" >
+<img src="static/readme-images/readme-admin-contact-read2.png" >
 </details>
 
 ### Remove users
 
-As a site admin I can remove users so that they will no longer be able to post unsuitable content.
+As a site admin I can remove users so that they will no longer be able to post unsuitable content. When a user is deleted, all of their recipes get deleted as well.
 <details><summary>- Here, the admin can select users to delete:</summary>
-<img src="static/readme-images/readme-.png" >
+<img src="static/readme-images/readme-admin-delete-users.png" >
+<img src="static/readme-images/readme-admin-delete-users-2.png" >
+</details>
+
+### Browsers
+
+- I checked the site for compatibility on different browsers (Chrome, Firefox).
+- I have checked the responsiveness on different window sizes.
+
+## Validator Testing
+
+#### HTML files pass through the W3C validator with no issues found
+<details><summary>- Add recipes</summary>
+<img src=".png" >
+</details>
+
+<details><summary>- Contact Us</summary>
+<img src="static/readme-images/html_validator-.png" >
 </details>
