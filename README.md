@@ -61,7 +61,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Register page](#register-page-1)
     - [Login page](#login-page-1)
     - [Contact page](#contact-page)
-    - [Logged in:](#logged-in)
+    - [Logged in](#logged-in)
     - [Homepage](#homepage-1)
       - [Navbar](#navbar-1)
       - [Search bar](#search-bar-2)
@@ -193,14 +193,14 @@ Before developing the website, a series of low-fi wireframes were designed using
 </details>
 
 ### Entity Relationship Diagram 
-<details><summary>- Entity Relationship Diagram</summary>
+<details><summary>Entity Relationship Diagram</summary>
 <img src="static/readme-images/readme-ERD.png" >
 </details>
 
 ### Colour Scheme
 The colour palette was generated with Canva, to match the colours of the logo.
 
-<details><summary>- Colour Scheme</summary>
+<details><summary>Colour Scheme</summary>
 <img src="static/readme-images/readme-palette.png" >
 </details>
 
@@ -214,7 +214,7 @@ Two fonts were obtained from the Google Fonts library:
 - The logo was generated from one of the free templates available in Canva.
 
 <details><summary>Logo</summary>
-<img src="static/readme-images/readme-logo.png" >
+<img src="static/images/readme-logo.png" >
 </details>
 
 - The favicons were generated on Favicon.io.
@@ -226,70 +226,70 @@ Two fonts were obtained from the Google Fonts library:
 ### Existing Features
 
 #### Home Page
-<details><summary>- Home page</summary>
+<details><summary>Home page</summary>
 <img src="static/readme-images/readme-homepage-not-loggedin.png">
 </details>
 
 #### Navigation Bar
 
 ##### Desktop
-<details><summary>- Navbar desktop</summary>
+<details><summary>Navbar desktop</summary>
 <img src="static/readme-images/readme-nav-desktop.png">
 </details>
 
 ##### Mobile
 
-<details><summary>- Navbar mobile</summary>
+<details><summary>Navbar mobile</summary>
 <img src="static/readme-images/readme-nav-mobile.png">
 </details>
 
 #### Search Bar
 To search functionality was implemented with the following available search fields: title, description, method and dish type.
 
-<details><summary>- Search bar</summary>
+<details><summary>Search bar</summary>
 <img src="static/readme-images/readme-search-bar.png">
 </details>
 
 #### Countdown
 
-<details><summary>- Countdown</summary>
+<details><summary>Countdown</summary>
 <img src="static/readme-images/readme-countdown.png">
 </details>
 
 #### Recipes Page
 
-<details><summary>- Recipes</summary>
+<details><summary>Recipes</summary>
 <img src="static/readme-images/readme-recipes.png">
 </details>
 
 #### Register Page
 
-<details><summary>- Register Page</summary>
+<details><summary>Register Page</summary>
 <img src="static/readme-images/readme-register.png">
 </details>
 
 #### Login Page
 
-<details><summary>- Login Page</summary>
+<details><summary>Login Page</summary>
 <img src="static/readme-images/readme-login.png">
 </details>
 
 #### Logout Page
 
-<details><summary>- Logout Page</summary>
+<details><summary>Logout Page</summary>
 <img src="static/readme-images/readme-logout.png">
 </details>
 - The "Logout" link is only visible in the nav bar to users who are signed in. 
 
 #### Contact Form
 
-<details><summary>- Contact Form</summary>
+<details><summary>Contact Form</summary>
 <img src="static/readme-images/readme-contact.png">
 </details>
 
 #### Footer
 
-<details><summary>- Footer</summary>
+<details><summary>Footer</summary>
 <img src="static/readme-images/readme-footer.png">
 </details>
 
@@ -297,23 +297,23 @@ To search functionality was implemented with the following available search fiel
 
 #### Create 
 
-- The "New" link is only visible in the nav bar to users who are signed in. 
+- The "New" link is only visible in the nav bar to users who are signed in.
 - Clicking this link will bring the user to a form where they can create a new recipe.
 
-<details><summary>- New Recipe Page</summary>
+<details><summary>New Recipe Page</summary>
 <img src="static/readme-images/readme-new-recipe.png">
 </details>
 
 #### Read
 
-<details><summary>- Recipe Card</summary>
+<details><summary>Recipe Card</summary>
 <img src="static/readme-images/readme-recipe-card.png">
 </details>
 
 #### Update & Delete
 
-- The update & delete features are only accessible to the users who created their recipes.
-- <details><summary>- CRUD - update & delete</summary>
+The update and delete features are only accessible to the users who created their recipes.
+<details><summary>CRUD - update & delete</summary>
 <img src="static/readme-images/readme-edit-delete.png">
 </details>
 
@@ -333,31 +333,31 @@ Every link on the homepage was tested to ensure that it redirects to the appropr
 
 #### Navbar
 When user is not logged in, the nav bar looks like this:
-<details><summary>- Navbar</summary>
+<details><summary>Navbar</summary>
 <img src="static/readme-images/readme-nav-links.png" >
 </details>
 
-<details><summary>- Logo: the homepage reloads.</summary>
+<details><summary>Logo: the homepage reloads.</summary>
 <img src="static/readme-images/readme-homepage-not-loggedin.png" >
 </details>
 
-<details><summary>- Home: the homepage reloads.</summary>
+<details><summary>Home: the homepage reloads.</summary>
 <img src="static/readme-images/readme-homepage-not-loggedin.png" >
 </details>
 
-<details><summary>- Recipes: the recipe list page opens.</summary>
+<details><summary>Recipes: the recipe list page opens.</summary>
 <img src="static/readme-images/readme-recipes-notloggedin.png" >
 </details>
 
-<details><summary>- Register: the sign up page opens.</summary>
+<details><summary>Register: the sign up page opens.</summary>
 <img src="static/readme-images/readme-register-notloggedin.png" >
 </details>
 
-<details><summary>- Login: the log in page opens.</summary>
+<details><summary>Login: the log in page opens.</summary>
 <img src="static/readme-images/readme-signin-notloggedin.png" >
 </details>
 
-<details><summary>- Contact: the contact page opens.</summary>
+<details><summary>Contact: the contact page opens.</summary>
 <img src="static/readme-images/readme-contact-notloggedin.png" >
 </details>
 
@@ -365,191 +365,191 @@ When user is not logged in, the nav bar looks like this:
 
 Multiple tests were carried out to test the serach functionality:
 
-<details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
+<details><summary>The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
 <img src="static/readme-images/readme-empty-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search-enter.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in the body of multiple recipes (e.g "soy") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<details><summary>A keyword that is known to be in the body of multiple recipes (e.g "soy") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
 <img src="static/readme-images/readme-body-search.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in the description field of one of the recipes (e.g "tartare") is typed in the search bar. The recipe card containing that keyword in the description field is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in the description field of one of the recipes (e.g "tartare") is typed in the search bar. The recipe card containing that keyword in the description field is displayed on the page.</summary>
 <img src="static/readme-images/readme-description-search.png" >
 </details>
 
-<details><summary>-A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
+<details><summary>A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
 <img src="static/readme-images/readme-meal-type-search.png" >
 </details>
 
-<details><summary>-A keyword in all caps (e.g "SUGAR") is typed in the search bar. All the recipe cards containing the keyword "sugar" are displayed on the page.</summary>
+<details><summary>A keyword in all caps (e.g "SUGAR") is typed in the search bar. All the recipe cards containing the keyword "sugar" are displayed on the page.</summary>
 <img src="static/readme-images/readme-allcaps-search.png" >
 </details>
 
-<details><summary>-A keyword spelled with a combination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<details><summary>A keyword spelled with a combination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
 <img src="static/readme-images/readme-mix-low-uppercase-search.png" >
 </details>
 
-<details><summary>-A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes are displayed on the page.</summary>
+<details><summary>A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes are displayed on the page.</summary>
 <img src="static/readme-images/readme-wrong-search.png" >
 </details>
 
-<details><summary>-A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
+<details><summary>A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
 <img src="static/readme-images/readme-random-keys-numbers-search.png" >
 </details>
 
 #### Countdown
 The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates every second.
 
-<details><summary>- Countdown</summary>
+<details><summary>Countdown</summary>
 <img src="static/readme-images/readme-countdown.png" >
 </details>
 
-<details><summary>- In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
+<details><summary>In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
 The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
 
 #### Footer Links
 
-<details><summary>- Footer</summary>
+<details><summary>Footer</summary>
 <img src="static/readme-images/readme-footer.png" >
 </details>
 
-<details><summary>- LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
+<details><summary>LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
 <img src="static/readme-images/readme-linkedin.png" >
 </details>
 
-<details><summary>- Instagram: a new tab opens with Instagram landing page.</summary>
+<details><summary>Instagram: a new tab opens with Instagram landing page.</summary>
 <img src="static/readme-images/readme-instagram.png" >
 </details>
 
-<details><summary>- GitHub: a new tab opens with my personal GitHub profile.</summary>
+<details><summary>GitHub: a new tab opens with my personal GitHub profile.</summary>
 <img src="static/readme-images/readme-github.png" >
 </details>
 
 ### Recipes page
 The Recipes page displays the same navbar and footer that are found on the homepage.
-<details><summary>- Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
+<details><summary>Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
 <img src="static/readme-images/readme-recipes-notloggedin.png" >
 </details>
 
-<details><summary>- Recipe card: clicking on one of the recipes listed on the page opens the relevant recipe card. The buttons to edit and delete the recipe are not displayed.</summary>
+<details><summary>Recipe card: clicking on one of the recipes listed on the page opens the relevant recipe card. The buttons to edit and delete the recipe are not displayed.</summary>
 <img src="static/readme-images/readme-recipe-card-notloggedin.png" >
 </details>
 
 ### Register page
-<details><summary>- Register page opens with a form to let the user sign up. The hyperlink "Log in" is clickable, in case the user already has an account.</summary>
+<details><summary>Register page opens with a form to let the user sign up. The hyperlink "Log in" is clickable, in case the user already has an account.</summary>
 <img src="static/readme-images/readme-signup-notloggedin.png" >
 </details>
 
-<details><summary>- Click on "Log in": the Sign In page opens with a form to let the user log in.</summary>
+<details><summary>Click on "Log in": the Sign In page opens with a form to let the user log in.</summary>
 <img src="static/readme-images/readme-recipe-card-notloggedin.png" >
 </details>
 
 The form on the Register page has five fields which all need to be filled for the form to be submitted.
 
-<details><summary>- The Email field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Email field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-signup-email-alert.png" >
 </details>
 
-<details><summary>- The Username field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Username field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-signup-username-alert.png" >
 </details>
 
-<details><summary>- The Password field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Password field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-signup-password-alert.png" >
 </details>
 
-<details><summary>- The second Password field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The second Password field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-signup-2password-alert.png" >
 </details>
 
-<details><summary>- The second Password is not the same as the first one: an alert message prompts the user to type the same password.</summary>
+<details><summary>The second Password is not the same as the first one: an alert message prompts the user to type the same password.</summary>
 <img src="static/readme-images/readme-signup-wrong-password.png" >
 </details>
 
-<details><summary>- All the fields are duly filled in and the form is submitted. The user is redirected to the homepage and a success message reading "Successfully signed in as 'Username'" appears. The message disappears after 3 seconds. The nav bar now displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed. </summary>
+<details><summary>All the fields are duly filled in and the form is submitted. The user is redirected to the homepage and a success message reading "Successfully signed in as 'Username'" appears. The message disappears after 3 seconds. The nav bar now displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed. </summary>
 <img src="static/readme-images/readme-signup-success.png" >
 </details>
 
 ### Login page
-<details><summary>- Login page opens with a form to let the user log in. The hyperlink "Sign Up" is clickable, in case the user does not have an account yet.</summary>
+<details><summary>Login page opens with a form to let the user log in. The hyperlink "Sign Up" is clickable, in case the user does not have an account yet.</summary>
 <img src="static/readme-images/readme-login-notloggedin.png" >
 </details>
 
-<details><summary>- Click on "Sign up": the Sign Up page opens with a form to let the user register.</summary>
+<details><summary>Click on "Sign up": the Sign Up page opens with a form to let the user register.</summary>
 <img src="static/readme-images/readme-signup-notloggedin.png" >
 </details>
 
 ### Contact page
-<details><summary>- The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be submitted.</summary>
+<details><summary>The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be submitted.</summary>
 <img src="static/readme-images/readme-contact-notloggedin.png" >
 </details>
 
-<details><summary>- The First Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The First Name field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-no-firstname.png" >
 </details>
 
-<details><summary>- The Last Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Last Name field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-no-lastname.png" >
 </details>
 
-<details><summary>- The Email field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Email field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-noemail.png" >
 </details>
 
-<details><summary>- The Message field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Message field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-nomessage.png" >
 </details>
 
-<details><summary>- All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-contact-success.png" >
 </details>
 
-<details><summary>- By logging into the Django admin section, the new message can be found in the Contacts section.</summary>
+<details><summary>By logging into the Django admin section, the new message can be found in the Contacts section.</summary>
 <img src="static/readme-images/readme-contact-admin-success.png" >
 </details>
 
-### Logged in:
+### Logged in
 
 ### Homepage
 Every link on the homepage was tested to ensure that it redirects to the appropriate url.
 
 #### Navbar
 When user is logged in, the nav bar displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed.
-<details><summary>- Navbar</summary>
+<details><summary>Navbar</summary>
 <img src="static/readme-images/readme-nav-links-loggedin.png" >
 </details>
 
-<details><summary>- Logo: the homepage reloads.</summary>
+<details><summary>Logo: the homepage reloads.</summary>
 <img src="static/readme-images/readme-homepage-loggedin.png" >
 </details>
 
-<details><summary>- Home: the homepage reloads.</summary>
+<details><summary>Home: the homepage reloads.</summary>
 <img src="static/readme-images/readme-homepage-loggedin.png" >
 </details>
 
-<details><summary>- Recipes: the recipe list page opens.</summary>
+<details><summary>Recipes: the recipe list page opens.</summary>
 <img src="static/readme-images/readme-recipes-loggedin.png" >
 </details>
 
-<details><summary>- Logout: the accounts logout page opens.</summary>
+<details><summary>Logout: the accounts logout page opens.</summary>
 <img src="static/readme-images/readme-logout-loggedin.png" >
 </details>
 
-<details><summary>- New: the Add Recipe page opens.</summary>
+<details><summary>New: the Add Recipe page opens.</summary>
 <img src="static/readme-images/readme-new-loggedin.png" >
 </details>
 
-<details><summary>- Contact: the contact page opens.</summary>
+<details><summary>Contact: the contact page opens.</summary>
 <img src="static/readme-images/readme-contact-loggedin.png" >
 </details>
 
@@ -557,224 +557,229 @@ When user is logged in, the nav bar displays two new links: Logout and New. On t
 
 Multiple tests were carried out to test the serach functionality:
 
-<details><summary>-The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
+<details><summary>The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
 <img src="static/readme-images/readme-empty-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the Go button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search.loggedin.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in one of the recipe title (e.g "noodles" or "soup") is typed in the search bar and the enter button is clicked. The recipe card containing that keyword in the title is displayed on the page.</summary>
 <img src="static/readme-images/readme-title-search-enter-loggedin.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in the body of multiple recipes (e.g "soy") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<details><summary>A keyword that is known to be in the body of multiple recipes (e.g "soy") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
 <img src="static/readme-images/readme-body-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword that is known to be in the description field of one of the recipes (e.g "tartare") is typed in the search bar. The recipe card containing that keyword in the description field is displayed on the page.</summary>
+<details><summary>A keyword that is known to be in the description field of one of the recipes (e.g "tartare") is typed in the search bar. The recipe card containing that keyword in the description field is displayed on the page.</summary>
 <img src="static/readme-images/readme-description-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
+<details><summary>A keyword that corresponds to one of the meal types in the recipe fields (e.g "dessert") is typed in the search bar. All the recipe cards belonging to the relevant meal type are displayed on the page.</summary>
 <img src="static/readme-images/readme-meal-type-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword in all caps (e.g "SUGAR") is typed in the search bar. All the recipe cards containing the keyword "sugar" are displayed on the page.</summary>
+<details><summary>A keyword in all caps (e.g "SUGAR") is typed in the search bar. All the recipe cards containing the keyword "sugar" are displayed on the page.</summary>
 <img src="static/readme-images/readme-allcaps-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword spelled with a combination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
+<details><summary>A keyword spelled with a combination of lower and upper case letters (e.g "sUGaR" or "Sugar") is typed in the search bar. All the recipe cards containing that keyword are displayed on the page.</summary>
 <img src="static/readme-images/readme-mix-low-uppercase-search-loggedin.png" >
 </details>
 
-<details><summary>-A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes are displayed on the page.</summary>
+<details><summary>A keyword that is known not to be in any recipe (e.g "meat" or "butter") is typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes are displayed on the page.</summary>
 <img src="static/readme-images/readme-wrong-search-loggedin.png" >
 </details>
 
-<details><summary>-A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
+<details><summary>A combination of random keys and numbers are typed in the search bar. The alert "Sorry, no recipes found for your search!" appears in the space right below the nav bar and automatically disappears after 3 seconds. The Recipes page reloads showing the title "Latest Vegan Recipes" and no recipes displayed on the page.</summary>
 <img src="static/readme-images/readme-random-keys-numbers-search-loggedin.png" >
 </details>
 
 #### Countdown
 The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates every second.
 
-<details><summary>- Countdown</summary>
+<details><summary>Countdown</summary>
 <img src="static/readme-images/readme-countdown.png" >
 </details>
 
-<details><summary>- In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
+<details><summary>In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
 The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
 
 #### Footer Links
 
-<details><summary>- Footer</summary>
+<details><summary>Footer</summary>
 <img src="static/readme-images/readme-footer.png" >
 </details>
 
-<details><summary>- LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
+<details><summary>LinkedIn: a new tab opens with my personal LinkedIn page.</summary>
 <img src="static/readme-images/readme-linkedin.png" >
 </details>
 
-<details><summary>- Instagram: a new tab opens with Instagram landing page.</summary>
+<details><summary>Instagram: a new tab opens with Instagram landing page.</summary>
 <img src="static/readme-images/readme-instagram.png" >
 </details>
 
-<details><summary>- GitHub: a new tab opens with my personal GitHub profile.</summary>
+<details><summary>GitHub: a new tab opens with my personal GitHub profile.</summary>
 <img src="static/readme-images/readme-github.png" >
 </details>
 
 ### Recipes page
 The Recipes page displays the same navbar and footer that are found on the homepage.
-<details><summary>- Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
+<details><summary>Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
 <img src="static/readme-images/readme-recipes-loggedin.png" >
 </details>
 
-<details><summary>- Recipe card: clicking on one of the recipes listed on the page opens the relevant recipe card. The buttons to edit and delete the recipe are not displayed.</summary>
+<details><summary>Recipe card: clicking on one of the recipes listed on the page opens the relevant recipe card. The buttons to edit and delete the recipe are not displayed.</summary>
 <img src="static/readme-images/readme-recipe-card-loggedin.png" >
 </details>
 
 ### New
-<details><summary>- Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created. The Dish Type and Prep Time fields are prepopulated.</summary>
+
+<details><summary>Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created. The Dish Type and Prep Time fields are prepopulated.</summary>
 <img src="static/readme-images/readme-new-loggedin.png" >
 <img src="static/readme-images/readme-new2-loggedin.png" >
 </details>
 
-<details><summary>- The Title field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Title field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-title.png" >
 </details>
 
-<details><summary>- The Description field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Description field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-description.png" >
 </details>
 
-<details><summary>- The Ingredients field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<details><summary>The Ingredients field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
 <img src="static/readme-images/readme-new-recipe-no-ingredients.png" >
 </details>
 
-<details><summary>- The Method field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<details><summary>The Method field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
 <img src="static/readme-images/readme-new-recipe-no-method.png" >
 </details>
 
-<details><summary>- No image is uploaded: an alert message prompts the user to fill it in.</summary>
+<details><summary>No image is uploaded: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-image.png" >
 </details>
 
-<details><summary>- The Describe Image field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Describe Image field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-image-description.png" >
 </details>
 
-<details><summary>- All the fields are duly filled in and the recipe is created. The user is redirected to the Recipes page, where the newly created recipe is showing as first in the list. A success message reading "Recipe added successfully" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>All the fields are duly filled in and the recipe is created. The user is redirected to the Recipes page, where the newly created recipe is showing as first in the list. A success message reading "Recipe added successfully" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-new-recipe-success.png" >
 </details>
 
-<details><summary>- Recipe card: clicking on the newly created recipe opens the relevant recipe card. The name of the recipe creator is displayed as well as the date and time. The buttons to edit and delete the recipe are displayed.</summary>
+<details><summary>Recipe card: clicking on the newly created recipe opens the relevant recipe card. The name of the recipe creator is displayed as well as the date and time. The buttons to edit and delete the recipe are displayed.</summary>
 <img src="static/readme-images/readme-new-recipe-card-opened.png" >
 </details>
 
 ### Edit Recipe
-<details><summary>- Edit Recipe: clicking on the Edit button opens the edit form where the user can make amendments to any of the fields of their recipe.</summary>
+
+<details><summary>Edit Recipe: clicking on the Edit button opens the edit form where the user can make amendments to any of the fields of their recipe.</summary>
 <img src="static/readme-images/readme-edit-recipe.png" >
 </details>
 
-<details><summary>- Edit Title: the title gets changed from "Spicy Kale Crisps" to "Spicy Kale Snack" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated title. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>Edit Title: the title gets changed from "Spicy Kale Crisps" to "Spicy Kale Snack" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated title. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-edit-title-success.png" >
 </details>
 
-<details><summary>- Edit Description: the description gets shortened by removing the string "or sandwiches" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated description. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>Edit Description: the description gets shortened by removing the string "or sandwiches" and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated description. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-edit-description-success.png" >
 </details>
 
-<details><summary>- Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the igredient list now displays an additional bullet point.</summary>
+<details><summary>Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the igredient list now displays an additional bullet point.</summary>
 <img src="static/readme-images/readme-edit-ingredients-success.png" >
 </details>
 
-<details><summary>- Edit Method: a bullet point is added in the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated image. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>Edit Method: a bullet point is added in the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated image. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-edit-method-success.png" >
 </details>
 
-<details><summary>- Edit the image: a new image is uploaded in a separate field and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the method field now displays an additional bullet point.</summary>
+<details><summary>Edit the image: a new image is uploaded in a separate field and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the method field now displays an additional bullet point.</summary>
 <img src="static/readme-images/readme-edit-image-success.png" >
 </details>
 
-<details><summary>- Edit the dish type and prep time: the default choices are changed to "Main" and "55 min" respectively and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that dish type and prep time have been updated.</summary>
+<details><summary>Edit the dish type and prep time: the default choices are changed to "Main" and "55 min" respectively and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that dish type and prep time have been updated.</summary>
 <img src="static/readme-images/readme-edit-type-time-success.png" >
 </details>
 
-<details><summary>- Edit the image description: the word "wooden" is removed from the image description and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. As the image description is not a visibile field in the recipe card, to verify that it was successfully changed, we need to log into the Django admin panel. There, in the Recipes section, we can open the relevant recipe and verify that the image alt description had indeed being changed.</summary>
+<details><summary>Edit the image description: the word "wooden" is removed from the image description and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. As the image description is not a visibile field in the recipe card, to verify that it was successfully changed, we need to log into the Django admin panel. There, in the Recipes section, we can open the relevant recipe and verify that the image alt description had indeed being changed.</summary>
 <img src="static/readme-images/readme-edit-image-alt-success.png" >
 </details>
 
-<details><summary>- The The_Tester user opens a recipe that was created by another user, for example, the Cinnamon Swirls. The Edit and Delete buttons are not available for the current logged in user.</summary>
+<details><summary>The_Tester user opens a recipe that was created by another user, for example, the Cinnamon Swirls. The Edit and Delete buttons are not available for the current logged in user.</summary>
 <img src="static/readme-images/readme-different-user-no-edit.png" >
 </details>
 
 ### Delete Recipe
-<details><summary>- The "Delete" button is clicked in the recipe card. The delete confirmation page loads and a message asks the user to confirm they want to delete the recipe. </summary>
+
+<details><summary>The "Delete" button is clicked in the recipe card. The delete confirmation page loads and a message asks the user to confirm they want to delete the recipe. </summary>
 <img src="static/readme-images/readme-delete-confirmation.png" >
 </details>
 
-<details><summary>- The "Confirm" button is clicked. The user is redirected to the Recipes page where the deleted recipe is no longer displayed in the list. A success message reading "Recipe deleted successfully!" is displayed. The message disappears after 3 seconds. </summary>
+<details><summary>The "Confirm" button is clicked. The user is redirected to the Recipes page where the deleted recipe is no longer displayed in the list. A success message reading "Recipe deleted successfully!" is displayed. The message disappears after 3 seconds. </summary>
 <img src="static/readme-images/readme-delete-success.png" >
 </details>
 
 ### Logout page
-<details><summary>- The Logout page opens with a confirmation question: "Are you sure you want to sign out?" The button "Sign Out" is clickable.</summary>
+
+<details><summary>The Logout page opens with a confirmation question: "Are you sure you want to sign out?" The button "Sign Out" is clickable.</summary>
 <img src="static/readme-images/readme-logout-loggedin.png" >
 </details>
 
-<details><summary>- Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: Register and Login. On the other hand, the link "New" and "Logout" are no longer displayed</summary>
+<details><summary>Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: Register and Login. On the other hand, the link "New" and "Logout" are no longer displayed</summary>
 <img src="static/readme-images/readme-loggedout-success.png" >
 </details>
 
 ### Contact page
-<details><summary>- The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be submitted.</summary>
+
+<details><summary>The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be submitted.</summary>
 <img src="static/readme-images/readme-contact-notloggedin.png" >
 </details>
 
-<details><summary>- The First Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The First Name field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-no-firstname.png" >
 </details>
 
-<details><summary>- The Last Name field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Last Name field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-no-lastname.png" >
 </details>
 
-<details><summary>- The Email field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Email field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-noemail.png" >
 </details>
 
-<details><summary>- The Message field is not filled: an alert message prompts the user to fill it in.</summary>
+<details><summary>The Message field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-contact-nomessage.png" >
 </details>
 
-<details><summary>- All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>All the fields are duly filled in and the form is submitted. The message form is cleared and a success message reading "Thank you for your message!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-contact-success.png" >
 </details>
 
-<details><summary>- By logging into the Django admin section, the new message can be found in the Contacts section.</summary>
+<details><summary>By logging into the Django admin section, the new message can be found in the Contacts section.</summary>
 <img src="static/readme-images/readme-contact-admin-success.png" >
 </details>
 
 ## Admin panel
 
-<details><summary>- When we login to Django admin panel we come to the admin page.</summary>
+<details><summary>When we login to Django admin panel we come to the admin page.</summary>
 <img src="static/readme-images/readme-admin-login.png" >
 <img src="static/readme-images/readme-admin-homepage.png" >
 </details>
 
 ### Add Recipes
 
-<details><summary>-As a site admin I can create recipes to share with other users.</summary>
+<details><summary>As a site admin I can create recipes to share with other users.</summary>
 <img src="static/readme-images/readme-admin-add-recipe.png" >
 </details>
 
 ### Delete Recipes
 
-<details><summary>-As a site admin I can delete any recipe that is created by any user.</summary>
+<details><summary>As a site admin I can delete any recipe that is created by any user.</summary>
 <img src="static/readme-images/readme-admin-delete-recipe.png" >
 </details>
 
@@ -782,11 +787,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 As a site admin I can view messages submitted via the contact form so that I can communicate with site users.
 
-<details><summary>- Within the admin panel, the admin can select Contacts:</summary>
+<details><summary>Within the admin panel, the admin can select Contacts:</summary>
 <img src="static/readme-images/readme-admin-contacts.png" >
 </details>
 
-<details><summary>- Here, the admin can click into messages to read them:</summary>
+<details><summary>Here, the admin can click into messages to read them:</summary>
 <img src="static/readme-images/readme-admin-contact-read.png" >
 <img src="static/readme-images/readme-admin-contact-read2.png" >
 </details>
@@ -794,7 +799,7 @@ As a site admin I can view messages submitted via the contact form so that I can
 ### Remove users
 
 As a site admin I can remove users so that they will no longer be able to post unsuitable content. When a user is deleted, all of their recipes get deleted as well.
-<details><summary>- Here, the admin can select users to delete:</summary>
+<details><summary>Here, the admin can select users to delete:</summary>
 <img src="static/readme-images/readme-admin-delete-users.png" >
 <img src="static/readme-images/readme-admin-delete-users-2.png" >
 </details>
@@ -802,119 +807,122 @@ As a site admin I can remove users so that they will no longer be able to post u
 ## Validator Testing
 
 #### HTML files
-- The html files pass through the [W3C validator](https://validator.w3.org/) with no html issues found
-- Errors listed only reference {%%} & {{}} tags.
+The html files pass through the [W3C validator](https://validator.w3.org/) with no html issues found. Errors listed only reference {%%} & {{}} tags.
 
-<details><summary>- Home page</summary>
+<details><summary>Home page</summary>
 <img src="static/readme-images/readme-W3C-homepage.png">
 </details>
 
-<details><summary>- Sign Up</summary>
+<details><summary>Recipes</summary>
+<img src="static/readme-images/readme-W3C-recipes.png">
+</details>
+
+<details><summary>Sign Up</summary>
 <img src="static/readme-images/readme-W3C-signup.png">
 </details>
 
-<details><summary>- Log In</summary>
+<details><summary>Log In</summary>
 <img src="static/readme-images/readme-W3C-login.png">
 </details>
 
-<details><summary>- New</summary>
+<details><summary>New</summary>
 <img src="static/readme-images/readme-W3C-new.png">
 </details>
 
-<details><summary>- Contact</summary>
+<details><summary>Contact</summary>
 <img src="static/readme-images/readme-W3C-contact.png">
 </details>
 
-<details><summary>- Sign Out</summary>
-<img src="static/readme-images/readme-W3C-signout.png">
+<details><summary>Sign Out</summary>
+<img src="static/readme-images/readme-W3C-logout.png">
 </details>
 
 #### CSS files 
-- The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
+The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
 
-<details><summary>- Jigsaw validator message</summary>
+<details><summary>Jigsaw validator message</summary>
 <img src="static/readme-images/readme-w3c-css.png">
 </details>
 
 #### JavaScript file
-- The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
+The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
 
-<details><summary>- JSHint validator message</summary>
+<details><summary>JSHint validator message</summary>
 <img src="static/readme-images/readme-jshint.png">
 </details>
 
 #### Python files
-- The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
+The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
 
-<details><summary>- Blog apps.py</summary>
+<details><summary>Blog apps.py</summary>
 <img src="static/readme-images/readme-pep8ci-blog-apps-py.png">
 </details>
 
-<details><summary>- Blog urls.py</summary>
+<details><summary>Blog urls.py</summary>
 <img src="static/readme-images/readme-pep8ci-blog-urls-py.png">
 </details>
 
-<details><summary>- Blog views.py</summary>
+<details><summary>Blog views.py</summary>
 <img src="static/readme-images/readme-pep8ci-blog-views-py.png">
 </details>
 
-<details><summary>- Cestlav asgi.py</summary>
+<details><summary>Cestlav asgi.py</summary>
 <img src="static/readme-images/readme-pep8ci-cestlav-asgi-py.png">
 </details>
 
-<details><summary>- Cestlav urls.py</summary>
-<img src="static/readme-imagese/readme-pep8ci-cestlav-urls-py.png">
+<details><summary>Cestlav urls.py</summary>
+<img src="static/readme-images/readme-pep8ci-cestlav-urls-py.png">
 </details>
 
-<details><summary>- Cestlav wsgi.py</summary>
+<details><summary>Cestlav wsgi.py</summary>
 <img src="static/readme-images/readme-pep8ci-cestlav-wsgi-py.png">
 </details>
 
-<details><summary>- Contact admin.py</summary>
+<details><summary>Contact admin.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-admin-py.png">
 </details>
 
-<details><summary>- Contact apps.py</summary>
+<details><summary>Contact apps.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-apps-py.png">
 </details>
 
-<details><summary>- Contact forms.py</summary>
+<details><summary>Contact forms.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-forms-py.png">
 </details>
 
-<details><summary>- Contact models.py</summary>
+<details><summary>Contact models.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-models-py.png">
 </details>
 
-<details><summary>- Contact urls.py</summary>
+<details><summary>Contact urls.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-urls-py.png">
 </details>
 
-<details><summary>- Contact views.py</summary>
+<details><summary>Contact views.py</summary>
 <img src="static/readme-images/readme-pep8ci-contact-views-py.png">
 </details>
 
-<details><summary>- Recipes admin.py</summary>
+<details><summary>Recipes admin.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-admin-py.png">
 </details>
 
-<details><summary>- Recipes apps.py</summary>
+<details><summary>Recipes apps.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-apps-py.png">
 </details>
 
-<details><summary>- Recipes forms.py</summary>
+<details><summary>Recipes forms.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-forms-py.png">
 </details>
 
-<details><summary>- Recipes models.py</summary>
+<details><summary>Recipes models.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-models-py.png">
 </details>
 
-<details><summary>- Recipes urls.py</summary>
+<details><summary>Recipes urls.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-urls-py.png">
 </details>
 
-<details><summary>- Recipes views.py</summary>
+<details><summary>Recipes views.py</summary>
 <img src="static/readme-images/readme-pep8ci-recipes-views-py.png">
 </details>
 
@@ -924,39 +932,39 @@ As a site admin I can remove users so that they will no longer be able to post u
 - I have checked the responsiveness on different window sizes.
 
 ## Accessibility
-- The app has an excellent Accessibility rating in Lighthouse:
+The app has an excellent Accessibility rating in Lighthouse:
 
-<details><summary>- Homepage</summary>
+<details><summary>Homepage</summary>
 <img src="static/readme-images/readme-lighthouse-homepage-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-homepage-mobile.png" >
 </details>
 
-<details><summary>- Recipes</summary>
+<details><summary>Recipes</summary>
 <img src="static/readme-images/readme-lighthouse-recipes-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-recipes-mobile.png" >
 </details>
 
-<details><summary>- Register</summary>
+<details><summary>Register</summary>
 <img src="static/readme-images/readme-lighthouse-register-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-register-mobile.png" >
 </details>
 
-<details><summary>- Login</summary>
+<details><summary>Login</summary>
 <img src="static/readme-images/readme-lighthouse-login-desktop.png" >
 <img src="static/ireadme-images/readme-lighthouse-login-mobile.png" >
 </details>
 
-<details><summary>- Contact</summary>
+<details><summary>Contact</summary>
 <img src="static/readme-images/readme-lighthouse-contact-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-contact-mobile.png" >
 </details>
 
-<details><summary>- New</summary>
+<details><summary>New</summary>
 <img src="static/readme-images/readme-lighthouse-new-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-new-mobile.png" >
 </details>
 
-<details><summary>- Logout</summary>
+<details><summary>Logout</summary>
 <img src="static/readme-images/readme-lighthouse-logout-desktop.png" >
 <img src="static/readme-images/readme-lighthouse-logout-mobile.png" >
 </details>
@@ -982,7 +990,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 - Bootstrap
 
 ### Modules used for the development of this project:
-<details><summary>- Requirements.</summary>
+<details><summary>Requirements.</summary>
     <img src="static/readme-images/readme-requirements.png">
     </details>
 
