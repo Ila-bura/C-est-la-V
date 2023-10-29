@@ -51,7 +51,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
       - [Update \& Delete](#update--delete)
     - [Features Left to Implement](#features-left-to-implement)
   - [Manual Testing](#manual-testing)
-    - [Not logged in:](#not-logged-in)
+    - [Not logged in](#not-logged-in)
     - [Homepage](#homepage)
       - [Navbar](#navbar)
       - [Search bar](#search-bar-1)
@@ -111,6 +111,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
         - [Automatic and Manual deploy](#automatic-and-manual-deploy)
         - [Final Deployment](#final-deployment)
   - [Credits](#credits)
+    - [Code](#code)
     - [Content](#content)
   - [Images](#images)
      
@@ -294,7 +295,7 @@ To search functionality was implemented with the following available search fiel
 
 ## Manual Testing
 
-### Not logged in:
+### Not logged in
 
 ### Homepage
 Every link on the homepage was tested to ensure that it redirects to the appropriate url.
@@ -921,9 +922,9 @@ As a site admin I can remove users so that they will no longer be able to post u
 - Font Awesome - to add icons to the social links in the footer element.
 - GitHub - to store my repository for submission.
 - Balsamiq - used to create mockups of the project prior to starting.
+- UXWing - for the social media icons and the recipe card icons.
 - Am I Responsive? - to ensure the project looked good across all devices.
-- Favicon - to provide the code & images for the icon in the tab bar.
-- Django
+- Favicon - to create the code and images for the icon in the tab bar.
 - Bootstrap
 
 ### Modules used for the development of this project:
@@ -1104,8 +1105,39 @@ The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcd
 
 ## Credits
 
+### Code
+
+- To set up the initial structure of the app and to implement the Django error messages, I followed the Code Institute tutorial "I think therefore I blog".
+- To better understand Django, I also watched the Code Institute masterclass: [Django Blog Webinar](https://www.youtube.com/watch?v=YH--VobIA8c) and a few Django walkthrough videos from [Codemycom](https://www.youtube.com/c/Codemycom)
+- For the recipes model and to implement the search and authentication functionalities, I followed the YouTube tutorial videos by [Dee Mc](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy); 
+- To implement the countdown, I followed the YouTube tutorial by [GreatStack](https://www.youtube.com/watch?v=_LExTzOhe7s)
+- To implement the Agile methodology in GitHub, I followed [The guide to the Github Agile Tool](https://www.youtube.com/watch?v=U_dMihBgUNY) by Kasia Bogucka
+
 ### Content
+The recipes were adapted from the following recipe books:
+-  Vegan on the go by J. Eckmeier and D. Lais
+-  DEliciously Ella by E. Woodward
+
 
 ## Images
 
-- The images of the recipes were sourced from [pexels.com](https://www.pexels.com/)
+- The images of the recipes were sourced from [pexels.com](https://www.pexels.com/):
+
+- Cinnamon Swirls - [Photo by Polina Tankilevitch](https://www.pexels.com/photo/close-up-of-a-cinnamon-roll-with-walnuts-5419186/)
+- Sweet Potato Burgers - [Photo by Markus Spiske](https://www.pexels.com/photo/burger-with-lettuce-and-tomato-on-white-and-red-round-plate-116739/)
+- Tomato Bruschetta - [Photo by Shameel mukkath](https://www.pexels.com/photo/bruschetta-with-tomatoes-black-olives-and-basil-5639411/)
+- Rice & Bean Burritos - [Photo by Harish .P](https://www.pexels.com/photo/burrito-on-white-ceramic-plate-11136408/)
+- Sweetcorn Frittatas - [Photo by Shameel mukkath](https://www.pexels.com/photo/a-close-up-shot-of-a-frittata-in-a-skillet-5639255/)
+- Spicy Kale Crisps - [Photo by Eva Bronzini](https://www.pexels.com/photo/close-up-shot-of-kale-on-a-wooden-chopping-board-5755943/)
+- Asparagus Quiche - [Photo by Amanda Reed](https://www.pexels.com/photo/three-round-pies-288264/)
+- Chia Seed Muffins - [Photo by ROMAN ODINTSOV](https://www.pexels.com/photo/top-view-of-a-raw-muffins-on-a-tray-5847181/)
+- Squash Soup - [Photo by Nataliya Vaitkevich](https://www.pexels.com/photo/overhead-shot-of-pumpkin-soup-in-a-mug-5605523/)
+- Potato Cakes - [Photo by Julia Avamotive](https://www.pexels.com/photo/person-dipping-celery-on-a-ranch-dip-6369302/)
+- Buckwheat Pancakes - [Photo by Monstera Product](https://www.pexels.com/photo/delicious-buckwheat-pancakes-with-apples-on-table-7144690/)
+- Granny's Pearl Barley Stew - [Photo by Roy Sloan](https://www.pexels.com/photo/homemade-stew-in-bowl-6166796/)
+- Chia & Cashew Pudding - [Photo by Nataliya Vaitkevich](https://www.pexels.com/photo/delicious-jars-of-desserts-beside-lavender-flowers-5803174/)
+- Sweet Potato Wedges - [Photo by Georgiana Mirela](https://www.pexels.com/photo/close-up-photo-of-potato-wedges-1439177/)
+- Baklava - [Photo by Engin Akyurt](https://www.pexels.com/photo/close-up-shot-of-baklava-dessert-on-white-ceramic-plate-7803118/)
+- Asian-Inspired Noodles - [Photo by Engin Akyurt](https://www.pexels.com/photo/stir-fry-noodles-in-bowl-2347311/)
+- Macadamia Cream - [Photo by Any Lane](https://www.pexels.com/photo/tasty-healthy-dessert-with-berries-served-on-pink-table-with-wooden-spoon-5945660/)
+- Muesli Bars - [Photo by Annelies Brouw](https://www.pexels.com/photo/tray-of-cookies-3065512/)
