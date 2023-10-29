@@ -78,9 +78,11 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Delete Recipes](#delete-recipes)
     - [Contact](#contact)
     - [Remove users](#remove-users)
-    - [Browsers](#browsers)
   - [Validator Testing](#validator-testing)
-      - [HTML files pass through the W3C validator with no issues found](#html-files-pass-through-the-w3c-validator-with-no-issues-found)
+      - [HTML files](#html-files)
+      - [CSS files](#css-files)
+    - [Browsers](#browsers)
+  - [Accessibility](#accessibility)
      
 
 ## UX
@@ -735,18 +737,63 @@ As a site admin I can remove users so that they will no longer be able to post u
 <img src="static/readme-images/readme-admin-delete-users-2.png" >
 </details>
 
+## Validator Testing
+
+#### HTML files
+- The html files pass through the [W3C validator](https://validator.w3.org/) with no html issues found
+- Errors listed only reference {%%} & {{}} tags.
+
+#### CSS files 
+- CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
+
+<details><summary>- Jigsaw validator message</summary>
+<img src="static/images-readme/readme-w3c-css.png" >
+</details>
+
+- Python files passed through [PEP8 Online](http://pep8online.com/) with no issues found.
+
+![PEP8 message](static/images-readme/readme-pep8.png)
+
 ### Browsers
 
 - I checked the site for compatibility on different browsers (Chrome, Firefox).
 - I have checked the responsiveness on different window sizes.
 
-## Validator Testing
 
-#### HTML files pass through the W3C validator with no issues found
-<details><summary>- Add recipes</summary>
-<img src=".png" >
+## Accessibility
+- The app has an excellent Accessibility rating in Lighthouse:
+
+<details><summary>- Homepage</summary>
+<img src="static/images-readme/readme-lighthouse-homepage-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-homepage-mobile.png" >
 </details>
 
-<details><summary>- Contact Us</summary>
-<img src="static/readme-images/html_validator-.png" >
+<details><summary>- Recipes</summary>
+<img src="static/images-readme/readme-lighthouse-recipes-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-recipes-mobile.png" >
+</details>
+
+<details><summary>- Register</summary>
+<img src="static/images-readme/readme-lighthouse-register-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-register-mobile.png" >
+</details>
+
+<details><summary>- Login</summary>
+<img src="static/images-readme/readme-lighthouse-login-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-login-mobile.png" >
+</details>
+
+<details><summary>- Contact</summary>
+<img src="static/images-readme/readme-lighthouse-contact-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-contact-mobile.png" >
+</details>
+
+<details><summary>- New</summary>
+<img src="static/images-readme/readme-lighthouse-new-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-new-mobile.png" >
+</details>
+
+<details><summary>- Logout</summary>
+<img src="static/images-readme/readme-lighthouse-logout-desktop.png" >
+<img src="static/images-readme/readme-lighthouse-logout-mobile.png" >
 </details>

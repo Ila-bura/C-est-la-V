@@ -10,8 +10,7 @@
         ><img
           src="{% static 'images/logo.png' %}"
           alt="Vegan Recipe Sharing Logo"
-          class="logo"
-      /></a>
+          class="logo"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -31,15 +30,13 @@
               class="nav-link {% if url_name == 'blog' %}active{% endif %}"
               aria-current="page"
               href="{% url 'blog' %}"
-              >Home</a
-            >
+              >Home</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link {% if url_name == 'recipes' %}active{% endif %}"
               href="{% url 'recipes' %}"
-              >Recipes</a
-            >
+              >Recipes</a>
           </li>
           <!-- Verify if user is logged in -->
           {% if request.user.is_authenticated %}
@@ -47,16 +44,14 @@
             <a
               class="nav-link {% if url_name == 'accounts_logout' %}active{% endif %}"
               href="/accounts/logout/"
-              >Logout</a
-            >
+              >Logout</a>
           </li>
           <!-- The New tab only shows if user is logged in -->
           <li class="nav-item">
             <a
               class="nav-link {% if url_name == 'add_recipe' %}active{% endif %}"
               href="{% url 'add_recipe' %}"
-              >New</a
-            >
+              >New</a>
           </li>
           <!-- If not logged in, show Register and Login links -->
           {% else %}
@@ -64,23 +59,20 @@
             <a
               class="nav-link {% if url_name == 'accounts_signup' %} active {% endif %}"
               href="/accounts/signup/"
-              >Register</a
-            >
+              >Register</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link {% if url_name == 'accounts_login' %} active {% endif %}"
               href="/accounts/login/"
-              >Login</a
-            >
+              >Login</a>
           </li>
           {% endif %}
           <li class="nav-item">
             <a
               class="nav-link {% if url_name == 'accounts_contact' %} active{% endif %}"
               href="/contact/contact/"
-              >Contact</a
-            >
+              >Contact</a>
           </li>
         </ul>
 
@@ -96,8 +88,7 @@
             name="q"
             type="search"
             placeholder="Search recipe"
-            aria-label="Search"
-          />
+            aria-label="Search">
           <button class="btn btn-custom" type="submit">Go!</button>
         </form>
       </div>

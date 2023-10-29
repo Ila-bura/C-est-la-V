@@ -17,7 +17,7 @@
     --sage: #547C5A;
 
 
-    /* Utils */
+    /* Utilities */
     --smal-box-shadow: 1px -1px 7px 0 #00000061;
     --border: 1px solid #00000030;
 }
@@ -40,8 +40,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--title);
     color: var(--sage);
+    font-family: var(--title);
 }
 
 /* Header */
@@ -58,14 +58,13 @@ a.nav-link {
 .nav-link:hover {
     color: var(--sage);
     font-weight: bolder;
-
 }
 
 a {
     color: var(--sage);
 }
 
-/* Search */
+/* Search bar */
 .btn-custom {
     background-color: var(--off-white);
     border-color: var(--mud);
@@ -78,32 +77,29 @@ a {
 }
 
 main {
-    flex: 1 0 auto;
     background-color: var(--white);
+    flex: 1 0 auto;
 }
 
 /* Alert Messages */
-
 .alert-msg {
     margin-top: 30px;
 }
 
-
 /* Footer */
-
 footer {
-    flex-shrink: 0;
+    align-items: center;
     background-color: var(--off-white);
+    border-top: var(--border);
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
     justify-content: center;
-    align-items: center;
-    border-top: var(--border);
 }
 
 .social-icon {
-    height: 1.5rem;
     margin: 1.5rem;
+    height: 1.5rem;
 }
 
 .active {
@@ -112,12 +108,11 @@ footer {
 }
 
 /* Form */
-
 .form {
-    width: 100%;
-    margin: 3% auto;
-    box-shadow: var(--smal-box-shadow);
     border-radius: 5px;
+    box-shadow: var(--smal-box-shadow);
+    margin: 3% auto;
+    width: 100%;
 }
 
 .form-btn {
@@ -126,24 +121,24 @@ footer {
 
 .form-btn:hover {
     background-color: var(--green);
-    border-color: var(--green);
+    border-color: var(--black);
 }
 
 /* Recipes */
 .card {
+    background-color: rgba(140, 166, 95, 0.8);
     height: 90%;
     margin-top: 1rem;
-    background-color: rgba(140, 166, 95, 0.8);
 }
 
 .recipes {
-    text-decoration: none;
     color: var(--black);
+    text-decoration: none;
 }
 
 .card:hover {
-    cursor: pointer;
     color: var(--black);
+    cursor: pointer;
 }
 
 .card-title {
@@ -156,7 +151,6 @@ footer {
 
 .card-title:hover {
     color: var(--sage);
-
 }
 
 .recipe-info {
@@ -177,16 +171,15 @@ footer {
 }
 
 .recipe-img {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .recipe-pic {
-    width: 100%;
     height: auto;
+    width: 100%;
 }
-
 
 .heading {
     font-family: var(--title);
@@ -202,7 +195,6 @@ footer {
 }
 
 /* Home Page */
-
 .recipe-wrapper {
     display: flex;
     flex-direction: column;
@@ -210,27 +202,27 @@ footer {
 }
 
 a.image-container {
-    position: relative;
-    text-align: center;
-    margin: 2%;
-    overflow: hidden;
-    text-decoration: none;
     border: 1px solid var(--border);
     box-shadow: var(--smal-box-shadow);
+    margin: 2%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
 }
 
 .image-container img {
-    width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .label {
-    width: 100%;
     background-color: rgba(140, 166, 95, 0.8);
+    left: 50%;
     position: absolute;
     top: 80%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .label h3 {
@@ -243,15 +235,13 @@ a.image-container {
 
 .label:hover {
     background-color: var(--off-white);
-
 }
 
 /* Countdown */
-
 .countdown {
-    text-align: center;
-    margin-top: 25px;
     margin-bottom: 20px;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .countdown h3 {
@@ -260,8 +250,8 @@ a.image-container {
 }
 
 .launch-time {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
@@ -275,14 +265,12 @@ a.image-container {
     margin-bottom: -10px;
 }
 
-
-/* Sign In and Up forms */
+/* Sign In and Sign Up forms */
 .sign-card {
     background-color: rgba(140, 166, 95, 0.8);
 }
 
 /* Contact Form */
-
 @media (min-width: 992px) {
     .cont-custom {
         max-width: 35%;
@@ -322,7 +310,7 @@ a.image-container {
 
     .recipe-img {
         width: 40%;
-        margin: 0, auto;
+        margin-right: 20px;
     }
 
     .recipe-detail {
