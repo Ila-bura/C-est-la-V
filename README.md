@@ -81,8 +81,38 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
   - [Validator Testing](#validator-testing)
       - [HTML files](#html-files)
       - [CSS files](#css-files)
+      - [JavaScript file](#javascript-file)
+      - [Python files](#python-files)
     - [Browsers](#browsers)
   - [Accessibility](#accessibility)
+  - [Fixed bugs](#fixed-bugs)
+  - [Technologies Used](#technologies-used)
+    - [Main Languages Used](#main-languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+    - [Modules used for the development of this project:](#modules-used-for-the-development-of-this-project)
+  - [Deployment](#deployment)
+    - [Creating Database using ElephantSQL](#creating-database-using-elephantsql)
+    - [Deploying the website in Heroku](#deploying-the-website-in-heroku)
+      - [Before deploying in Heroku following files were created:](#before-deploying-in-heroku-following-files-were-created)
+      - [Login or create an account at Heroku](#login-or-create-an-account-at-heroku)
+      - [Creating an app](#creating-an-app)
+      - [Open settings Tab](#open-settings-tab)
+        - [Click on config var](#click-on-config-var)
+      - [Open settings Tab](#open-settings-tab-1)
+        - [Click on config var](#click-on-config-var-1)
+        - [Add Buildpacks](#add-buildpacks)
+      - [Open Deploy Tab](#open-deploy-tab)
+        - [Choose deployment method and Connect to Github](#choose-deployment-method-and-connect-to-github)
+      - [Open settings Tab](#open-settings-tab-2)
+        - [Click on config var](#click-on-config-var-2)
+        - [Add Buildpacks](#add-buildpacks-1)
+      - [Open Deploy Tab](#open-deploy-tab-1)
+        - [Choose deployment method and Connect to Github](#choose-deployment-method-and-connect-to-github-1)
+        - [Automatic and Manual deploy](#automatic-and-manual-deploy)
+        - [Final Deployment](#final-deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+  - [Images](#images)
      
 
 ## UX
@@ -744,21 +774,98 @@ As a site admin I can remove users so that they will no longer be able to post u
 - Errors listed only reference {%%} & {{}} tags.
 
 #### CSS files 
-- CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
+- The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
 
 <details><summary>- Jigsaw validator message</summary>
-<img src="static/images-readme/readme-w3c-css.png" >
+<img src="static/images-readme/readme-w3c-css.png">
 </details>
 
-- Python files passed through [PEP8 Online](http://pep8online.com/) with no issues found.
+#### JavaScript file
+- The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
 
-![PEP8 message](static/images-readme/readme-pep8.png)
+<details><summary>- JSHint validator message</summary>
+<img src="static/images-readme/readme-jshint.png">
+</details>
+
+#### Python files
+- The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
+
+<details><summary>- Blog apps.py</summary>
+<img src="static/images-readme/readme-pep8ci-blog-apps-py.png">
+</details>
+
+<details><summary>- Blog urls.py</summary>
+<img src="static/images-readme/readme-pep8ci-blog-urls-py.png">
+</details>
+
+<details><summary>- Blog views.py</summary>
+<img src="static/images-readme/readme-pep8ci-blog-views-py.png">
+</details>
+
+<details><summary>- Cestlav asgi.py</summary>
+<img src="static/images-readme/readme-pep8ci-cestlav-asgi-py.png">
+</details>
+
+<details><summary>- Cestlav urls.py</summary>
+<img src="static/images-readme/readme-pep8ci-cestlav-urls-py.png">
+</details>
+
+<details><summary>- Cestlav wsgi.py</summary>
+<img src="static/images-readme/readme-pep8ci-cestlav-wsgi-py.png">
+</details>
+
+<details><summary>- Contact admin.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-admin-py.png">
+</details>
+
+<details><summary>- Contact apps.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-apps-py.png">
+</details>
+
+<details><summary>- Contact forms.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-forms-py.png">
+</details>
+
+<details><summary>- Contact models.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-models-py.png">
+</details>
+
+<details><summary>- Contact urls.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-urls-py.png">
+</details>
+
+<details><summary>- Contact views.py</summary>
+<img src="static/images-readme/readme-pep8ci-contact-views-py.png">
+</details>
+
+<details><summary>- Recipes admin.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-admin-py.png">
+</details>
+
+<details><summary>- Recipes apps.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-apps-py.png">
+</details>
+
+<details><summary>- Recipes forms.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-forms-py.png">
+</details>
+
+<details><summary>- Recipes models.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-models-py.png">
+</details>
+
+<details><summary>- Recipes urls.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-urls-py.png">
+</details>
+
+<details><summary>- Recipes views.py</summary>
+<img src="static/images-readme/readme-pep8ci-recipes-views-py.png">
+</details>
 
 ### Browsers
 
 - I checked the site for compatibility on different browsers (Chrome, Firefox).
 - I have checked the responsiveness on different window sizes.
-
 
 ## Accessibility
 - The app has an excellent Accessibility rating in Lighthouse:
@@ -797,3 +904,208 @@ As a site admin I can remove users so that they will no longer be able to post u
 <img src="static/images-readme/readme-lighthouse-logout-desktop.png" >
 <img src="static/images-readme/readme-lighthouse-logout-mobile.png" >
 </details>
+
+## Fixed bugs
+
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
+- Python
+- Javascript
+- Django
+- SQL - Postgres
+
+### Frameworks, Libraries & Programs Used
+- Google Fonts - for the font families:
+- Font Awesome - to add icons to the social links in the footer element.
+- GitHub - to store my repository for submission.
+- Balsamiq - used to create mockups of the project prior to starting.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Favicon - to provide the code & images for the icon in the tab bar.
+- Django
+- Bootstrap
+
+### Modules used for the development of this project:
+<details><summary>- Requirements.</summary>
+    <img src="static/images-readme/readme-requirements.png" >
+    </details>
+
+## Deployment
+
+### Creating Database using ElephantSQL
+
+1. To generate a managed PostgreSQL database, please proceed to [ElephantSQL](https://customer.elephantsql.com/) and either sign up or sign in to your account. Once you've logged in, click on the 'Create New Instance' button.
+  - - <details><summary>See Image</summary>
+    <img src=".png" >
+    </details>
+
+2. Name your database and select the 'Tiny Turtle' payment plan. Then, click on 'Select Region'
+
+3. Select your preferred region and create the database instance.
+
+4. After creating the instance, navigate to the instances page and click on the name of the database you selected earlier. Then, in the details section on the following page, copy the PostgreSQL URL.
+
+  - - <details><summary>See Image</summary>
+    <img src="/elephantSQL_url.png" >
+    </details>
+
+### Deploying the website in Heroku
+
+#### Before deploying in Heroku following files were created:
+
+1. env.py : stores confidential data eg. API keys, passwords etc.
+- - <details><summary>See Image</summary>
+    <img src="documentation/deployment/env.py.png" >
+    </details>
+
+2. Procfile : Very important for deployment and must be added with capital P
+- - <details><summary>See Image</summary>
+    <img src="documentation/deployment/procfile.png" >
+    </details>
+
+3. Requirements.txt: This must be updated for deployment in Heroku. It stores data of libraries used for project
+- - <details><summary>See Image</summary>
+    <img src="documentation/deployment/requirements.png" >
+    </details>
+
+- The website was deployed to Heroko using following steps:
+
+#### Login or create an account at Heroku
+
+- Create an account in Heroku and login
+
+#### Creating an app
+
+- Create new app in the top right of the screen and add an app name.
+- Select region
+- Then click "create app".
+
+<details>
+<summary>Create App</summary>
+<img src="documentation/deployment/app_name.png" alt="Heroko create app screenshot">
+</details>
+
+#### Open settings Tab
+
+##### Click on config var
+
+- Store CLOUDINARY_URL file from in key and add the values
+- Store DATABASE_URL file from in key and add the values
+- Store SECRET_KEY file from in key and add the values
+- Store PORT in key and value
+
+NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+
+<details>
+<summary>Config var</summary>
+<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
+</details>
+
+#### Open settings Tab
+
+##### Click on config var
+
+- Store CLOUDINARY_URL file from in key and add the values
+- Store DATABASE_URL file from in key and add the values
+- Store SECRET_KEY file from in key and add the values
+- Store PORT in key and value
+
+NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+
+<details>
+<summary>Config var</summary>
+<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
+</details>
+
+##### Add Buildpacks
+
+- Add python buildpack
+
+<details>
+<summary>Buildpacks</summary>
+<img src="documentation/deployment/buildpacks.png" alt="Buildpacks screenshot">
+</details>
+
+#### Open Deploy Tab
+
+##### Choose deployment method and Connect to Github
+
+- Connect GITHUB
+- Login if prompted
+- Choose repositories you want to connect
+- Click "Connect"
+
+<details>
+<summary>Deployment method</summary>
+<img src="documentation/deployment/github_connect.png" alt="Github connect">
+</details>
+
+#### Open settings Tab
+
+##### Click on config var
+
+- Store CLOUDINARY_URL file from in key and add the values
+- Store DATABASE_URL file from in key and add the values
+- Store SECRET_KEY file from in key and add the values
+- Store PORT in key and value
+
+NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+
+<details>
+<summary>Config var</summary>
+<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
+</details>
+
+##### Add Buildpacks
+
+- Add python buildpack
+
+<details>
+<summary>Buildpacks</summary>
+<img src="documentation/deployment/buildpacks.png" alt="Buildpacks screenshot">
+</details>
+
+#### Open Deploy Tab
+
+##### Choose deployment method and Connect to Github
+
+- Connect GITHUB
+- Login if prompted
+- Choose repositories you want to connect
+- Click "Connect"
+
+<details>
+<summary>Deployment method</summary>
+<img src="documentation/deployment/github_connect.png" alt="Github connect">
+</details>
+
+##### Automatic and Manual deploy
+
+- Choose a method to deploy
+- After Deploy is clicked it will install various file
+
+<details>
+<summary> Deploy methods</summary>
+<img src="documentation/deployment/deploy.png" alt="deploy method screenshot">
+</details>
+
+##### Final Deployment
+
+- A view button will display
+- Once clicked the website will open
+
+<details>
+    <summary> Deploy</summary>
+    <img src="documentation/deployment/deployment_view.png" alt="view screenshot">
+</details>
+
+The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/)
+
+## Credits
+
+### Content
+
+## Images
+
+- The images of the recipes were sourced from [pexels.com](https://www.pexels.com/)
