@@ -47,7 +47,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
       - [Footer](#footer)
     - [C.R.U.D](#crud)
       - [Create](#create)
-      - [Read:](#read)
+      - [Read](#read)
       - [Update \& Delete](#update--delete)
     - [Features Left to Implement](#features-left-to-implement)
   - [Manual Testing](#manual-testing)
@@ -193,12 +193,16 @@ Before developing the website, a series of low-fi wireframes were designed using
 </details>
 
 ### Entity Relationship Diagram 
-![Entity Relationship Diagram ](static/readme-images/readme-ERD.png)
+<details><summary>- Entity Relationship Diagram</summary>
+<img src="static/readme-images/readme-ERD.png" >
+</details>
 
 ### Colour Scheme
 The colour palette was generated with Canva, to match the colours of the logo.
 
-![Colour Scheme ](static/readme-images/readme-palette.png)
+<details><summary>- Colour Scheme</summary>
+<img src="static/readme-images/readme-palette.png" >
+</details>
 
 ### Typography
 Two fonts were obtained from the Google Fonts library:
@@ -210,7 +214,6 @@ Two fonts were obtained from the Google Fonts library:
 - The logo was generated from one of the free templates available in Canva.
 
 <details><summary>Logo</summary>
-
 <img src="static/readme-images/readme-logo.png" >
 </details>
 
@@ -223,52 +226,72 @@ Two fonts were obtained from the Google Fonts library:
 ### Existing Features
 
 #### Home Page
-
-![Home page](static/readme-images/readme-homepage-not-loggedin.png)
+<details><summary>- Home page</summary>
+<img src="static/readme-images/readme-homepage-not-loggedin.png">
+</details>
 
 #### Navigation Bar
 
 ##### Desktop
-
-![Navbar desktop](static/readme-images/readme-nav-desktop.png)
+<details><summary>- Navbar desktop</summary>
+<img src="static/readme-images/readme-nav-desktop.png">
+</details>
 
 ##### Mobile
 
-![Navbar mobile](static/readme-images/readme-nav-mobile.png)
+<details><summary>- Navbar mobile</summary>
+<img src="static/readme-images/readme-nav-mobile.png">
+</details>
 
 #### Search Bar
 To search functionality was implemented with the following available search fields: title, description, method and dish type.
 
-![Search bar](static/readme-images/readme-search-bar.png)
+<details><summary>- Search bar</summary>
+<img src="static/readme-images/readme-search-bar.png">
+</details>
 
 #### Countdown
 
-![Countdown](static/readme-images/readme-countdown.png)
+<details><summary>- Countdown</summary>
+<img src="static/readme-images/readme-countdown.png">
+</details>
 
 #### Recipes Page
 
-![Recipes](static/readme-images/readme-recipes.png)
+<details><summary>- Recipes</summary>
+<img src="static/readme-images/readme-recipes.png">
+</details>
 
 #### Register Page
 
-![Register Page](static/readme-images/readme-register.png)
+<details><summary>- Register Page</summary>
+<img src="static/readme-images/readme-register.png">
+</details>
 
 #### Login Page
 
-![Login Page](static/readme-images/readme-login.png)
+<details><summary>- Login Page</summary>
+<img src="static/readme-images/readme-login.png">
+</details>
 
 #### Logout Page
 
-![Logout Page](static/readme-images/readme-logout.png)
+<details><summary>- Logout Page</summary>
+<img src="static/readme-images/readme-logout.png">
+</details>
 - The "Logout" link is only visible in the nav bar to users who are signed in. 
 
 #### Contact Form
 
-![Contact Form](static/readme-images/readme-contact.png)
+<details><summary>- Contact Form</summary>
+<img src="static/readme-images/readme-contact.png">
+</details>
 
 #### Footer
 
-![Footer](static/readme-images/readme-footer.png)
+<details><summary>- Footer</summary>
+<img src="static/readme-images/readme-footer.png">
+</details>
 
 ### C.R.U.D
 
@@ -276,15 +299,23 @@ To search functionality was implemented with the following available search fiel
 
 - The "New" link is only visible in the nav bar to users who are signed in. 
 - Clicking this link will bring the user to a form where they can create a new recipe.
-![New Recipe Page](static/readme-images/readme-new-recipe.png)
 
-#### Read:
-![Recipe Card](static/readme-images/readme-recipe-card.png)
+<details><summary>- New Recipe Page</summary>
+<img src="static/readme-images/readme-new-recipe.png">
+</details>
+
+#### Read
+
+<details><summary>- Recipe Card</summary>
+<img src="static/readme-images/readme-recipe-card.png">
+</details>
 
 #### Update & Delete
 
 - The update & delete features are only accessible to the users who created their recipes.
-![CRUD - update & delete](static/readme-images/readme-edit-delete.png)
+- <details><summary>- CRUD - update & delete</summary>
+<img src="static/readme-images/readme-edit-delete.png">
+</details>
 
 ### Features Left to Implement
 
@@ -774,93 +805,117 @@ As a site admin I can remove users so that they will no longer be able to post u
 - The html files pass through the [W3C validator](https://validator.w3.org/) with no html issues found
 - Errors listed only reference {%%} & {{}} tags.
 
+<details><summary>- Home page</summary>
+<img src="static/readme-images/readme-W3C-homepage.png">
+</details>
+
+<details><summary>- Sign Up</summary>
+<img src="static/readme-images/readme-W3C-signup.png">
+</details>
+
+<details><summary>- Log In</summary>
+<img src="static/readme-images/readme-W3C-login.png">
+</details>
+
+<details><summary>- New</summary>
+<img src="static/readme-images/readme-W3C-new.png">
+</details>
+
+<details><summary>- Contact</summary>
+<img src="static/readme-images/readme-W3C-contact.png">
+</details>
+
+<details><summary>- Sign Out</summary>
+<img src="static/readme-images/readme-W3C-signout.png">
+</details>
+
 #### CSS files 
 - The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
 
 <details><summary>- Jigsaw validator message</summary>
-<img src="static/images-readme/readme-w3c-css.png">
+<img src="static/readme-images/readme-w3c-css.png">
 </details>
 
 #### JavaScript file
 - The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
 
 <details><summary>- JSHint validator message</summary>
-<img src="static/images-readme/readme-jshint.png">
+<img src="static/readme-images/readme-jshint.png">
 </details>
 
 #### Python files
 - The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
 
 <details><summary>- Blog apps.py</summary>
-<img src="static/images-readme/readme-pep8ci-blog-apps-py.png">
+<img src="static/readme-images/readme-pep8ci-blog-apps-py.png">
 </details>
 
 <details><summary>- Blog urls.py</summary>
-<img src="static/images-readme/readme-pep8ci-blog-urls-py.png">
+<img src="static/readme-images/readme-pep8ci-blog-urls-py.png">
 </details>
 
 <details><summary>- Blog views.py</summary>
-<img src="static/images-readme/readme-pep8ci-blog-views-py.png">
+<img src="static/readme-images/readme-pep8ci-blog-views-py.png">
 </details>
 
 <details><summary>- Cestlav asgi.py</summary>
-<img src="static/images-readme/readme-pep8ci-cestlav-asgi-py.png">
+<img src="static/readme-images/readme-pep8ci-cestlav-asgi-py.png">
 </details>
 
 <details><summary>- Cestlav urls.py</summary>
-<img src="static/images-readme/readme-pep8ci-cestlav-urls-py.png">
+<img src="static/readme-imagese/readme-pep8ci-cestlav-urls-py.png">
 </details>
 
 <details><summary>- Cestlav wsgi.py</summary>
-<img src="static/images-readme/readme-pep8ci-cestlav-wsgi-py.png">
+<img src="static/readme-images/readme-pep8ci-cestlav-wsgi-py.png">
 </details>
 
 <details><summary>- Contact admin.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-admin-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-admin-py.png">
 </details>
 
 <details><summary>- Contact apps.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-apps-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-apps-py.png">
 </details>
 
 <details><summary>- Contact forms.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-forms-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-forms-py.png">
 </details>
 
 <details><summary>- Contact models.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-models-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-models-py.png">
 </details>
 
 <details><summary>- Contact urls.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-urls-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-urls-py.png">
 </details>
 
 <details><summary>- Contact views.py</summary>
-<img src="static/images-readme/readme-pep8ci-contact-views-py.png">
+<img src="static/readme-images/readme-pep8ci-contact-views-py.png">
 </details>
 
 <details><summary>- Recipes admin.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-admin-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-admin-py.png">
 </details>
 
 <details><summary>- Recipes apps.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-apps-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-apps-py.png">
 </details>
 
 <details><summary>- Recipes forms.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-forms-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-forms-py.png">
 </details>
 
 <details><summary>- Recipes models.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-models-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-models-py.png">
 </details>
 
 <details><summary>- Recipes urls.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-urls-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-urls-py.png">
 </details>
 
 <details><summary>- Recipes views.py</summary>
-<img src="static/images-readme/readme-pep8ci-recipes-views-py.png">
+<img src="static/readme-images/readme-pep8ci-recipes-views-py.png">
 </details>
 
 ### Browsers
@@ -872,38 +927,38 @@ As a site admin I can remove users so that they will no longer be able to post u
 - The app has an excellent Accessibility rating in Lighthouse:
 
 <details><summary>- Homepage</summary>
-<img src="static/images-readme/readme-lighthouse-homepage-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-homepage-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-homepage-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-homepage-mobile.png" >
 </details>
 
 <details><summary>- Recipes</summary>
-<img src="static/images-readme/readme-lighthouse-recipes-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-recipes-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-recipes-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-recipes-mobile.png" >
 </details>
 
 <details><summary>- Register</summary>
-<img src="static/images-readme/readme-lighthouse-register-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-register-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-register-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-register-mobile.png" >
 </details>
 
 <details><summary>- Login</summary>
-<img src="static/images-readme/readme-lighthouse-login-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-login-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-login-desktop.png" >
+<img src="static/ireadme-images/readme-lighthouse-login-mobile.png" >
 </details>
 
 <details><summary>- Contact</summary>
-<img src="static/images-readme/readme-lighthouse-contact-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-contact-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-contact-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-contact-mobile.png" >
 </details>
 
 <details><summary>- New</summary>
-<img src="static/images-readme/readme-lighthouse-new-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-new-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-new-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-new-mobile.png" >
 </details>
 
 <details><summary>- Logout</summary>
-<img src="static/images-readme/readme-lighthouse-logout-desktop.png" >
-<img src="static/images-readme/readme-lighthouse-logout-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-logout-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-logout-mobile.png" >
 </details>
 
 ## Fixed bugs
@@ -918,8 +973,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 - SQL - Postgres
 
 ### Frameworks, Libraries & Programs Used
-- Google Fonts - for the font families:
-- Font Awesome - to add icons to the social links in the footer element.
+- Google Fonts - for the font families
 - GitHub - to store my repository for submission.
 - Balsamiq - used to create mockups of the project prior to starting.
 - UXWing - for the social media icons and the recipe card icons.
@@ -929,7 +983,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 
 ### Modules used for the development of this project:
 <details><summary>- Requirements.</summary>
-    <img src="static/images-readme/readme-requirements.png" >
+    <img src="static/readme-images/readme-requirements.png">
     </details>
 
 ## Deployment
@@ -1116,7 +1170,7 @@ The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcd
 ### Content
 The recipes were adapted from the following recipe books:
 -  Vegan on the go by J. Eckmeier and D. Lais
--  DEliciously Ella by E. Woodward
+-  Deliciously Ella by E. Woodward
 
 
 ## Images
