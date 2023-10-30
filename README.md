@@ -86,28 +86,22 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Browsers](#browsers)
   - [Accessibility](#accessibility)
   - [Fixed bugs](#fixed-bugs)
+  - [Unfixed bugs](#unfixed-bugs)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-    - [Modules used for the development of this project:](#modules-used-for-the-development-of-this-project)
+    - [Modules used for the development of this project](#modules-used-for-the-development-of-this-project)
   - [Deployment](#deployment)
     - [Creating Database using ElephantSQL](#creating-database-using-elephantsql)
     - [Deploying the website in Heroku](#deploying-the-website-in-heroku)
       - [Before deploying in Heroku following files were created:](#before-deploying-in-heroku-following-files-were-created)
-      - [Login or create an account at Heroku](#login-or-create-an-account-at-heroku)
+      - [Login or create an account with Heroku](#login-or-create-an-account-with-heroku)
       - [Creating an app](#creating-an-app)
       - [Open settings Tab](#open-settings-tab)
         - [Click on config var](#click-on-config-var)
-      - [Open settings Tab](#open-settings-tab-1)
-        - [Click on config var](#click-on-config-var-1)
         - [Add Buildpacks](#add-buildpacks)
       - [Open Deploy Tab](#open-deploy-tab)
         - [Choose deployment method and Connect to Github](#choose-deployment-method-and-connect-to-github)
-      - [Open settings Tab](#open-settings-tab-2)
-        - [Click on config var](#click-on-config-var-2)
-        - [Add Buildpacks](#add-buildpacks-1)
-      - [Open Deploy Tab](#open-deploy-tab-1)
-        - [Choose deployment method and Connect to Github](#choose-deployment-method-and-connect-to-github-1)
         - [Automatic and Manual deploy](#automatic-and-manual-deploy)
         - [Final Deployment](#final-deployment)
   - [Credits](#credits)
@@ -841,7 +835,9 @@ The HTML files pass through the [W3C validator](https://validator.w3.org/) with 
 
 <details><summary>Recipes</summary>
 <img src="static/readme-images/readme-W3C-recipes.png">
+<img src="static/readme-images/readme-W3C-recipes-code.png">
 </details>
+The validator fails to recognize the content of the <p> tags.
 
 <details><summary>Sign Up</summary>
 <img src="static/readme-images/readme-W3C-signup.png">
@@ -1000,9 +996,53 @@ The app has an excellent Accessibility rating in Lighthouse:
 </details>
 
 ## Fixed bugs
+- The first recurring bug I have encountered was a syntax error: the block tags ket getting broken between two different lines. I was able to manually fix it to be on the same line, but after saving my changes, the block tags were auto-formatting and the syntax error was there again. I solved this by turning off the "Format On Save" in the Code Anywhere IDE Settings.
+
+<details><summary>Syntax Error</summary>
+<img src="static/readme-images/readme-bugs-syntax-error.png" >
+</details>
+
+- The first time I attempted the delpoyment of the app with Heroku, the static files (logo, favicons, icons and the CSS styles) failed to be rendered in the deployed version.
+
+<details><summary>Static Files not rendered</summary>
+<img src="static/readme-images/readme-bugs-static-files.png" >
+<img src="static/readme-images/readme-bugs-static-files-2.png" >
+</details>
+
+Following the suggestions from fellow students in past Slack threads, I firsly tried changing DEBUG = 'DEVELOPMENT' in os.environ, added os.environ["DEVELOPMENT"] = "1" in env.py. I still got the 400 Bad Request message.
+
+I then followed Daisy mentor's suggestion and installed whitenoise and added "whitenoise.middleware.WhiteNoiseMiddleware to the middleware list to render them directly from the static files.
+This solved the issue with the favicons not being rendered.
+The 400 Bad Request message was solved by removing the slash at the start of the file paths to be able to access the assets folder.
+
+- When implementing the customised success messages with Django, I came across the error: "Name 'messages is not defined'. This was caused by failing to import the 'messages' framework in my views.py file. Once imported, the error was solved.
+
+<details><summary>Messages not defined</summary>
+<img src="static/readme-images/readme-bugs-messages-undefined.png" >
+</details>
+
+- When implementing the countdown, I initially decided to avoid creating a separate .js file and added the JavaScript code in a script tag inside the index.html file. The countdown was only showing on the homepage. Despite working smoothly on the front-end, the following error message was found in the console:
+
+<details><summary>innerHTML error</summary>
+<img src="static/readme-images/readme-bugs-innerHTML-error.png" >
+</details
+
+It took me some time to figure out the reason behind this error and I solved it with multiple trial and errors. Eventually, I created a separate .js file where I store the code for the countdown and had the html structure to show the actual countdown in the footer.html file.
+
+## Unfixed bugs
+
+- When testing the functionalities of the app, I came across some unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
+Unfortunately I tried to replicate the bug from my own MacBook and iPhone as well as some friends' but it cannot be replicated consistently. For this reason, the relevant bug ticket was kept open in the C'est la V User Stories board in GitHub. 
+It is worth noting that this bug does not negatively affect any functionality of the app in the slightest.
+
+<details><summary>Alert message</summary>
+<img src="static/readme-images/readme-bugs-innerHTML-error.png" >
+</details
 
 ## Technologies Used
+
 ### Main Languages Used
+
 - HTML5
 - CSS3
 - Python
@@ -1011,6 +1051,7 @@ The app has an excellent Accessibility rating in Lighthouse:
 - SQL - Postgres
 
 ### Frameworks, Libraries & Programs Used
+
 - Google Fonts - for the font families
 - GitHub - to store my repository for submission.
 - Balsamiq - used to create mockups of the project prior to starting.
@@ -1019,7 +1060,8 @@ The app has an excellent Accessibility rating in Lighthouse:
 - Favicon - to create the code and images for the icon in the tab bar.
 - Bootstrap
 
-### Modules used for the development of this project:
+### Modules used for the development of this project
+
 <details><summary>Requirements.</summary>
     <img src="static/readme-images/readme-requirements.png">
     </details>
@@ -1029,9 +1071,6 @@ The app has an excellent Accessibility rating in Lighthouse:
 ### Creating Database using ElephantSQL
 
 1. To generate a managed PostgreSQL database, please proceed to [ElephantSQL](https://customer.elephantsql.com/) and either sign up or sign in to your account. Once you've logged in, click on the 'Create New Instance' button.
-  - - <details><summary>See Image</summary>
-    <img src=".png" >
-    </details>
 
 2. Name your database and select the 'Tiny Turtle' payment plan. Then, click on 'Select Region'
 
@@ -1039,28 +1078,16 @@ The app has an excellent Accessibility rating in Lighthouse:
 
 4. After creating the instance, navigate to the instances page and click on the name of the database you selected earlier. Then, in the details section on the following page, copy the PostgreSQL URL.
 
-  - - <details><summary>See Image</summary>
-    <img src="/elephantSQL_url.png" >
-    </details>
-
 ### Deploying the website in Heroku
 
 #### Before deploying in Heroku following files were created:
 
 1. env.py : stores confidential data eg. API keys, passwords etc.
-- - <details><summary>See Image</summary>
-    <img src="documentation/deployment/env.py.png" >
-    </details>
 
 2. Procfile : Very important for deployment and must be added with capital P
-- - <details><summary>See Image</summary>
-    <img src="documentation/deployment/procfile.png" >
-    </details>
 
 3. Requirements.txt: This must be updated for deployment in Heroku. It stores data of libraries used for project
-- - <details><summary>See Image</summary>
-    <img src="documentation/deployment/requirements.png" >
-    </details>
+
 
 - The website was deployed to Heroku following these steps:
 
@@ -1074,11 +1101,6 @@ The app has an excellent Accessibility rating in Lighthouse:
 - Select region
 - Then click "create app".
 
-<details>
-<summary>Create App</summary>
-<img src="documentation/deployment/app_name.png" alt="Heroku create app screenshot">
-</details>
-
 #### Open settings Tab
 
 ##### Click on config var
@@ -1090,36 +1112,11 @@ The app has an excellent Accessibility rating in Lighthouse:
 
 NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 
-<details>
-<summary>Config var</summary>
-<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
-</details>
-
-#### Open settings Tab
-
-##### Click on config var
-
-- Store CLOUDINARY_URL file from in key and add the values
-- Store DATABASE_URL file from in key and add the values
-- Store SECRET_KEY file from in key and add the values
-- Store PORT in key and value
-
-NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
-
-<details>
-<summary>Config var</summary>
-<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
-</details>
 
 ##### Add Buildpacks
 
 - Add Python buildpack
 
-<details>
-<summary>Buildpacks</summary>
-<img src="documentation/deployment/buildpacks.png" alt="Buildpacks screenshot">
-</details>
-
 #### Open Deploy Tab
 
 ##### Choose deployment method and Connect to Github
@@ -1128,70 +1125,16 @@ NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 - Login if prompted
 - Choose repositories you want to connect
 - Click "Connect"
-
-<details>
-<summary>Deployment method</summary>
-<img src="documentation/deployment/github_connect.png" alt="Github connect">
-</details>
-
-#### Open settings Tab
-
-##### Click on config var
-
-- Store CLOUDINARY_URL file from in key and add the values
-- Store DATABASE_URL file from in key and add the values
-- Store SECRET_KEY file from in key and add the values
-- Store PORT in key and value
-
-NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
-
-<details>
-<summary>Config var</summary>
-<img src="documentation/deployment/configvars.png" alt="Config var screenshot">
-</details>
-
-##### Add Buildpacks
-
-- Add python buildpack
-
-<details>
-<summary>Buildpacks</summary>
-<img src="documentation/deployment/buildpacks.png" alt="Buildpacks screenshot">
-</details>
-
-#### Open Deploy Tab
-
-##### Choose deployment method and Connect to Github
-
-- Connect GITHUB
-- Login if prompted
-- Choose repositories you want to connect
-- Click "Connect"
-
-<details>
-<summary>Deployment method</summary>
-<img src="documentation/deployment/github_connect.png" alt="Github connect">
-</details>
 
 ##### Automatic and Manual deploy
 
 - Choose a method to deploy
 - After Deploy is clicked it will install various file
 
-<details>
-<summary> Deploy methods</summary>
-<img src="documentation/deployment/deploy.png" alt="deploy method screenshot">
-</details>
-
 ##### Final Deployment
 
 - A view button will display
 - Once clicked the website will open
-
-<details>
-    <summary> Deploy</summary>
-    <img src="documentation/deployment/deployment_view.png" alt="view screenshot">
-</details>
 
 The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/)
 
