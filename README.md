@@ -91,7 +91,6 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
     - [Installed Packages](#installed-packages)
-    - [Modules used for the development of this project](#modules-used-for-the-development-of-this-project)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Code](#code)
@@ -1023,7 +1022,7 @@ It took me some time to figure out the reason behind this error and I solved it 
 ## Unfixed bugs
 
 <details><summary>Alert message</summary>
-<img src="static/readme-images/readme-bugs-innerHTML-error.png" >
+<img src="static/readme-images/readme-bugs-register-alert-error.png" >
 </details
 
 When testing the functionalities of the app, I came across some unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
@@ -1060,11 +1059,10 @@ It is worth noting that this bug does not negatively affect any functionality of
 - 'django<4' gunicorn
 - dj_database_url psycopg2
 - dj3-cloudinary-storage
-- django-summernote [(link)](https://summernote.org/)
 - django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
 - django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
 
-### Modules used for the development of this project
+Modules used for the development of this project
 
 <details><summary>Requirements.</summary>
     <img src="static/readme-images/readme-requirements.png">
