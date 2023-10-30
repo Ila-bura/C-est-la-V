@@ -4,7 +4,8 @@ from .models import Recipe
 
 
 class RecipeForm(forms.ModelForm):
-    """Form to create a recipe"""
+    # Form to create a recipe
+    # class used from Dee Mc YouTube tutorial
 
     class Meta:
         model = Recipe

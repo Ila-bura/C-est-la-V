@@ -996,18 +996,19 @@ The app has an excellent Accessibility rating in Lighthouse:
 </details>
 
 ## Fixed bugs
-- The first recurring bug I have encountered was a syntax error: the block tags ket getting broken between two different lines. I was able to manually fix it to be on the same line, but after saving my changes, the block tags were auto-formatting and the syntax error was there again. I solved this by turning off the "Format On Save" in the Code Anywhere IDE Settings.
 
 <details><summary>Syntax Error</summary>
 <img src="static/readme-images/readme-bugs-syntax-error.png" >
 </details>
 
-- The first time I attempted the delpoyment of the app with Heroku, the static files (logo, favicons, icons and the CSS styles) failed to be rendered in the deployed version.
+The first recurring bug I have encountered was a syntax error: the block tags ket getting broken between two different lines. I was able to manually fix it to be on the same line, but after saving my changes, the block tags were auto-formatting and the syntax error was there again. I solved this by turning off the "Format On Save" in the Code Anywhere IDE Settings.
 
 <details><summary>Static Files not rendered</summary>
 <img src="static/readme-images/readme-bugs-static-files.png" >
 <img src="static/readme-images/readme-bugs-static-files-2.png" >
 </details>
+
+The first time I attempted the delpoyment of the app with Heroku, the static files (logo, favicons, icons and the CSS styles) failed to be rendered in the deployed version.
 
 Following the suggestions from fellow students in past Slack threads, I firsly tried changing DEBUG = 'DEVELOPMENT' in os.environ, added os.environ["DEVELOPMENT"] = "1" in env.py. I still got the 400 Bad Request message.
 
@@ -1015,29 +1016,28 @@ I then followed Daisy mentor's suggestion and installed whitenoise and added "wh
 This solved the issue with the favicons not being rendered.
 The 400 Bad Request message was solved by removing the slash at the start of the file paths to be able to access the assets folder.
 
-- When implementing the customised success messages with Django, I came across the error: "Name 'messages is not defined'. This was caused by failing to import the 'messages' framework in my views.py file. Once imported, the error was solved.
-
 <details><summary>Messages not defined</summary>
 <img src="static/readme-images/readme-bugs-messages-undefined.png" >
 </details>
 
-- When implementing the countdown, I initially decided to avoid creating a separate .js file and added the JavaScript code in a script tag inside the index.html file. The countdown was only showing on the homepage. Despite working smoothly on the front-end, the following error message was found in the console:
+When implementing the customised success messages with Django, I came across the error: "Name 'messages is not defined'. This was caused by failing to import the 'messages' framework in my views.py file. Once imported, the error was solved.
 
 <details><summary>innerHTML error</summary>
 <img src="static/readme-images/readme-bugs-innerHTML-error.png" >
-</details
+</details>
 
+When implementing the countdown, I initially decided to avoid creating a separate .js file and added the JavaScript code in a script tag inside the index.html file. The countdown was only showing on the homepage. Despite working smoothly on the front-end, an error message was found in the console.
 It took me some time to figure out the reason behind this error and I solved it with multiple trial and errors. Eventually, I created a separate .js file where I store the code for the countdown and had the html structure to show the actual countdown in the footer.html file.
 
 ## Unfixed bugs
 
-- When testing the functionalities of the app, I came across some unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
-Unfortunately I tried to replicate the bug from my own MacBook and iPhone as well as some friends' but it cannot be replicated consistently. For this reason, the relevant bug ticket was kept open in the C'est la V User Stories board in GitHub. 
-It is worth noting that this bug does not negatively affect any functionality of the app in the slightest.
-
 <details><summary>Alert message</summary>
 <img src="static/readme-images/readme-bugs-innerHTML-error.png" >
 </details
+
+When testing the functionalities of the app, I came across some unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
+Unfortunately I tried to replicate the bug from my own MacBook and iPhone as well as some friends' but it cannot be replicated consistently. For this reason, the relevant bug ticket was kept open in the C'est la V User Stories board in GitHub. 
+It is worth noting that this bug does not negatively affect any functionality of the app in the slightest.
 
 ## Technologies Used
 
@@ -1068,7 +1068,7 @@ It is worth noting that this bug does not negatively affect any functionality of
 
 ## Deployment
 
-### Creating Database using ElephantSQL
+Creating Database using ElephantSQL
 
 1. To generate a managed PostgreSQL database, please proceed to [ElephantSQL](https://customer.elephantsql.com/) and either sign up or sign in to your account. Once you've logged in, click on the 'Create New Instance' button.
 
@@ -1078,9 +1078,9 @@ It is worth noting that this bug does not negatively affect any functionality of
 
 4. After creating the instance, navigate to the instances page and click on the name of the database you selected earlier. Then, in the details section on the following page, copy the PostgreSQL URL.
 
-### Deploying the website in Heroku
+Deploying the website in Heroku
 
-#### Before deploying in Heroku following files were created:
+Before deploying in Heroku following files were created:
 
 1. env.py : stores confidential data eg. API keys, passwords etc.
 
@@ -1089,49 +1089,39 @@ It is worth noting that this bug does not negatively affect any functionality of
 3. Requirements.txt: This must be updated for deployment in Heroku. It stores data of libraries used for project
 
 
-- The website was deployed to Heroku following these steps:
+The website was deployed to Heroku following these steps:
 
-#### Login or create an account with Heroku
-
-- Create an account with Heroku and login
-
-#### Creating an app
-
-- Create new app in the top right of the screen and add an app name.
-- Select region
-- Then click "create app".
-
-#### Open settings Tab
-
-##### Click on config var
-
-- Store CLOUDINARY_URL file from in key and add the values
-- Store DATABASE_URL file from in key and add the values
-- Store SECRET_KEY file from in key and add the values
-- Store PORT in key and value
+1. Login or create an account with Heroku
+2. Creating an app
+  - Create new app in the top right of the screen and add an app name.
+  - Select region
+  - Then click "create app".
+3. Open settings Tab
+4. Click on config var
+   - Store CLOUDINARY_URL file from in key and add the values
+   - Store DATABASE_URL file from in key and add the values
+   - Store SECRET_KEY file from in key and add the values
+   - Store PORT in key and value
 
 NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 
-
-##### Add Buildpacks
-
+Add Buildpacks
 - Add Python buildpack
 
-#### Open Deploy Tab
-
-##### Choose deployment method and Connect to Github
+Open Deploy Tab
+Choose deployment method and Connect to Github
 
 - Connect GITHUB
 - Login if prompted
 - Choose repositories you want to connect
 - Click "Connect"
 
-##### Automatic and Manual deploy
+Automatic and Manual deploy
 
 - Choose a method to deploy
 - After Deploy is clicked it will install various file
 
-##### Final Deployment
+Final Deployment
 
 - A view button will display
 - Once clicked the website will open
@@ -1152,7 +1142,6 @@ The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcd
 The recipes were adapted from the following recipe books:
 -  Vegan on the go by J. Eckmeier and D. Lais
 -  Deliciously Ella by E. Woodward
-
 
 ## Images
 
@@ -1176,3 +1165,7 @@ The recipes were adapted from the following recipe books:
 - Asian-Inspired Noodles - [Photo by Engin Akyurt](https://www.pexels.com/photo/stir-fry-noodles-in-bowl-2347311/)
 - Macadamia Cream - [Photo by Any Lane](https://www.pexels.com/photo/tasty-healthy-dessert-with-berries-served-on-pink-table-with-wooden-spoon-5945660/)
 - Muesli Bars - [Photo by Annelies Brouw](https://www.pexels.com/photo/tray-of-cookies-3065512/)
+
+## Other
+- A big thank you to Martina Terlevic, my Code Institute Mentor, for the great tips and timely support throughout the execution of PP4.
+- A special acknowledgment to Daisy Mc Girr, for her invaluable hints in helping me debug the app after deployment and for the amazing Django walkthrough videos she has created on YouTube.

@@ -15,7 +15,8 @@ from django.contrib import messages
 
 
 class Recipes(ListView):
-    """Display all the recipes"""
+    # Display all the recipes
+    # Class used from Dee Mc YouTube tutorial
 
     template_name = "recipes/recipes.html"
     model = Recipe
@@ -47,7 +48,8 @@ class Recipes(ListView):
 
 
 class RecipeDetail(DetailView):
-    """View one single recipe"""
+    # View one single recipe
+    # Class used from Dee Mc YouTube tutorial
 
     template_name = "recipes/recipe_detail.html"
     model = Recipe
@@ -55,15 +57,16 @@ class RecipeDetail(DetailView):
 
 
 class AddRecipe(LoginRequiredMixin, CreateView):
-    """Check if user is logged in"""
-    """Add recipe view"""
+    # Check if user is logged in
+    # Add recipe view
+    # Class used from Dee Mc YouTube tutorial
 
     template_name = "recipes/add_recipe.html"
     model = Recipe
     form_class = RecipeForm
     success_url = "/recipes/"
 
-    """Update with the logged in user name"""
+    # Update with the logged in user name
 
     def form_valid(self, form):
         form.instance.user = self.request.user
@@ -72,7 +75,8 @@ class AddRecipe(LoginRequiredMixin, CreateView):
 
 
 class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
-    """Signed in users can delete their recipes"""
+    # Signed in users can delete their recipes
+    # Class used from Dee Mc YouTube tutorial
     model = Recipe
     success_url = '/recipes/'
 
@@ -85,7 +89,8 @@ class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 
 class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
-    """Signed in users can edit their recipes"""
+    # Signed in users can edit their recipes
+    # Class used from Dee Mc YouTube tutorial
     template_name = "recipes/edit_recipe.html"
     model = Recipe
     form_class = RecipeForm

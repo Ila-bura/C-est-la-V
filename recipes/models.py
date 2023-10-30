@@ -28,6 +28,7 @@ class Recipe(models.Model):
     """
     A model to create and manage recipes
     Only recipe's creators can edit or delete their own recipes
+    Model used from Dee Mc YouTube tutorial
     """
 
     user = models.ForeignKey(
@@ -52,9 +53,7 @@ class Recipe(models.Model):
         max_length=50, choices=PREP_TIME, default="10 minutes")
     posted_date = models.DateTimeField(auto_now=True)
 
-    """
-    To be able to retrieve most recent recipes
-    """
+    # To be able to retrieve most recent recipes
 
     class Meta:
         ordering = ["-posted_date"]
