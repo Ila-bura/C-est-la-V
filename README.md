@@ -79,34 +79,24 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Contact](#contact)
     - [Remove users](#remove-users)
   - [Validator Testing](#validator-testing)
-      - [HTML files](#html-files)
-      - [CSS files](#css-files)
-      - [JavaScript file](#javascript-file)
-      - [Python files](#python-files)
-    - [Browsers](#browsers)
+    - [HTML files](#html-files)
+    - [CSS files](#css-files)
+    - [JavaScript file](#javascript-file)
+    - [Python files](#python-files)
+  - [Browsers](#browsers)
   - [Accessibility](#accessibility)
   - [Fixed bugs](#fixed-bugs)
   - [Unfixed bugs](#unfixed-bugs)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
-    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+    - [Installed Packages](#installed-packages)
     - [Modules used for the development of this project](#modules-used-for-the-development-of-this-project)
   - [Deployment](#deployment)
-    - [Creating Database using ElephantSQL](#creating-database-using-elephantsql)
-    - [Deploying the website in Heroku](#deploying-the-website-in-heroku)
-      - [Before deploying in Heroku following files were created:](#before-deploying-in-heroku-following-files-were-created)
-      - [Login or create an account with Heroku](#login-or-create-an-account-with-heroku)
-      - [Creating an app](#creating-an-app)
-      - [Open settings Tab](#open-settings-tab)
-        - [Click on config var](#click-on-config-var)
-        - [Add Buildpacks](#add-buildpacks)
-      - [Open Deploy Tab](#open-deploy-tab)
-        - [Choose deployment method and Connect to Github](#choose-deployment-method-and-connect-to-github)
-        - [Automatic and Manual deploy](#automatic-and-manual-deploy)
-        - [Final Deployment](#final-deployment)
   - [Credits](#credits)
     - [Code](#code)
     - [Content](#content)
+    - [Acknowledgments](#acknowledgments)
   - [Images](#images)
 
 ## UX
@@ -835,8 +825,9 @@ The HTML files pass through the [W3C validator](https://validator.w3.org/) with 
 
 <details><summary>Recipes</summary>
 <img src="static/readme-images/readme-W3C-recipes.png">
-<img src="static/readme-images/readme-W3C-recipes-code.png">
+<img src="static/readme-images/readme-W3C-recipes-code.png" >
 </details>
+
 The validator fails to recognize the content of the <p> tags.
 
 <details><summary>Sign Up</summary>
@@ -1052,13 +1043,26 @@ It is worth noting that this bug does not negatively affect any functionality of
 
 ### Frameworks, Libraries & Programs Used
 
-- Google Fonts - for the font families
+- Google Fonts - to import the fonts used for the website.
 - GitHub - to store my repository for submission.
 - Balsamiq - used to create mockups of the project prior to starting.
 - UXWing - for the social media icons and the recipe card icons.
 - Am I Responsive? - to ensure the project looked good across all devices.
 - Favicon - to create the code and images for the icon in the tab bar.
-- Bootstrap
+- Bootstrap - to craete nice layout for the app
+- Google Developer Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- Pexels - To source the recipes picture.
+- TinyPNG - To compress images.
+- Favicon.io - To create the favicon.
+
+### Installed Packages
+
+- 'django<4' gunicorn
+- dj_database_url psycopg2
+- dj3-cloudinary-storage
+- django-summernote [(link)](https://summernote.org/)
+- django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
+- django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
 
 ### Modules used for the development of this project
 
@@ -1166,6 +1170,6 @@ The recipes were adapted from the following recipe books:
 - Macadamia Cream - [Photo by Any Lane](https://www.pexels.com/photo/tasty-healthy-dessert-with-berries-served-on-pink-table-with-wooden-spoon-5945660/)
 - Muesli Bars - [Photo by Annelies Brouw](https://www.pexels.com/photo/tray-of-cookies-3065512/)
 
-## Other
+## Acknowledgments
 - A big thank you to Martina Terlevic, my Code Institute Mentor, for the great tips and timely support throughout the execution of PP4.
 - A special acknowledgment to Daisy Mc Girr, for her invaluable hints in helping me debug the app after deployment and for the amazing Django walkthrough videos she has created on YouTube.
