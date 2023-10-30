@@ -16,14 +16,14 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
   - [UX](#ux)
     - [Site Purpose](#site-purpose)
     - [Site Goal](#site-goal)
-    - [Audience:](#audience)
-    - [Communication:](#communication)
-    - [Current User Goals:](#current-user-goals)
-    - [New User Goals:](#new-user-goals)
-    - [Future Goals:](#future-goals)
+    - [Audience](#audience)
+    - [Communication](#communication)
+    - [Current User Goals](#current-user-goals)
+    - [New User Goals](#new-user-goals)
+    - [Future Goals](#future-goals)
   - [User Stories](#user-stories)
     - [Site user](#site-user)
-    - [Admin:](#admin)
+    - [Admin](#admin)
   - [Agile Methodology](#agile-methodology)
   - [Design](#design)
     - [Wireframes](#wireframes)
@@ -114,33 +114,41 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [Code](#code)
     - [Content](#content)
   - [Images](#images)
-     
 
 ## UX
+
 ### Site Purpose
+
 The intent of the site is to promote a vegan diet and inspire anyone who would like to transition towards a plant-based diet to incorporate more vegan food into their diet, by showcasing easy and affordable recipes that are simple to replicate. 
 
 ### Site Goal
+
 To build an online platform where vegan food lovers can share their favourite recipes and find inspiration and support from fellow vegans. By displaying the recipes in the database, vegans and aspiring vegans alike will be able to easily browse through the various recipe cards and find something they might want to try.
 
-### Audience:
+### Audience
+
 Anyone who is passionate about fuelling their body with filling and nutricious food. Regardless of the diet label,be it 100% vegan, a part-time vegetarian or a die-hard omnivore, C'est la V has something to appeal everyone.
 
-### Communication:
+### Communication
+
 With a neat and intuitive layout, the user can seamlessly navigate the website and easily access all the features available.
 
-### Current User Goals:
+### Current User Goals
+
 Users can search and discover new recipes. Creators can contribute and add as many recipes as they wish.
 
-### New User Goals:
+### New User Goals
+
 To have their interest picked and decide to register as new users and start creating and sharing their own recipes.
 
-### Future Goals:
+### Future Goals
+
 - The user should be able to add comments and likes to existing recipes. 
 - The logged in user should have their own account page where they can save their favourite recipes.
 - The admin should be able to review any new recipe for approval, before it is published.
 
 ## User Stories
+
 Not all stories have been implemented. Some have been left for future implementations.
 
 ### Site user
@@ -155,7 +163,8 @@ Not all stories have been implemented. Some have been left for future implementa
 - As a site user I can send a message to the site administrator so that I can share feedback or ask questions.
 - As a site user I can check the countdown to Veganuary 2024 so that I know how much time is left before the event.
 
-### Admin:
+### Admin
+
 - As a site admin I can view messages submitted via the contact form so that I can communicate with users.
 - As a site admin I can add, edit and delete recipes from the admin panel so that new content is displayed, if users do not add any new recipes.
 - As a site admin I can delete recipes from the admin panel.
@@ -165,9 +174,8 @@ Not all stories have been implemented. Some have been left for future implementa
 The development of this project was managed and implemented using GitHub Projects Kanban Board. Available here:
 <a href="https://github.com/users/Ila-bura/projects/20" target="_blank" rel="noopener" aria-label="Link to GitHub Projects">C'est la V - User Stories</a>
 
-<br>
-
 ## Design
+
 ### Wireframes
 
 Before developing the website, a series of low-fi wireframes were designed using Balsamiq Wireframes.
@@ -193,11 +201,13 @@ Before developing the website, a series of low-fi wireframes were designed using
 </details>
 
 ### Entity Relationship Diagram 
+
 <details><summary>Entity Relationship Diagram</summary>
 <img src="static/readme-images/readme-ERD.png" >
 </details>
 
 ### Colour Scheme
+
 The colour palette was generated with Canva, to match the colours of the logo.
 
 <details><summary>Colour Scheme</summary>
@@ -205,16 +215,18 @@ The colour palette was generated with Canva, to match the colours of the logo.
 </details>
 
 ### Typography
+
 Two fonts were obtained from the Google Fonts library:
 
 1. Playfair display: Site headings
 2. Montserrat: Site body
 
 ### Imagery
+
 - The logo was generated from one of the free templates available in Canva.
 
 <details><summary>Logo</summary>
-<img src="static/images/readme-logo.png" >
+<img src="static/readme-logo.png" >
 </details>
 
 - The favicons were generated on Favicon.io.
@@ -226,6 +238,7 @@ Two fonts were obtained from the Google Fonts library:
 ### Existing Features
 
 #### Home Page
+
 <details><summary>Home page</summary>
 <img src="static/readme-images/readme-homepage-not-loggedin.png">
 </details>
@@ -233,6 +246,7 @@ Two fonts were obtained from the Google Fonts library:
 #### Navigation Bar
 
 ##### Desktop
+
 <details><summary>Navbar desktop</summary>
 <img src="static/readme-images/readme-nav-desktop.png">
 </details>
@@ -244,6 +258,7 @@ Two fonts were obtained from the Google Fonts library:
 </details>
 
 #### Search Bar
+
 To search functionality was implemented with the following available search fields: title, description, method and dish type.
 
 <details><summary>Search bar</summary>
@@ -295,7 +310,7 @@ To search functionality was implemented with the following available search fiel
 
 ### C.R.U.D
 
-#### Create 
+#### Create
 
 - The "New" link is only visible in the nav bar to users who are signed in.
 - Clicking this link will bring the user to a form where they can create a new recipe.
@@ -313,7 +328,7 @@ To search functionality was implemented with the following available search fiel
 #### Update & Delete
 
 The update and delete features are only accessible to the users who created their recipes.
-<details><summary>CRUD - update & delete</summary>
+<details><summary>CRUD - Update and Delete</summary>
 <img src="static/readme-images/readme-edit-delete.png">
 </details>
 
@@ -329,9 +344,11 @@ The update and delete features are only accessible to the users who created thei
 ### Not logged in
 
 ### Homepage
+
 Every link on the homepage was tested to ensure that it redirects to the appropriate url.
 
 #### Navbar
+
 When user is not logged in, the nav bar looks like this:
 <details><summary>Navbar</summary>
 <img src="static/readme-images/readme-nav-links.png" >
@@ -406,6 +423,7 @@ Multiple tests were carried out to test the serach functionality:
 </details>
 
 #### Countdown
+
 The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates every second.
 
 <details><summary>Countdown</summary>
@@ -436,6 +454,7 @@ The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 
 </details>
 
 ### Recipes page
+
 The Recipes page displays the same navbar and footer that are found on the homepage.
 <details><summary>Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
 <img src="static/readme-images/readme-recipes-notloggedin.png" >
@@ -481,6 +500,7 @@ The form on the Register page has five fields which all need to be filled for th
 </details>
 
 ### Login page
+
 <details><summary>Login page opens with a form to let the user log in. The hyperlink "Sign Up" is clickable, in case the user does not have an account yet.</summary>
 <img src="static/readme-images/readme-login-notloggedin.png" >
 </details>
@@ -490,6 +510,7 @@ The form on the Register page has five fields which all need to be filled for th
 </details>
 
 ### Contact page
+
 <details><summary>The Contact page opens with a form to send a message to the site admin. The form has four fields which all need to be filled for the form to be submitted.</summary>
 <img src="static/readme-images/readme-contact-notloggedin.png" >
 </details>
@@ -521,9 +542,11 @@ The form on the Register page has five fields which all need to be filled for th
 ### Logged in
 
 ### Homepage
+
 Every link on the homepage was tested to ensure that it redirects to the appropriate url.
 
 #### Navbar
+
 When user is logged in, the nav bar displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed.
 <details><summary>Navbar</summary>
 <img src="static/readme-images/readme-nav-links-loggedin.png" >
@@ -598,6 +621,7 @@ Multiple tests were carried out to test the serach functionality:
 </details>
 
 #### Countdown
+
 The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates every second.
 
 <details><summary>Countdown</summary>
@@ -628,6 +652,7 @@ The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 
 </details>
 
 ### Recipes page
+
 The Recipes page displays the same navbar and footer that are found on the homepage.
 <details><summary>Recipes: the Recipes page opens with the latest recipes being displayed in rows of three.</summary>
 <img src="static/readme-images/readme-recipes-loggedin.png" >
@@ -807,7 +832,8 @@ As a site admin I can remove users so that they will no longer be able to post u
 ## Validator Testing
 
 #### HTML files
-The html files pass through the [W3C validator](https://validator.w3.org/) with no html issues found. Errors listed only reference {%%} & {{}} tags.
+
+The HTML files pass through the [W3C validator](https://validator.w3.org/) with no html issues found. Errors listed only reference {%%} & {{}} tags.
 
 <details><summary>Home page</summary>
 <img src="static/readme-images/readme-W3C-homepage.png">
@@ -837,7 +863,8 @@ The html files pass through the [W3C validator](https://validator.w3.org/) with 
 <img src="static/readme-images/readme-W3C-logout.png">
 </details>
 
-#### CSS files 
+#### CSS files
+
 The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
 
 <details><summary>Jigsaw validator message</summary>
@@ -845,6 +872,7 @@ The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-val
 </details>
 
 #### JavaScript file
+
 The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
 
 <details><summary>JSHint validator message</summary>
@@ -852,6 +880,7 @@ The JavaScript file passes through the [JSHint validator](https://jshint.com/) w
 </details>
 
 #### Python files
+
 The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
 
 <details><summary>Blog apps.py</summary>
@@ -932,6 +961,7 @@ The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.c
 - I have checked the responsiveness on different window sizes.
 
 ## Accessibility
+
 The app has an excellent Accessibility rating in Lighthouse:
 
 <details><summary>Homepage</summary>
@@ -965,8 +995,8 @@ The app has an excellent Accessibility rating in Lighthouse:
 </details>
 
 <details><summary>Logout</summary>
-<img src="static/readme-images/readme-lighthouse-logout-desktop.png" >
-<img src="static/readme-images/readme-lighthouse-logout-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-signout-desktop.png" >
+<img src="static/readme-images/readme-lighthouse-signout-mobile.png" >
 </details>
 
 ## Fixed bugs
@@ -1032,11 +1062,11 @@ The app has an excellent Accessibility rating in Lighthouse:
     <img src="documentation/deployment/requirements.png" >
     </details>
 
-- The website was deployed to Heroko using following steps:
+- The website was deployed to Heroku following these steps:
 
-#### Login or create an account at Heroku
+#### Login or create an account with Heroku
 
-- Create an account in Heroku and login
+- Create an account with Heroku and login
 
 #### Creating an app
 
@@ -1046,7 +1076,7 @@ The app has an excellent Accessibility rating in Lighthouse:
 
 <details>
 <summary>Create App</summary>
-<img src="documentation/deployment/app_name.png" alt="Heroko create app screenshot">
+<img src="documentation/deployment/app_name.png" alt="Heroku create app screenshot">
 </details>
 
 #### Open settings Tab
@@ -1058,7 +1088,7 @@ The app has an excellent Accessibility rating in Lighthouse:
 - Store SECRET_KEY file from in key and add the values
 - Store PORT in key and value
 
-NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 
 <details>
 <summary>Config var</summary>
@@ -1074,7 +1104,7 @@ NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
 - Store SECRET_KEY file from in key and add the values
 - Store PORT in key and value
 
-NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 
 <details>
 <summary>Config var</summary>
@@ -1083,7 +1113,7 @@ NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
 
 ##### Add Buildpacks
 
-- Add python buildpack
+- Add Python buildpack
 
 <details>
 <summary>Buildpacks</summary>
@@ -1113,7 +1143,7 @@ NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
 - Store SECRET_KEY file from in key and add the values
 - Store PORT in key and value
 
-NOTE: For initial deployment DISABLE_COLLECTSTATIC was also added
+NOTE: For the initial deployment DISABLE_COLLECTSTATIC was also added.
 
 <details>
 <summary>Config var</summary>
