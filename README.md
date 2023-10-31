@@ -11,6 +11,7 @@ C'est la V was built using the Django Framework in Python, HTML and CSS. It prov
 The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/ "C'est la V Homepage").
 
 ## Table of contents
+
 - [C'est la V](#cest-la-v)
   - [Table of contents](#table-of-contents)
   - [UX](#ux)
@@ -83,26 +84,26 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [CSS files](#css-files)
     - [JavaScript file](#javascript-file)
     - [Python files](#python-files)
-  - [Browsers](#browsers)
+    - [Browsers](#browsers)
   - [Accessibility](#accessibility)
   - [Fixed bugs](#fixed-bugs)
   - [Unfixed bugs](#unfixed-bugs)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
-    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
     - [Installed Packages](#installed-packages)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Code](#code)
     - [Content](#content)
-    - [Acknowledgments](#acknowledgments)
   - [Images](#images)
+  - [Acknowledgments](#acknowledgments)
 
 ## UX
 
 ### Site Purpose
 
-The intent of the site is to promote a vegan diet and inspire anyone who would like to transition towards a plant-based diet to incorporate more vegan food into their diet, by showcasing easy and affordable recipes that are simple to replicate. 
+The intent of the site is to promote vegan food and inspire people who would like to transition towards a plant-based diet, by showcasing simple, tasty and affordable recipes.
 
 ### Site Goal
 
@@ -110,7 +111,7 @@ To build an online platform where vegan food lovers can share their favourite re
 
 ### Audience
 
-Anyone who is passionate about fuelling their body with filling and nutricious food. Regardless of the diet label,be it 100% vegan, a part-time vegetarian or a die-hard omnivore, C'est la V has something to appeal everyone.
+Anyone who is passionate about fuelling their body with tasty and nutritious food. Regardless of the diet label, be it 100% vegan, part-time vegetarian or die-hard omnivore, C'est la V has something to appeal everyone.
 
 ### Communication
 
@@ -122,12 +123,12 @@ Users can search and discover new recipes. Creators can contribute and add as ma
 
 ### New User Goals
 
-To have their interest picked and decide to register as new users and start creating and sharing their own recipes.
+To have their interest piqued and decide to register as new users and start creating and sharing their own recipes.
 
 ### Future Goals
 
-- The user should be able to add comments and likes to existing recipes. 
-- The logged in user should have their own account page where they can save their favourite recipes.
+- The user should be able to add comments and likes to existing recipes.
+- The logged in user should have their own account page, where they can save their favourite recipes.
 - The admin should be able to review any new recipe for approval, before it is published.
 
 ## User Stories
@@ -142,7 +143,7 @@ Not all stories have been implemented. Some have been left for future implementa
 - As a site user I can register so that I can add my own recipes.
 - As a site user I can add my own recipes so that I can store them and share them on the website.
 - As a site user I can edit my own recipes so that I can correct any mistakes or add content if I forgot something.
-- As a site user I can delete my own recipes on the site so that they are no longer displayed on the webiste, if I don't want to share them anymore.
+- As a site user I can delete my own recipes from the site so that they are no longer displayed, if I don't want to share them anymore.
 - As a site user I can send a message to the site administrator so that I can share feedback or ask questions.
 - As a site user I can check the countdown to Veganuary 2024 so that I know how much time is left before the event.
 
@@ -150,11 +151,12 @@ Not all stories have been implemented. Some have been left for future implementa
 
 - As a site admin I can view messages submitted via the contact form so that I can communicate with users.
 - As a site admin I can add, edit and delete recipes from the admin panel so that new content is displayed, if users do not add any new recipes.
-- As a site admin I can delete recipes from the admin panel.
+- As a site admin I can delete recipes, if necessary, through the admin panel.
+- As a site admin I can delete users, if necessary, through the admin panel.
 
 ## Agile Methodology
 
-The development of this project was managed and implemented using GitHub Projects Kanban Board. Available here:
+The development of this project was managed and tracked using GitHub Projects Kanban Board:
 <a href="https://github.com/users/Ila-bura/projects/20" target="_blank" rel="noopener" aria-label="Link to GitHub Projects">C'est la V - User Stories</a>
 
 ## Design
@@ -183,7 +185,7 @@ Before developing the website, a series of low-fi wireframes were designed using
 <img src="static/readme-images/readme-wireframes-signup.png" >
 </details>
 
-### Entity Relationship Diagram 
+### Entity Relationship Diagram
 
 <details><summary>Entity Relationship Diagram</summary>
 <img src="static/readme-images/readme-ERD.png" >
@@ -201,20 +203,20 @@ The colour palette was generated with Canva, to match the colours of the logo.
 
 Two fonts were obtained from the Google Fonts library:
 
-1. Playfair display: Site headings
-2. Montserrat: Site body
+1. Playfair display: used for the headings;
+2. Montserrat: used for the body;
 
 ### Imagery
 
 - The logo was generated from one of the free templates available in Canva.
 
 <details><summary>Logo</summary>
-<img src="static/readme-logo.png" >
+<img src="static/images/logo.png" >
 </details>
 
 - The favicons were generated on Favicon.io.
 - The social media icons were sourced from UXWing.
-- The recipe images were all sourced from Pexel. Their authors have been mentioned in the Credits section.
+- The recipe images were all sourced from Pexels. Their authors have been mentioned in the Credits section.
 
 ## Features
 
@@ -277,7 +279,7 @@ To search functionality was implemented with the following available search fiel
 <details><summary>Logout Page</summary>
 <img src="static/readme-images/readme-logout.png">
 </details>
-- The "Logout" link is only visible in the nav bar to users who are signed in. 
+- The "Logout" link is only visible in the nav bar to users who are signed in.
 
 #### Contact Form
 
@@ -350,7 +352,7 @@ When user is not logged in, the nav bar looks like this:
 </details>
 
 <details><summary>Register: the sign up page opens.</summary>
-<img src="static/readme-images/readme-register-notloggedin.png" >
+<img src="static/readme-images/readme-register-notloggedin.png">
 </details>
 
 <details><summary>Login: the log in page opens.</summary>
@@ -363,7 +365,7 @@ When user is not logged in, the nav bar looks like this:
 
 #### Search bar
 
-Multiple tests were carried out to test the serach functionality:
+Multiple tests were carried out to test the search functionality:
 
 <details><summary>The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
 <img src="static/readme-images/readme-empty-search.png" >
@@ -413,7 +415,7 @@ The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates e
 <img src="static/readme-images/readme-countdown.png" >
 </details>
 
-<details><summary>In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
+<details><summary>In the cestlav.js file, the countdown date was temporarily changed to year 2023 to test the scenario when the countdown will end.
 The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
@@ -453,7 +455,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 </details>
 
 <details><summary>Click on "Log in": the Sign In page opens with a form to let the user log in.</summary>
-<img src="static/readme-images/readme-recipe-card-notloggedin.png" >
+<img src="static/readme-images/readme-signin-notloggedin.png" >
 </details>
 
 The form on the Register page has five fields which all need to be filled for the form to be submitted.
@@ -530,7 +532,7 @@ Every link on the homepage was tested to ensure that it redirects to the appropr
 
 #### Navbar
 
-When user is logged in, the nav bar displays two new links: Logout and New. On the other hand, the links "Register" and "Login" are no longer displayed.
+When user is logged in, the nav bar displays two new links: "Logout" and "New". On the other hand, the links "Register" and "Login" are no longer displayed.
 <details><summary>Navbar</summary>
 <img src="static/readme-images/readme-nav-links-loggedin.png" >
 </details>
@@ -561,7 +563,7 @@ When user is logged in, the nav bar displays two new links: Logout and New. On t
 
 #### Search bar
 
-Multiple tests were carried out to test the serach functionality:
+Multiple tests were carried out to test the search functionality:
 
 <details><summary>The Go button is clicked without typing anything in the search field: the alert "Please type something" appears in the space right below the nav bar and automatically disappears after 3 seconds. The user is redirected to the Recipes page displaying the full list of recipes.</summary>
 <img src="static/readme-images/readme-empty-search-loggedin.png" >
@@ -611,7 +613,7 @@ The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates e
 <img src="static/readme-images/readme-countdown.png" >
 </details>
 
-<details><summary>In the cestlav.js file, temporarily change the countdown date to year 2023 to test the scenario when the countdown will end.
+<details><summary>In the cestlav.js file, the countdown date was temporarily changed to year 2023 to test the scenario when the countdown will end.
 The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
@@ -676,11 +678,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-new-recipe-no-image-description.png" >
 </details>
 
-<details><summary>All the fields are duly filled in and the recipe is created. The user is redirected to the Recipes page, where the newly created recipe is showing as first in the list. A success message reading "Recipe added successfully" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>All the fields are duly filled in and the "Create Recipe" button is clicked. The user is redirected to the Recipes page, where the newly created recipe is showing as first in the list. A success message reading "Recipe added successfully" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-new-recipe-success.png" >
 </details>
 
-<details><summary>Recipe card: clicking on the newly created recipe opens the relevant recipe card. The name of the recipe creator is displayed as well as the date and time. The buttons to edit and delete the recipe are displayed.</summary>
+<details><summary>Recipe card: clicking on the newly created recipe opens the relevant recipe card. The name of the recipe creator is displayed as well as the date and time when the recipe was created. The buttons to edit and delete the recipe are displayed.</summary>
 <img src="static/readme-images/readme-new-recipe-card-opened.png" >
 </details>
 
@@ -698,7 +700,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-edit-description-success.png" >
 </details>
 
-<details><summary>Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the igredient list now displays an additional bullet point.</summary>
+<details><summary>Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the ingredient list now displays an additional bullet point.</summary>
 <img src="static/readme-images/readme-edit-ingredients-success.png" >
 </details>
 
@@ -706,7 +708,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-edit-method-success.png" >
 </details>
 
-<details><summary>Edit the image: a new image is uploaded in a separate field and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the method field now displays an additional bullet point.</summary>
+<details><summary>Edit the image: a new image is uploaded in a separate field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated image. A success message reading "Recipe updated successfully!" is displayed.</summary>
 <img src="static/readme-images/readme-edit-image-success.png" >
 </details>
 
@@ -714,7 +716,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-edit-type-time-success.png" >
 </details>
 
-<details><summary>Edit the image description: the word "wooden" is removed from the image description and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. As the image description is not a visibile field in the recipe card, to verify that it was successfully changed, we need to log into the Django admin panel. There, in the Recipes section, we can open the relevant recipe and verify that the image alt description had indeed being changed.</summary>
+<details><summary>Edit the image description: the word "wooden" is removed from the image description and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. As the image description is not a visibile field in the recipe card, to verify that it was successfully changed, we need to log into the Django admin panel. There, in the Recipes section, we can open the relevant recipe and verify that the image alt description was indeed updated.</summary>
 <img src="static/readme-images/readme-edit-image-alt-success.png" >
 </details>
 
@@ -724,7 +726,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 ### Delete Recipe
 
-<details><summary>The "Delete" button is clicked in the recipe card. The delete confirmation page loads and a message asks the user to confirm they want to delete the recipe. </summary>
+<details><summary>The "Delete" button is clicked in the recently created "Spicy Kale Snack" recipe card. The delete confirmation page loads and a message asks the user to confirm they want to delete the recipe. </summary>
 <img src="static/readme-images/readme-delete-confirmation.png" >
 </details>
 
@@ -734,11 +736,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 ### Logout page
 
-<details><summary>The Logout page opens with a confirmation question: "Are you sure you want to sign out?" The button "Sign Out" is clickable.</summary>
+<details><summary>The Logout page opens with a confirmation question: "Are you sure you want to sign out?". The button "Sign Out" is clickable.</summary>
 <img src="static/readme-images/readme-logout-loggedin.png" >
 </details>
 
-<details><summary>Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: Register and Login. On the other hand, the link "New" and "Logout" are no longer displayed</summary>
+<details><summary>Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: "Register" and "Login". On the other hand, the link "New" and "Logout" are no longer displayed</summary>
 <img src="static/readme-images/readme-loggedout-success.png" >
 </details>
 
@@ -774,7 +776,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 
 ## Admin panel
 
-<details><summary>When we login to Django admin panel we come to the admin page.</summary>
+<details><summary>When we login to Django admin panel we access the admin page.</summary>
 <img src="static/readme-images/readme-admin-login.png" >
 <img src="static/readme-images/readme-admin-homepage.png" >
 </details>
@@ -816,7 +818,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 
 #### HTML files
 
-The HTML files pass through the [W3C validator](https://validator.w3.org/) with no html issues found. Errors listed only reference {%%} & {{}} tags.
+The HTML files pass through the [W3C validator](https://validator.w3.org/) with no HTML issues found. Errors listed only reference {%%} & {{}} tags.
 
 <details><summary>Home page</summary>
 <img src="static/readme-images/readme-W3C-homepage.png">
@@ -827,7 +829,7 @@ The HTML files pass through the [W3C validator](https://validator.w3.org/) with 
 <img src="static/readme-images/readme-W3C-recipes-code.png" >
 </details>
 
-The validator fails to recognize the content of the <p> tags.
+The validator fails to recognize the content of the paragraph tags.
 
 <details><summary>Sign Up</summary>
 <img src="static/readme-images/readme-W3C-signup.png">
@@ -851,7 +853,7 @@ The validator fails to recognize the content of the <p> tags.
 
 #### CSS files
 
-The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found
+The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 
 <details><summary>Jigsaw validator message</summary>
 <img src="static/readme-images/readme-w3c-css.png">
@@ -859,7 +861,7 @@ The CSS file passes through the [Jigsaw validator](https://jigsaw.w3.org/css-val
 
 #### JavaScript file
 
-The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found
+The JavaScript file passes through the [JSHint validator](https://jshint.com/) with no issues found.
 
 <details><summary>JSHint validator message</summary>
 <img src="static/readme-images/readme-jshint.png">
@@ -991,33 +993,32 @@ The app has an excellent Accessibility rating in Lighthouse:
 <img src="static/readme-images/readme-bugs-syntax-error.png" >
 </details>
 
-The first recurring bug I have encountered was a syntax error: the block tags ket getting broken between two different lines. I was able to manually fix it to be on the same line, but after saving my changes, the block tags were auto-formatting and the syntax error was there again. I solved this by turning off the "Format On Save" in the Code Anywhere IDE Settings.
+The first recurring bug I have encountered was a syntax error: the block tags kept getting broken between two different lines. I was able to manually fix it to be on the same line, but after saving my changes, the block tags were auto-formatting and the syntax error was there again. I solved this by turning off the "Format On Save" in the Code Anywhere IDE Settings.
 
 <details><summary>Static Files not rendered</summary>
 <img src="static/readme-images/readme-bugs-static-files.png" >
 <img src="static/readme-images/readme-bugs-static-files-2.png" >
 </details>
 
-The first time I attempted the delpoyment of the app with Heroku, the static files (logo, favicons, icons and the CSS styles) failed to be rendered in the deployed version.
+The first time I attempted the deployment of the app with Heroku, the static files (logo, favicons, icons and the CSS styles) failed to be rendered in the deployed version.
 
-Following the suggestions from fellow students in past Slack threads, I firsly tried changing DEBUG = 'DEVELOPMENT' in os.environ, added os.environ["DEVELOPMENT"] = "1" in env.py. I still got the 400 Bad Request message.
+Following the suggestions from fellow students in past Slack threads, I firstly tried changing DEBUG = 'DEVELOPMENT' in os.environ, added os.environ["DEVELOPMENT"] = "1" in env.py. This however, did not solve the issue and I still got the 400 Bad Request message.
 
-I then followed Daisy mentor's suggestion and installed whitenoise and added "whitenoise.middleware.WhiteNoiseMiddleware to the middleware list to render them directly from the static files.
-This solved the issue with the favicons not being rendered.
-The 400 Bad Request message was solved by removing the slash at the start of the file paths to be able to access the assets folder.
+I then followed Daisy mentor's suggestion and installed whitenoise and added "whitenoise.middleware" to the middleware list to render the favicons directly from the static files.
+The 400 Bad Request message was solved by removing a slash at the start of the file paths, which was preventing access the assets folder.
 
 <details><summary>Messages not defined</summary>
 <img src="static/readme-images/readme-bugs-messages-undefined.png" >
 </details>
 
-When implementing the customised success messages with Django, I came across the error: "Name 'messages is not defined'. This was caused by failing to import the 'messages' framework in my views.py file. Once imported, the error was solved.
+When implementing the customised success messages with Django, I came across the error: "Name 'messages' is not defined". This was caused by failing to import the 'messages' framework in my views.py file. Once imported, the error was solved.
 
 <details><summary>innerHTML error</summary>
 <img src="static/readme-images/readme-bugs-innerHTML-error.png" >
 </details>
 
 When implementing the countdown, I initially decided to avoid creating a separate .js file and added the JavaScript code in a script tag inside the index.html file. The countdown was only showing on the homepage. Despite working smoothly on the front-end, an error message was found in the console.
-It took me some time to figure out the reason behind this error and I solved it with multiple trial and errors. Eventually, I created a separate .js file where I store the code for the countdown and had the html structure to show the actual countdown in the footer.html file.
+It took me some time to figure out the reason behind this error and I solved it with multiple trial and errors. Eventually, I created a separate .js file where I stored the code for the countdown and moved the HTML code for the countdown in the footer.html file.
 
 ## Unfixed bugs
 
@@ -1025,9 +1026,9 @@ It took me some time to figure out the reason behind this error and I solved it 
 <img src="static/readme-images/readme-bugs-register-alert-error.png" >
 </details
 
-When testing the functionalities of the app, I came across some unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
-Unfortunately I tried to replicate the bug from my own MacBook and iPhone as well as some friends' but it cannot be replicated consistently. For this reason, the relevant bug ticket was kept open in the C'est la V User Stories board in GitHub. 
-It is worth noting that this bug does not negatively affect any functionality of the app in the slightest.
+When testing the functionalities of the app, I came across an unexpected behaviour. When I registered as a new user and got the Django success message showing, I noticed that a bullet point with the same success message was rendered as HTML text at the bottom of the page.
+Unfortunately, I repeatedly tried to replicate the bug from my own MacBook and iPhone as well as from some friends' devices but it could not be replicated consistently. For this reason, the relevant ticket was kept open in the C'est la V User Stories board in GitHub. 
+It is worth noting that this bug does not affect the functionality of the app in the slightest.
 
 ## Technologies Used
 
@@ -1048,7 +1049,7 @@ It is worth noting that this bug does not negatively affect any functionality of
 - UXWing - for the social media icons and the recipe card icons.
 - Am I Responsive? - to ensure the project looked good across all devices.
 - Favicon - to create the code and images for the icon in the tab bar.
-- Bootstrap - to craete nice layout for the app
+- Bootstrap - to create nice layout for the app.
 - Google Developer Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 - Pexels - To source the recipes picture.
 - TinyPNG - To compress images.
@@ -1062,7 +1063,7 @@ It is worth noting that this bug does not negatively affect any functionality of
 - django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
 - django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
 
-Modules used for the development of this project
+Modules used for the development of this project:
 
 <details><summary>Requirements.</summary>
     <img src="static/readme-images/readme-requirements.png">
@@ -1088,7 +1089,7 @@ Before deploying in Heroku following files were created:
 
 2. Procfile : Very important for deployment and must be added with capital P
 
-3. Requirements.txt: This must be updated for deployment in Heroku. It stores data of libraries used for project
+3. Requirements.txt: This must be updated for deployment in Heroku. It stores data of libraries used for the project.
 
 
 The website was deployed to Heroku following these steps:
@@ -1121,12 +1122,12 @@ Choose deployment method and Connect to Github
 Automatic and Manual deploy
 
 - Choose a method to deploy
-- After Deploy is clicked it will install various file
+- After Deploy is clicked it will install various files.
 
 Final Deployment
 
 - A view button will display
-- Once clicked the website will open
+- Once clicked the website will open.
 
 The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcdf3.herokuapp.com/)
 
@@ -1135,8 +1136,8 @@ The live link for "C'est la V" can be found [HERE](https://c-est-la-v-1864b2ffcd
 ### Code
 
 - To set up the initial structure of the app and to implement the Django error messages, I followed the Code Institute tutorial "I think therefore I blog".
-- To better understand Django, I also watched the Code Institute masterclass: [Django Blog Webinar](https://www.youtube.com/watch?v=YH--VobIA8c) and a few Django walkthrough videos from [Codemycom](https://www.youtube.com/c/Codemycom)
 - For the recipes model and to implement the search and authentication functionalities, I followed the YouTube tutorial videos by [Dee Mc](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy); 
+- To better understand Django, I also watched the Code Institute masterclass: [Django Blog Webinar](https://www.youtube.com/watch?v=YH--VobIA8c) and a few Django walkthrough videos from [Codemycom](https://www.youtube.com/c/Codemycom)
 - To implement the countdown, I followed the YouTube tutorial by [GreatStack](https://www.youtube.com/watch?v=_LExTzOhe7s)
 - To implement the Agile methodology in GitHub, I followed [The guide to the Github Agile Tool](https://www.youtube.com/watch?v=U_dMihBgUNY) by Kasia Bogucka
 
@@ -1147,7 +1148,7 @@ The recipes were adapted from the following recipe books:
 
 ## Images
 
-- The images of the recipes were sourced from [pexels.com](https://www.pexels.com/):
+The images of the recipes were sourced from [pexels.com](https://www.pexels.com/):
 
 - Cinnamon Swirls - [Photo by Polina Tankilevitch](https://www.pexels.com/photo/close-up-of-a-cinnamon-roll-with-walnuts-5419186/)
 - Sweet Potato Burgers - [Photo by Markus Spiske](https://www.pexels.com/photo/burger-with-lettuce-and-tomato-on-white-and-red-round-plate-116739/)
@@ -1170,4 +1171,4 @@ The recipes were adapted from the following recipe books:
 
 ## Acknowledgments
 - A big thank you to Martina Terlevic, my Code Institute Mentor, for the great tips and timely support throughout the execution of PP4.
-- A special acknowledgment to Daisy Mc Girr, for her invaluable hints in helping me debug the app after deployment and for the amazing Django walkthrough videos she has created on YouTube.
+- A special acknowledgment to Daisy Mc Girr, for her invaluable hints in helping me debug the app after my first deployment and for the amazing Django walkthrough videos she has created on YouTube.
