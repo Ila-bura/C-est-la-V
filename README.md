@@ -965,7 +965,7 @@ The app has an excellent Accessibility rating in Lighthouse:
 
 <details><summary>Login</summary>
 <img src="static/readme-images/readme-lighthouse-login-desktop.png" >
-<img src="static/ireadme-images/readme-lighthouse-login-mobile.png" >
+<img src="static/readme-images/readme-lighthouse-login-mobile.png" >
 </details>
 
 <details><summary>Contact</summary>
