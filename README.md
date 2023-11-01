@@ -650,8 +650,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 ### New
 
 <details><summary>Add Recipe page opens with a form to let the user create a new recipe. The form has eight fields which all need to be filled for the recipe to be successfully created. The Dish Type and Prep Time fields are prepopulated.</summary>
-<img src="static/readme-images/readme-new-loggedin.png" >
-<img src="static/readme-images/readme-new2-loggedin.png" >
+<img src="static/readme-images/readme-new-recipe.png" >
 </details>
 
 <details><summary>The Title field is not filled: an alert message prompts the user to fill it in.</summary>
@@ -662,11 +661,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-new-recipe-no-description.png" >
 </details>
 
-<details><summary>The Ingredients field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<details><summary>The Ingredients field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-ingredients.png" >
 </details>
 
-<details><summary>The Method field is not filled: the recipe is not created and the page reloads waiting for the user to complete the missing section.</summary>
+<details><summary>The Method field is not filled: an alert message prompts the user to fill it in.</summary>
 <img src="static/readme-images/readme-new-recipe-no-method.png" >
 </details>
 
@@ -818,7 +817,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 
 #### HTML files
 
-The HTML files pass through the [W3C validator](https://validator.w3.org/) with no HTML issues found. Errors listed only reference {%%} & {{}} tags.
+The HTML files pass through the [W3C validator](https://validator.w3.org/) with no HTML issues found. Warning listed only reference {%%} & {{}} tags.
 
 <details><summary>Home page</summary>
 <img src="static/readme-images/readme-W3C-homepage.png">
@@ -826,10 +825,7 @@ The HTML files pass through the [W3C validator](https://validator.w3.org/) with 
 
 <details><summary>Recipes</summary>
 <img src="static/readme-images/readme-W3C-recipes.png">
-<img src="static/readme-images/readme-W3C-recipes-code.png" >
 </details>
-
-The validator fails to recognize the content of the paragraph tags.
 
 <details><summary>Sign Up</summary>
 <img src="static/readme-images/readme-W3C-signup.png">
