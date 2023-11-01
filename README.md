@@ -96,7 +96,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
   - [Credits](#credits)
     - [Code](#code)
     - [Content](#content)
-  - [Images](#images)
+    - [Images](#images)
   - [Acknowledgments](#acknowledgments)
 
 ## UX
@@ -869,7 +869,7 @@ The JavaScript file passes through the [JSHint validator](https://jshint.com/) w
 
 #### Python files
 
-The Python files passed through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
+The Python files pass through [PEP8 Code Institute](https://pep8ci.herokuapp.com/) with no issues found.
 
 <details><summary>Blog apps.py</summary>
 <img src="static/readme-images/readme-pep8ci-blog-apps-py.png">
@@ -1146,7 +1146,7 @@ The recipes were adapted from the following recipe books:
 -  Vegan on the go by J. Eckmeier and D. Lais
 -  Deliciously Ella by E. Woodward
 
-## Images
+### Images
 
 The images of the recipes were sourced from [pexels.com](https://www.pexels.com/):
 
