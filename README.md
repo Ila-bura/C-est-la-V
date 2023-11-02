@@ -49,7 +49,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [C.R.U.D](#crud)
       - [Create](#create)
       - [Read](#read)
-      - [Update \& Delete](#update--delete)
+      - [Update & Delete](#update--delete)
     - [Features Left to Implement](#features-left-to-implement)
   - [Manual Testing](#manual-testing)
     - [Not logged in](#not-logged-in)
@@ -84,7 +84,7 @@ The live website can be accessed here: [C'est la V](https://c-est-la-v-1864b2ffc
     - [CSS files](#css-files)
     - [JavaScript file](#javascript-file)
     - [Python files](#python-files)
-    - [Browsers](#browsers)
+  - [Browsers](#browsers)
   - [Accessibility](#accessibility)
   - [Fixed bugs](#fixed-bugs)
   - [Unfixed bugs](#unfixed-bugs)
@@ -107,7 +107,7 @@ The intent of the site is to promote vegan food and inspire people who would lik
 
 ### Site Goal
 
-To build an online platform where vegan food lovers can share their favourite recipes and find inspiration and support from fellow vegans. By displaying the recipes in the database, vegans and aspiring vegans alike will be able to easily browse through the various recipe cards and find something they might want to try.
+To build an online platform where vegan food lovers can share their favourite recipes and find inspiration and support from fellow vegans. Vegans and aspiring vegans alike will be able to easily browse through the various recipe cards and find something they might want to try.
 
 ### Audience
 
@@ -215,7 +215,7 @@ Two fonts were obtained from the Google Fonts library:
 </details>
 
 - The favicons were generated on Favicon.io.
-- The social media icons were sourced from UXWing.
+- The recipe card icons and the social media icons were sourced from UXWing.
 - The recipe images were all sourced from Pexels. Their authors have been mentioned in the Credits section.
 
 ## Features
@@ -312,7 +312,7 @@ To search functionality was implemented with the following available search fiel
 
 #### Update & Delete
 
-The update and delete features are only accessible to the users who created their recipes.
+The update and delete features are only visible in the recipe card to their respectve logged in recipe creators.
 <details><summary>CRUD - Update and Delete</summary>
 <img src="static/readme-images/readme-edit-delete.png">
 </details>
@@ -699,11 +699,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-edit-description-success.png" >
 </details>
 
-<details><summary>Edit Ingredients: a bullet point is added in the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the ingredient list now displays an additional bullet point.</summary>
+<details><summary>Edit Ingredients: a bullet point is added to the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the ingredient list now displays an additional bullet point.</summary>
 <img src="static/readme-images/readme-edit-ingredients-success.png" >
 </details>
 
-<details><summary>Edit Method: a bullet point is added in the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the latest recipe now shows the updated image. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>Edit Method: a bullet point is added to the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the added bullet point is now showing in the method of the latest recipe. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-edit-method-success.png" >
 </details>
 
@@ -739,7 +739,7 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-logout-loggedin.png" >
 </details>
 
-<details><summary>Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: "Register" and "Login". On the other hand, the link "New" and "Logout" are no longer displayed</summary>
+<details><summary>Click on the "Sign Out" button: the user is signed out, then is redirected to the homepage and a success message reading "You have signed out" appears. The message disappears after 3 seconds. The nav bar now displays the links: "Register" and "Login". On the other hand, the link "New" and "Logout" are no longer displayed.</summary>
 <img src="static/readme-images/readme-loggedout-success.png" >
 </details>
 
@@ -817,7 +817,7 @@ As a site admin I can remove users so that they will no longer be able to post u
 
 #### HTML files
 
-The HTML files pass through the [W3C validator](https://validator.w3.org/) with no HTML issues found. Warning listed only reference {%%} & {{}} tags.
+The HTML files pass through the [W3C validator](https://validator.w3.org/) with no HTML issues found. Warnings listed only reference {%%} & {{}} tags.
 
 <details><summary>Home page</summary>
 <img src="static/readme-images/readme-W3C-homepage.png">
