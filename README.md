@@ -416,7 +416,7 @@ The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates e
 </details>
 
 <details><summary>In the cestlav.js file, the countdown date was temporarily changed to year 2023 to test the scenario when the countdown will end.
-The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
+The Days, Hours, Minutes and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
 
@@ -614,7 +614,7 @@ The countdown timer is set for the 1st January 2024 at 00:00:00 and it updates e
 </details>
 
 <details><summary>In the cestlav.js file, the countdown date was temporarily changed to year 2023 to test the scenario when the countdown will end.
-The Hours, Minutes, Days and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
+The Days, Hours, Minutes and Seconds are reset to zero and the title "Veganuary 2024 is coming soon" is replaced by "Veganuary 2024 is here!"</summary>
 <img src="static/readme-images/readme-countdown-zero.png" >
 </details>
 
@@ -699,11 +699,11 @@ The Recipes page displays the same navbar and footer that are found on the homep
 <img src="static/readme-images/readme-edit-description-success.png" >
 </details>
 
-<details><summary>Edit Ingredients: a bullet point is added to the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the ingredient list now displays an additional bullet point.</summary>
+<details><summary>Edit Ingredients: the bullet point "hummus as a side dip" is added to the ingredients list and the "Save Changes" button is clicked. The user is redirected to the Recipes page. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds. By clicking on the recipe card, we can see that the ingredient list now displays the additional bullet point.</summary>
 <img src="static/readme-images/readme-edit-ingredients-success.png" >
 </details>
 
-<details><summary>Edit Method: a bullet point is added to the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the added bullet point is now showing in the method of the latest recipe. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
+<details><summary>Edit Method: the bullet point "Enjoy!" is added to the method field and the "Save Changes" button is clicked. The user is redirected to the Recipes page and we can see that the added bullet point is now showing in the method of the latest recipe. A success message reading "Recipe updated successfully!" is displayed. The message disappears after 3 seconds.</summary>
 <img src="static/readme-images/readme-edit-method-success.png" >
 </details>
 
